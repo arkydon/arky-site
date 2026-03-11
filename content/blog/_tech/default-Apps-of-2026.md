@@ -9,17 +9,44 @@ date : 2026-3-11
 <!-- more -->
 
 
-## Default apps of 2024
+## Default apps (2026 update)
 
-- Browser: Moved from **Kiwi** to **Microsoft Edge** because development of Kiwi seems to have stalled. Edge was a perfect replacement because extensions are now supported which is the primary reason why I was using Kiwi. I'm already using Edge on Windows, which is great because I can sync open tabs from mobile to desktop and it has this useful feature called Drop which lets me quickly send files and text, from mobile to desktop and vice versa.
+#### 2026 Update
 
-- Notes: Switched from **Notion** to **Upnote**. I stopped using Notion because it has become too laggy. Although I love Upnote because it has every feature I need in a note app - notebooks, markdown and its fast, I have to switch to another app because I only recently found out the free version has a limit on the number of notes you can create.
+- Brave Browser: Stopped using **Microsoft Edge** because it was buggy. Brave's built in adblock is good enough to replace uBlock Origin extension for now (uBo is still better).
 
-- Weather: I used to use **Weather Timeline** and it has a really great UI and useful features but it was abandoned. I've moved to **Today Weather** which is almost as perfect as Weather Timeline. I'm using the premium version through a code that I got for free from the devs.
+- [Appflowy](https://play.google.com/store/apps/details?id=io.appflowy.appflowy&hl=en_IN): Notes app that is faster than Notion. Probably the only one that has a non electron desktop app.
 
-- Gallery: I'm using two Gallery Apps - **Fossify** and **FStop**. Both are good because they're fast and supports displaying a folder grid home view. Fossify I'm keeping because it's ad free and it plays videos almost without any problems on my trash phone. FStop I'm using because, for some reason, it's the only gallery that shows videos when I want to upload vids to whatsapp. The other reason is that on Fossify I've hidden all the meme albums and I so use FStop for memes. 
-tldr: when I need to upload videos to whatsapp I use FStop, when I want to upload images I use Fossify, when I want to send or save memes I use FStop.
+- [KDE Connect](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp&hl=en_IN): Connect Android to windows to share files, control mouse, music, keyboard input, system shutdown.
 
-- **Youtube Music** for Music streaming. It comes free with Youtube Premium and I like it but I'd switch to **Spotify** if I had to choose between these two.
+- [Sponge Cleaner](https://play.google.com/store/apps/details?id=com.prismtree.sponge&hl=en_IN) : Tinder style gallery cleaner.
 
-- **Honista IG Mod**: Switched to this Instagram mod because the previous. **MyInsta** mod hasn't been updated in a long time but I need to find a better alternative because the Honista dev added his own ads to the app which is a huge red flag.
+- [Rush](https://github.com/shub39/Rush) : Open source app to share and save customizable beautiful lyrics screenshots
+
+- [Paperspan](https://play.google.com/store/apps/details?id=com.paperspan): App to store web links. (Pocket is dead).
+
+- Instaprime: Instagram mod that removes ads and enables downloads. 
+
+#### Others
+
+- Boost for reddit
+- Remember the Milk (For lists and todos)
+- Today Weather, Windy
+- Bitwarden (Password manager)
+- Smart Launcher
+- Proton VPN
+- Proton Mail
+- Onedrive, Google Drive
+- Mixplorer (File manager)
+- MyBoy Emulator (Gameboy emulator), DataDex (Pokedex)
+- Raindrop (Store bookmarks)
+- Memento (Maintain a database of music, movies, etc)
+- Dagger (Dota tournament stats)
+- YMusic (Yotube video downloader and converter)
+- Your Diary
+- Nice Mind (Mind map notes)
+- SkyMap (Identify stars, planets, and constellations in the night sky.)
+- Hurry (Countdown to events)
+- Lightroom, Snapseed, Inshot
+- Google Keep
+- Youtube Music
