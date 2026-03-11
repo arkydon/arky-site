@@ -30,7 +30,6 @@ body {
 
     font-family: var(--font-main);
     font-size: var(--main-font-size);
-    font-stretch: semi-condensed;
     line-height: 1.5;
     max-width: 40em;
     margin: 0;
@@ -40,15 +39,11 @@ body {
     -webkit-font-smoothing: antialiased; /* For WebKit browsers (Chrome, Safari) */
     -moz-osx-font-smoothing: grayscale;  /* For Firefox on macOS */
 
-    //font-variation-settings: "wght" 430;
-    font-variation-settings: "GRAD" 15, "XTRA" 436;
     word-spacing: 2px;
 }
 body.light-mode {}
 
 body.dark-mode {
-    //font-variation-settings: "GRAD" 80, "wght" 260;
-
     --body-bg-color: #303030;
     --body-font-color: rgb(230, 230, 230);//#f6dacd;
     --main-color: rgb(148 185 219);//rgb(255 115 115);
@@ -116,7 +111,6 @@ header {
     align-items: center;
 }
 h1.title-header {
-    //font-variation-settings: "wdth" 60, "wght" 400;
     font-family: "Road Rage", "Amatic SC";
     //font-weight: 700;;
     font-size: 3.1rem;
@@ -137,13 +131,10 @@ nav {
 
     a {
         text-decoration: none; // remove underline on nav items
-        font-stretch: ultra-condensed;
         font-size: var(--nav-link-size);
         text-align: center;
         //color: rgb(from var(--body-font-color) r g b / 0.5);
 		// ZOLA color: rgba(var(--header-color-rgb), 0.5);
-        //font-variation-settings: "wdth" 35;
-
         position: relative;
 		
 		color: #8c8f93;
@@ -264,9 +255,6 @@ blockquote {
     background: #58ef7321;
     margin-inline: 0;
     border-radius: 5px;
-    font-stretch: extra-condensed;
-    //font-family: var(--font-condensed);
-    //font-variation-settings: "wdth" 40;
 
     p {
         margin: 0;
@@ -337,8 +325,6 @@ time.blog-post-date {
     color: grey;
     display: block;
     margin-block-start: -0.6rem;
-
-    font-stretch: ultra-condensed;
 }
 .blog-list ul li, .home-blog-list ul li{
     list-style-type: none;
@@ -348,8 +334,6 @@ time.blog-list-date{
     color: grey;
     display: block;
     //margin-block-start: 0.5rem;
-
-    font-stretch: ultra-condensed;    
 }
 
 .home-blog-list ul li, .blog-list ul li{
@@ -405,9 +389,6 @@ details {
 }
   
 summary {
-    //font-weight: bold;
-    font-variation-settings: "wght" 600;
-    //margin-block: 0.1rem;
 }
   
 details[open] {
@@ -502,7 +483,6 @@ details[open] > summary {
     }
     h1.title-header {
         margin-block: 0rem;
-        font-variation-settings: "wdth" 90, "GRAD" 90;        
         text-align: center;
     }
 }
