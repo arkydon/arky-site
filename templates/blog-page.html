@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+<!-- Blog Content -->
+{% block content %}
+	<h1 class="title"> {{ page.title }} </h1>
+	
+	<!-- Check if the date exists in frontmatter -->
+	{% if page.date %}
+		<time class="blog-post-date">{{ page.date | date(format="%b %d, %Y")}}</time>
+	{% endif %}
+	
+	<!-- Table of Contents -->
+	{% if page.extra.show_toc and page.toc %}
+		<div class="toc">
+			<h3>Table of Contents</h3>
+			<ul>
+			{% for header in page.toc %}
+				<li>
+					<a href="{{ header.permalink | safe }}">{{ header.title }}</a>
+					
+					{% if header.children %}
+						<ul>
+						{% for subheader in header.children %}
+							<li><a href="{{ subheader.permalink | safe }}">{{ subheader.title }}</a></li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
+
+
+	{{ page.content | safe }}
+{% endblock content %}

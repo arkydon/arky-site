@@ -1,0 +1,26 @@
+{% if page.toc %}
+<div class="toc">
+    <h3>Table of Contents</h3>
+    <ul>
+        {# Loop through the top-level headings (usually h1 or h2) #}
+        {% for h1 in page.toc %}
+            <li>
+                <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+                
+                {# If this heading has sub-headings (h2 or h3), list them too! #}
+                {% if h1.children %}
+                    <ul>
+                        {% for h2 in h1.children %}
+                            <li>
+                                <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+	<hr/>
+</div>
+
+{% endif %}

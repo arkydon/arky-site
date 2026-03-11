@@ -1,0 +1,61 @@
+<div class="zola-gallery">
+    {# 1. Ask Zola for the directory path of the Markdown file that called this shortcode #}
+    {% set base_path = "" %}
+    {% if page %}
+        {% set base_path = page.components | join(sep="/") %}
+    {% elif section %}
+        {% set base_path = section.components | join(sep="/") %}
+    {% endif %}
+
+    {% for img in images %}
+        
+        {# 2. Build the exact absolute path that Zola's resize_image requires #}
+        {% if base_path %}
+            {% set image_path = base_path ~ "/" ~ img %}
+        {% else %}
+            {% set image_path = img %}
+        {% endif %}
+        
+        {# 3. Now Zola knows exactly where to find the image! #}
+        {% set thumb = resize_image(path=image_path, width=300, height=300, op="fill") %}
+        
+        {# 4. The browser can just use the simple filename "1.jpg" to find the full size #}
+        <img 
+            src="{{ thumb.url }}" 
+            data-full="{{ img }}" 
+            class="zola-gallery-thumb" 
+            alt="Gallery image" 
+            loading="lazy" 
+        />
+    {% endfor %}
+</div>
+
+<script>
+if (!window.zolaLightboxLoaded) {
+    window.zolaLightboxLoaded = true;
+
+    const style = document.createElement('style');
+    style.innerHTML = `
+        .zola-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 1.5rem 0; }
+        .zola-gallery-thumb { width: 100%; aspect-ratio: 1; object-fit: cover; cursor: pointer; border-radius: 8px; transition: transform 0.2s, opacity 0.2s; }
+        .zola-gallery-thumb:hover { opacity: 0.85; transform: scale(1.02); }
+        #zola-lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+        #zola-lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 6px; box-shadow: 0 5px 25px rgba(0,0,0,0.5); object-fit: contain; }
+    `;
+    document.head.appendChild(style);
+
+    const lightbox = document.createElement('div');
+    lightbox.id = 'zola-lightbox';
+    lightbox.innerHTML = `<img id="zola-lightbox-img" src="" alt="Enlarged image" />`;
+    document.body.appendChild(lightbox);
+
+    lightbox.addEventListener('click', () => { lightbox.style.display = 'none'; });
+
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('zola-gallery-thumb')) {
+            document.getElementById('zola-lightbox-img').src = e.target.getAttribute('data-full');
+            lightbox.style.display = 'flex';
+        }
+    });
+}
+</script>

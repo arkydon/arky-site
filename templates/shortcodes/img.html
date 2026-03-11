@@ -1,0 +1,6 @@
+<!-- If you don't provide a class, it falls back to a default class -->
+<img 
+    src="{{ src }}" 
+    alt="{{ alt | default(value="Image") }}" 
+    class="{{ class | default(value="image") }}" 
+/>

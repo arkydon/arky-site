@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="hello-panel panel">          
+    Welcome to my <i>little corner of the internet</i>. <!--This is a space where I share my thoughts, ideas, interests and also some cool things I find on the web.-->
+    <p>Read my <a href="/blog/">blog posts</a>.
+		<br/>
+		See what's <a href="/notes/changes">new</a> in my website. 
+		<br/>
+		A little about <a href="/notes/about/">me.</a>
+	</p>
+</div>
+
+<!-- <hr class="line"> -->
+
+<div class="home-blog-list">
+	<h2>Latest Blog Posts</h2>
+
+	{% set blog = get_section(path="blog/_index.md") %}
+
+	<ul>
+		{% for page in blog.pages | slice(end=4) %}
+		<li>
+			<a href="{{ page.permalink }}">{{ page.title }}</a>
+			<time class="blog-list-date">
+			{{ page.date | date(format="%d %B %Y") }}
+			</time>
+		</li>
+		{% endfor %}
+	</ul>
+
+	<a href="/blog/" class="btn" style="/*text-decoration:none*/;">More →</a>
+</div>
+
+{% endblock content %}
