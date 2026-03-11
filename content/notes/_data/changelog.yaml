@@ -51,3 +51,6 @@
 - date: "March 10, 2026"
   changes:
     - Moved back to Zola engine and redesigned entire website
+- date: "March 11, 2026"
+  changes:
+    Added new post "Default apps (2026 update)"
