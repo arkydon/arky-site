@@ -12,11 +12,15 @@ tags :
 
 {{ img(src="collage2024.jpg", alt="Collage of 2024 vibe") }}
 
-<!--
+
 <style scoped>
-img {
+/*img {
 	width: 80%;
 	align-self: center;
+}*/
+@media screen and (min-width:600px){
+    img.image {
+        width: 50%;
+    }
 }
 </style>
--->

@@ -1,5 +1,25 @@
+{#
+    Gallery shortcode for Zola
+    Usage: 
+    {{ gallery(images=["img1.jpg", "img2.jpg"], ratio="wide") }}
+    The "ratio" parameter can be "square" (default) or "wide" for 16:9 aspect ratio.
+#}
+
+{# Default to square if no ratio is provided #}
+{% set ratio = ratio | default(value="square") %}
+
+{# Set the crop sizes and CSS based on the chosen ratio #}
+{% if ratio == "wide" %}
+    {% set thumb_w = 600 %}
+    {% set thumb_h = 338 %} {# 16:9 widescreen ratio #}
+    {% set css_ratio = "16 / 9" %}
+{% else %}
+    {% set thumb_w = 400 %}
+    {% set thumb_h = 400 %} {# 1:1 square ratio #}
+    {% set css_ratio = "1 / 1" %}
+{% endif %}
+
 <div class="zola-gallery">
-    {# 1. Ask Zola for the directory path of the Markdown file that called this shortcode #}
     {% set base_path = "" %}
     {% if page %}
         {% set base_path = page.components | join(sep="/") %}
@@ -9,21 +29,21 @@
 
     {% for img in images %}
         
-        {# 2. Build the exact absolute path that Zola's resize_image requires #}
         {% if base_path %}
             {% set image_path = base_path ~ "/" ~ img %}
         {% else %}
             {% set image_path = img %}
         {% endif %}
         
-        {# 3. Now Zola knows exactly where to find the image! #}
-        {% set thumb = resize_image(path=image_path, width=300, height=300, op="fill") %}
+        {# Zola uses the dynamic width and height we set above #}
+        {% set thumb = resize_image(path=image_path, width=thumb_w, height=thumb_h, op="fill") %}
         
-        {# 4. The browser can just use the simple filename "1.jpg" to find the full size #}
+        {# We apply the aspect-ratio inline so different galleries can have different shapes #}
         <img 
             src="{{ thumb.url }}" 
             data-full="{{ img }}" 
             class="zola-gallery-thumb" 
+            style="aspect-ratio: {{ css_ratio }};" 
             alt="Gallery image" 
             loading="lazy" 
         />
@@ -36,9 +56,16 @@ if (!window.zolaLightboxLoaded) {
 
     const style = document.createElement('style');
     style.innerHTML = `
+        /* Grid Layout */
         .zola-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 1.5rem 0; }
-        .zola-gallery-thumb { width: 100%; aspect-ratio: 1; object-fit: cover; cursor: pointer; border-radius: 8px; transition: transform 0.2s, opacity 0.2s; }
+        @media (min-width: 1024px) { .zola-gallery { grid-template-columns: repeat(4, 1fr); } }
+        @media (min-width: 1440px) { .zola-gallery { grid-template-columns: repeat(6, 1fr); } }
+
+        /* Thumbnail Styling (aspect-ratio is removed from here and applied inline to the HTML) */
+        .zola-gallery-thumb { width: 100%; object-fit: cover; cursor: pointer; border-radius: 8px; transition: transform 0.2s, opacity 0.2s; }
         .zola-gallery-thumb:hover { opacity: 0.85; transform: scale(1.02); }
+        
+        /* Lightbox Styling */
         #zola-lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
         #zola-lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 6px; box-shadow: 0 5px 25px rgba(0,0,0,0.5); object-fit: contain; }
     `;
