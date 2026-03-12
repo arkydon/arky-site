@@ -1,9 +1,3 @@
-//@import "./fonts/roboflex.css";
-//@use "./fonts/robotoflex";
-
-/* Important placeholder for Google Fonts plugin to insert font import code */
-/* google-fonts */
-
 @use "variables.scss";
 @use "fontcss/roadrage.scss";
 @use "fontcss/bebasneue.scss";
@@ -46,7 +40,6 @@ body.light-mode {}
 body.dark-mode {
     --body-bg-color: #474444;
     --body-font-color: rgb(213 213 213);
-    //--main-color: rgb(148 185 219);
     --main-color: rgb(171 171 171);
     --link-color: #919191;
     --header-color: var(--body-font-color);
@@ -61,11 +54,9 @@ body.dark-mode blockquote {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    //color: var(--main-color);
     margin-block: 1rem;
     font-weight: 400;
     font-family: "Bebas Neue","Tiktok Sans","Google Sans",arch, "Roboto Flex Regular", Arial, sans-serif;
-	
 	color: var(--h-color);
 }
 
@@ -100,7 +91,7 @@ header {
 }
 h1.title-header {
     font-family: "Road Rage", "Amatic SC";
-    //font-weight: 700;;
+    //font-weight: 700;
     font-size: 3.1rem;
 }
 
@@ -158,25 +149,13 @@ nav {
 	*/
 }
 
-//span.nav-link-divider {
-//    color: darkgrey;
-//}
-
-// ---- Style header title to be coloured and clipped ---
 .title-header a {
     text-decoration: none;
     text-transform: uppercase;
-    //color: var(--main-color);
 }
-
-// ====
-
 // === Panel coloring
 
-header,nav {
-	background: var(--panel-color-1);
-	    //box-shadow: 1px 1px 1px #d7d7d7
-}
+header,nav { background: var(--panel-color-1); }
 
 .table-of-contents {
     color: #575757;
@@ -259,10 +238,6 @@ ul {
     //list-style: circle;
     li{}
 }
-.blog-list {
-    margin-block: 0.5rem;
-}
-
 
 li::marker {
     color: var(--main-color);
@@ -276,16 +251,13 @@ ol {
     }    
 }
 //===============
+.blog-list {
+    margin-block: 0.5rem;
+}
+
 .home-blog-list ul/*, .blog-list ul*/{
     padding: 0;
     padding-inline-start: 1rem;
-}
-
-time.blog-post-date {
-    font-size: 75%;
-    color: grey;
-    display: block;
-    margin-block-start: -0.6rem;
 }
 
 //.blog-list ul li, 
@@ -299,7 +271,6 @@ time.blog-list-date{
     font-size: 70%;
     color: grey;
     display: block;
-    //margin-block-start: 0.5rem;
 }
 
 .home-blog-list ul li, .blog-list ul li{
@@ -327,9 +298,13 @@ time.blog-list-date{
     position: relative;
     right: 1rem;
     */
+}
 
-  
- 
+time.blog-post-date {
+    font-size: 75%;
+    color: grey;
+    display: block;
+    margin-block-start: -0.6rem;
 }
 
 footer {
@@ -337,9 +312,7 @@ footer {
     font-size: 15px;
     padding-block: 1rem;
 	background: var(--panel-color-1);
-    svg {
-        //stroke: var(--main-color);
-    }
+    svg { //stroke: var(--main-color); }
 }
 
 // ==== Details design ======
@@ -371,29 +344,20 @@ details[open] > summary {
     list-style-type: ' - ';
     //list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="10" width="8.75" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
 }
+
 //========================
 
 
 @media screen and (min-width:600px){
     body {
-        //display: grid;
-        //grid-template-columns: 1fr 5fr;
-        //column-gap: 1rem;
-        //margin-inline-start: 20%;
         //max-width: 60em;
         max-width: initial;
     }
     
     main {
         //min-height: 80vh;
-        //padding-block-start: 2.5rem;
-        //max-width: 50%;
-        //padding-inline-start: 30%;
             max-width: 40rem;
-    margin-inline: auto;
-    }
-    header {
-        //background:none;
+            margin-inline: auto;
     }
     footer {
         display: flex;
@@ -401,67 +365,4 @@ details[open] > summary {
         gap: 1rem;
         padding-block: 0rem;
     }
-    /*
-    nav {
-        //display: grid;
-        //grid-template-columns: 1fr;
-        //justify-items: center;
-
-        //margin-block-start: 2rem;
-
-        a {
-            //color: #49728b;
-            //margin-block: 0.2rem;
-        }
-    }
-    body.dark-mode nav a {
-        color: var(--main-color);
-    }
-    .nav-link-divider {
-        //display: none;
-    }
-    hr.line{
-        border: none;
-    }
-    .hr-1{
-        transform: rotate(90deg);
-        transform-origin: left;  
-        display:none;      
-    }
-    .hr-2{
-        transform: rotate(90deg);
-        transform-origin: right;      
-        display: none;  
-    }
-
-    footer {
-        //grid-column: 1 / 3; MAYBE
-        grid-column: 4 / 2;
-        margin-block: 0;
-    }
-
-    header {
-        //display: flex;
-        //flex-direction: column;
-        //justify-content: center;
-
-        //height: 40rem;
-
-        //position: sticky;
-        //top: 0;
-    }
-    .header-text {
-        display: flex;
-        font-size: 1rem;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header-pic {
-        margin-block-start: 2rem;
-    }
-    h1.title-header {
-        margin-block: 0rem;
-        text-align: center;
-    }
-    */
 }
