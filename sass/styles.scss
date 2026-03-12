@@ -44,22 +44,14 @@ body {
 body.light-mode {}
 
 body.dark-mode {
-    --body-bg-color: #303030;
-    --body-font-color: rgb(230, 230, 230);//#f6dacd;
-    --main-color: rgb(148 185 219);//rgb(255 115 115);
-    --main-color: rgb(219, 148, 148);//rgb(255 115 115);
+    --body-bg-color: #474444;
+    --body-font-color: rgb(213 213 213);
+    --main-color: rgb(148 185 219);
+    --main-color: rgb(219, 148, 148);
     --link-color: lightblue;
     --header-color: var(--body-font-color);
-    
-    // hr colors
-    --col-1: #87ac2f;
-    --col-2: #4bc89d;
-    --col-3: #fec647;
-    --col-4: #ee4f40;
-    --col-5: #d85d9e;
-    --col-6: #9c4cd2;
-    --col-7: #2f74d4;
-    --col-8: #31aeda;
+    --h-color: #b9b4b4;
+    --panel-color-1: #292828;
 }
 
 
@@ -74,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: "Bebas Neue","Tiktok Sans","Google Sans",arch, "Roboto Flex Regular", Arial, sans-serif;
 	
-	color: #676f87;
+	color: var(--h-color);
 }
 
 a {    
