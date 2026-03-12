@@ -91,7 +91,6 @@ p {
 // ====== Header css ====
 header {
     padding-inline: 1.5rem;
-    //padding-block-end: 1rem;
 }
 .header-pic {
     text-align: center;
@@ -99,14 +98,11 @@ header {
 	justify-content: center;
 }
 .header-pic img {
-    //width: 30px;
     height: 70px;
 }
 .header-text {
     display: flex;
-    //justify-content: space-evenly;
     justify-content: space-between;
-    /* font-size: 1.9rem; */
     flex-direction: column;
     align-items: center;
 }
@@ -122,32 +118,23 @@ nav {
     place-content: flex-start;
     justify-content: center;
     overflow-x: auto;
-    /* margin-block-start: 2rem; */
     position: sticky;
     top: 0;
     background: white;//var(--panel-color-1);
-    //padding-block: 0.5rem;
 	box-shadow: 0px 1px 0px #80808045;
 
     a {
         text-decoration: none; // remove underline on nav items
         font-size: var(--nav-link-size);
         text-align: center;
-        //color: rgb(from var(--body-font-color) r g b / 0.5);
-		// ZOLA color: rgba(var(--header-color-rgb), 0.5);
         position: relative;
 		
 		color: #8c8f93;
 		padding: 14px 0;
-		
-		//text-transform: uppercase;
 		font-family: "TikTok Sans";
     }
     a.active {
-        //font-weight: bold;
-        //text-decoration: underline;    
         color: var(--header-color);
-        //color: forestgreen;
         text-decoration: none;
     }
 	a.active::after {
@@ -286,10 +273,8 @@ hr.rainbow {
 
 hr, hr.line {
     background: none;
-    //border: 1px solid rgb(233 233 233 / 46%);
     border: 1px dashed rgb(163 163 163 / 46%);
     width: 100%;
-    //height: initial;
 }
 
 ul {
@@ -388,12 +373,8 @@ details {
     margin-inline: 7px;
 }
   
-summary {
-}
-  
-details[open] {
-    //padding: 0.5em;
-}
+summary {}
+details[open] {}
   
 details[open] summary {
     border-bottom: 1px dashed darkgrey;
@@ -409,38 +390,52 @@ details[open] > summary {
     list-style-type: ' - ';
     //list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="10" width="8.75" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
 }
-
+//========================
 
 
 @media screen and (min-width:600px){
     body {
-        display: grid;
-        grid-template-columns: 1fr 5fr;
-        column-gap: 1rem;
-        margin-inline-start: 5%;
-        max-width: 50em;
+        //display: grid;
+        //grid-template-columns: 1fr 5fr;
+        //column-gap: 1rem;
+        //margin-inline-start: 20%;
+        //max-width: 60em;
+        max-width: initial;
     }
+    
     main {
-        min-height: 80vh;
-        padding-block-start: 2.5rem;
+        //min-height: 80vh;
+        //padding-block-start: 2.5rem;
+        max-width: 50%;
+        padding-inline-start: 30%;
     }
+    header {
+        //background:none;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding-block: 0rem;
+    }
+    /*
     nav {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
+        //display: grid;
+        //grid-template-columns: 1fr;
+        //justify-items: center;
 
-        margin-block-start: 2rem;
+        //margin-block-start: 2rem;
 
         a {
-            color: #49728b;
-            margin-block: 0.2rem;
+            //color: #49728b;
+            //margin-block: 0.2rem;
         }
     }
     body.dark-mode nav a {
         color: var(--main-color);
     }
     .nav-link-divider {
-        display: none;
+        //display: none;
     }
     hr.line{
         border: none;
@@ -463,14 +458,14 @@ details[open] > summary {
     }
 
     header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        //display: flex;
+        //flex-direction: column;
+        //justify-content: center;
 
-        height: 40rem;
+        //height: 40rem;
 
-        position: sticky;
-        top: 0;
+        //position: sticky;
+        //top: 0;
     }
     .header-text {
         display: flex;
@@ -485,4 +480,5 @@ details[open] > summary {
         margin-block: 0rem;
         text-align: center;
     }
+    */
 }
