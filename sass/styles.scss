@@ -177,22 +177,6 @@ header,nav {
 	background: var(--panel-color-1);
 	    //box-shadow: 1px 1px 1px #d7d7d7
 }
-.hello-panel.panel {
-    //background: var(--panel-color-2);
-	//padding-inline: 1.2em;
-}
-
-.home-blog-list {
-    //background: var(--panel-color-3);
-	//padding-inline: 1.2em;
-}
-
-// ===
-
-li {
-    padding-block: 0.5rem;
-    //font-size: large;
-}
 
 .table-of-contents {
     color: #575757;
@@ -341,6 +325,7 @@ time.blog-list-date{
   
     position: relative;
     right: 1rem;
+    padding-block: .5rem;
 }
 
 footer {
@@ -398,8 +383,10 @@ details[open] > summary {
     main {
         //min-height: 80vh;
         //padding-block-start: 2.5rem;
-        max-width: 50%;
-        padding-inline-start: 30%;
+        //max-width: 50%;
+        //padding-inline-start: 30%;
+            max-width: 40rem;
+    margin-inline: auto;
     }
     header {
         //background:none;
