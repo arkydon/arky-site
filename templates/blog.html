@@ -6,23 +6,26 @@
   {{ section.title }}
 </h1>
 -->
-<h2>General</h2>
-<ul>
-  {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-  {% endfor %}
-</ul>
 
-
-<h2>Tech</h2>
-{% set tech = get_section(path="blog/_tech/_index.md") %}
-<div class="photos-wrapper">
-    <!--<h3>{{ tech.title }}</h3>-->
+<div class="blog-list">
+    <h1>{{ section.title }}</h1>
+    <h2>General</h2>
     <ul>
-        {% for page in tech.pages %}
-            <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+        {% for page in section.pages %}
+            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
-</div>
 
+
+    <h2>Tech</h2>
+    {% set tech = get_section(path="blog/_tech/_index.md") %}
+    <div class="tech-wrapper">
+        <!--<h3>{{ tech.title }}</h3>-->
+        <ul>
+            {% for page in tech.pages %}
+                <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 {% endblock content %}
