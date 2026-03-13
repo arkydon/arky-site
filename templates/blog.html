@@ -8,17 +8,20 @@
 -->
 
 <div class="blog-list">
-    <h1>{{ section.title }}</h1>
+    <!--<h1>{{ section.title }}</h1>-->
+    {% set general = get_section(path="blog/general/_index.md") %}
     <h2>General</h2>
-    <ul>
-        {% for page in section.pages %}
-            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-        {% endfor %}
-    </ul>
-
+    <div class="general-wrapper">
+        <!--<h3>{{ general.title }}</h3>-->
+        <ul>
+            {% for page in general.pages %}
+                <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 
     <h2>Tech</h2>
-    {% set tech = get_section(path="blog/_tech/_index.md") %}
+    {% set tech = get_section(path="blog/tech/_index.md") %}
     <div class="tech-wrapper">
         <!--<h3>{{ tech.title }}</h3>-->
         <ul>

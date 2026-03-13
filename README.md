@@ -1,1 +1,1 @@
-My personal website generated using Zola ststic site generator
+My personal website generated using Zola static site generator
