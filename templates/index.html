@@ -17,7 +17,7 @@
 <div class="home-blog-list">
 	<h2>Latest Blog Posts</h2>
 
-	{% set blog = get_section(path="blog/_index.md") %}
+	{% set blog = get_section(path="blog/general/_index.md") %}
 
 	<ul>
 		{% for page in blog.pages | slice(end=4) %}
