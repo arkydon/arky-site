@@ -6,10 +6,9 @@ extra:
 
 ### Beautiful blogs
 
-> Some gorgeous blogs and personal websites made with love
+> Some blogs and personal websites that look really good
 
 * [Rach Smith's Digital Hub](https://rachsmith.com/)
-* [Kev Quirk](https://kevquirk.com/)
 * [Robb Knight](https://rknight.me/)
 * [Jottings from Ana Rodrigues](https://ohhelloana.blog/)
 * [Frills](https://frills.dev/)
@@ -25,6 +24,7 @@ extra:
 * [Sara Joy](https://sarajoy.dev/basic/blog/)
 * [Flamed Fury](https://flamedfury.com/)
 * [sleeplessmind](https://sleeplessmind.info/writings/)
+* [Kev Quirk](https://kevquirk.com/)
 
 ### Tech
 > Mostly tech oriented web spaces

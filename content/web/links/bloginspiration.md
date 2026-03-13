@@ -1,5 +1,5 @@
 ---
-title : Articles that motivated me to make my own personal website
+title : A list of blog posts that talk about why you should have a blog or personal website.
 ---
 
 - [Write for yourself](https://samhawken.bearblog.dev/write-for-yourself/)
