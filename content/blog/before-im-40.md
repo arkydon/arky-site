@@ -1,9 +1,6 @@
 ---
 title : Things to do and see before I'm 40
 date : 2024-03-27
-tags : 
-    - blog
-
 desc : Things to do and see before I'm 40
 ---
 Inspired by [this](https://www.jemjabella.co.uk/30-things-before-im-thirty/) I wrote a list of the things I want to do and see before I'm 40.

@@ -1,9 +1,6 @@
 ---
 title : "Collage of my 2024 mental state"
 date : 2024-12-30
-tags : 
-    - hub
-    - photos
 ---
 
 

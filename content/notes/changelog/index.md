@@ -1,8 +1,5 @@
 ---
 title: Website Changes
-tags:
-  - hub
-  - notes
 ---
 
 <!-- ### Changelog -->

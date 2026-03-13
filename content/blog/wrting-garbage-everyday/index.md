@@ -1,11 +1,6 @@
 ---
 title : Writing garbage everyday
 date : 2024-04-02
-tags : 
-    - blog
-
-layout: layouts/post.vto
-
 desc : "Writing garbage everyday"
 ---
 

@@ -1,11 +1,6 @@
 ---
 title : Resources (images, videos, etc) from the web
 date : 2021-08-11
-
-tags :
-    - hub
-    - links
-
 extra:
     show_toc: true
 ---

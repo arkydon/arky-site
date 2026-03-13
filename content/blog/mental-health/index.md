@@ -1,11 +1,6 @@
 ---
 title : My mental health
 date : 2024-01-01
-tags : 
-    - blog
-    
-layout : layouts/post.vto
-
 desc : "My mental health"
 ---
 *This is a more refined blog article about my mental health that I wrote and shared last year.*

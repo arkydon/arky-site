@@ -1,13 +1,5 @@
 ---
 title : "What I'm doing"
-date: 2024-12-30
-url : /Notes/Now/
-tags : 
-    - hub
-    - notes
-
-layout: layouts/post.vto
-
 ---
 
 *Last updated: July 2025*

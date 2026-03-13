@@ -1,13 +1,6 @@
 ---
 title : "Music that makes me nostalgic"
 date : 2021-08-11
-
-tags :
-    - hub
-    - music
-
-layout: layouts/post.vto
-
 ---
 
 This is a list of music that makes me nostalgic

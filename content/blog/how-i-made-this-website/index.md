@@ -1,8 +1,6 @@
 ---
 title : Making this website
 date : 2024-06-07
-tags : 
-    - blog
 ---
  > **2025 NOTE** : This post is **outdated**. I have remade this site again from scratch using a different static site engine called **lume** : [🔗lume.land](https://lume.land)
 

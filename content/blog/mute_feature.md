@@ -1,11 +1,6 @@
 ---
 title : How to make the mute feature better
 date : 2024-03-23
-tags : 
-    - blog
-
-layout : layouts/post.vto
-
 desc : "How to make the mute feature better"
 ---
 

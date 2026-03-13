@@ -1,9 +1,5 @@
 ---
 title : Articles that motivated me to make my own personal website
-date : 2024-12-21
-tags :
-    - hub   
-    - links
 ---
 
 - [Write for yourself](https://samhawken.bearblog.dev/write-for-yourself/)

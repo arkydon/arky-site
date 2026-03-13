@@ -1,10 +1,5 @@
 ---
 title : Cool websites
-date : 2021-08-11
-
-tags :
-    - hub   
-    - links
 ---
 
 #### Space : 

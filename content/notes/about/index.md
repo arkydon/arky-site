@@ -1,10 +1,5 @@
 ---
 title : "About"
-tags :
-    - hub
-    - notes	
-layout : layouts/base.vto
-templateEngine: [vto, md]
 ---
 <div class="card">
    <div class="card-avatar">

@@ -1,13 +1,6 @@
 ---
 title : "Windows Software I use"
 date : 2024-03-23
-
-tags :
-    - hub
-    - windows
-
-layout: layouts/post.vto
-
 ---
 
 # Utilities

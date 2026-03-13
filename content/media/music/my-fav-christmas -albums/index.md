@@ -1,13 +1,6 @@
 ---
 title : My favourite Christmas Albums
 date : 2021-08-11
-
-tags :
-    - hub
-    - music
-
-layout: layouts/post.vto
-
 ---
 
 This is a list of my favourite Christmas Albums!

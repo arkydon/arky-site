@@ -1,13 +1,6 @@
 ---
 title : "Default 2024 Apps"
 date : 2024-12-30
-
-tags :
-    - hub
-    - android
-
-layout: layouts/post.vto
-
 ---
 
 

@@ -2,11 +2,6 @@
 title : Don't feel sorry for yourself
 desc : Don't feel sorry for yourself
 date : 2024-03-26
-
-tags : 
-    - blog
-
-layout : layouts/post.vto
 ---
 
 {{ img(src="sad.png", alt="A cool photo", class="blog-graphic") }} No matter what you're going through, resist self-pity. Every time you dwell on and feel bad about what you're going through, you push yourself deeper into the pit of despair. You might not be able to control <!-- the mental issues afflicting your mind or --> the hardships you're facing but you can control how you feel. Self-pity is the voice that tells you that you will never be able to overcome and is the thing that prevents you from ever trying to.
