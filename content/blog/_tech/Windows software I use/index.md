@@ -17,9 +17,9 @@ date : 2024-03-23
 - Youtube Music Desktop App
 
 # Internet
-- Microsoft Edge - Browser
+- Microsoft Edge Browser
 - Free Download Manager
-- SimpleWall - Small and simple windows firewall management tool
+- ~SimpleWall - Small and simple windows firewall management tool~
 - ProtonVPN
 - QBitorrent
 - MegaDownloader - Downloader for the MEGA site
@@ -51,9 +51,10 @@ date : 2024-03-23
 - ~OnlyOffice - Smaller Microsoft Office alternative.~
 
 # Progressive Web Apps
-- Youtube Music Player
-- Remember the milk - TODOs, Lists.
+- Remember the milk for todos, Lists.
 - Google Keep
+- Google AI Studio
+- Paperspan for bookmarking links
 - ~StackEdit - Markdown Editor (Can connect and edit github repo files)~
 - Social:
 	+ Telegram

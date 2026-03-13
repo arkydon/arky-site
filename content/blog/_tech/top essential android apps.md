@@ -4,7 +4,7 @@ date : 2021-08-11
 ---
 
 
-*This is a non-exhaustive list of some android apps that I use.*
+*A list of some android apps.*
 <!-- more -->
 
 #### Editing : 
