@@ -2,16 +2,32 @@
 title : Making this website
 date : 2024-06-07
 ---
- > **2025 NOTE** : This post is **outdated**. I have remade this site again from scratch using a different static site engine called **lume** : [🔗lume.land](https://lume.land)
+ 
+I made this website using [Zola](https://www.getzola.org/) static site engine
 
-<!-- {{ img(path:"@/blog/How I made this website/repair.png", class:"graphik") }}  -->
-{{ img(src="repair.png", alt="A cool photo", class="blog-graphic") }} I made this website because I wanted a personal space on the web where I can share and store every useful and non-useful, personal and non-personal piece of information.
+**Fonts** \
+Body : Tiktok Sans \
+Heading : Bebas Neuev \
+Header title : Alegreya Sans SC \
+Hosted on Cloudflare
+
+**Source** is on [https://github.com/arkydon/arky-site](https://github.com/arkydon/arky-site)
+
+**Graphics**:  [Darius Dan](https://www.flaticon.com/authors/darius-dan)
+
+---
+
+{{ img(src="repair.png", alt="A cool photo", class="blog-graphic") }} I made this because I wanted a personal space on the internet.
+I started with bearblog but I was limited with how my I want the site to look and I had to pay to upload images so I decided to move to Zola and generated my website using a theme but the code was too messy and it had alot of things I didnt need so I remade my website from scratch using [🔗lume.land](https://lume.land) but I went back to Zola and remade it again.
+
+<!-- **2025 NOTE** : This post is **outdated**. I have remade this site again from scratch using a different static site engine called **lume** : [🔗lume.land](https://lume.land)
+
+
+ I made this website because I wanted a personal space on the web where I can share and store every useful and non-useful, personal and non-personal piece of information.
 
 The source code is at [https://github.com/arkydon/aerxi](https://github.com/arkydon/aerxi)
 
 I used a *static site generator* called [🔗Zola](https://www.getzola.org/) - a tiny ~25MB single binary (exe) tool. The structure of the website was writen with a templating language called Tera.
-
-> I tried bearblog but it was too restrictive for what I wanted to make so I decided to build my own website using Zola.
 
 I had already made a website using a custom theme as the base which I modified until I finished making an initial final version of my website 🤷. The problem was that the code was a mess - terrible CSS code, confusing random variable names everywhere, lots of repeated code and also a lot of templating code that I didn't need or had no idea what they did. There was also parts of the website that I didnt understand how they worked. 
 
@@ -41,8 +57,5 @@ Completely redid the design of the website again 🤷.
 Changed the header, and decided to pick a simple and basic colour scheme.
 Chnaged the fonts.
 
-<!--
-
-1. Colour differences
 -->
 
