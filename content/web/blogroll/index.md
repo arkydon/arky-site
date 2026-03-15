@@ -14,7 +14,7 @@ extra:
 * [Frills](https://frills.dev/)
 
 ### Personal
-
+* [Frills](https://frills.dev/blog/)
 * [Brandon's Journal](https://brandons-journal.com/)
 * [Chris Glass](https://chrisglass.com/)
 * [Nikhil Anand](https://nikhil.io/)
