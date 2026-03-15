@@ -8,12 +8,15 @@ I made this website using [Zola](https://www.getzola.org/) static site engine
 **Fonts** \
 Body : Tiktok Sans \
 Heading : Bebas Neuev \
-Header title : Alegreya Sans SC \
-Hosted on Cloudflare
+Header title : Alegreya Sans SC
+
+**Hosted** on Cloudflare
 
 **Source** is on [https://github.com/arkydon/arky-site](https://github.com/arkydon/arky-site)
 
 **Graphics**:  [Darius Dan](https://www.flaticon.com/authors/darius-dan)
+
+**Analytics**: Simple Analytics
 
 ---
 
