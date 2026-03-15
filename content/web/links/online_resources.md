@@ -8,12 +8,14 @@ extra:
 ### General
 - [Rawpixel](https://www.rawpixel.com/) :  Photos / Illustrations / Fonts  / Patterns / Stickers / Effects
 - [ESO Images](https://www.eso.org/public/images/) : HQ images of space and earth from the European Space Observatory.
+- [iTunes artwork finder](https://bendodson.com/projects/itunes-artwork-finder/)
 
 ### Images 
 - [Undraw](https://undraw.co/) : Free illustrations for website / app/presentation / social,etc
 
 ### Graphics
 - [Openmoji](https://openmoji.org/) - _Open source emojis for designers, developers and everyone else!_
+- [ASCII Art Archive](https://www.asciiart.eu/) - omprehensive online resources for ASCII art and animations.
 
 ### Icons
 - [Flaticon](https://www.flaticon.com/) - Free png icons.
@@ -41,3 +43,4 @@ extra:
 
 ### Other
 - [Coding-fonts](https://coding-fonts.pages.dev/) - Find coding fonts.
+- [Visiwig](https://www.visiwig.com/) - Icons, patterns and textures

@@ -10,8 +10,13 @@ date : 2021-08-11
 	Video/Audio/PDF Tools/Converters
 - [MEQR](https://me-qr.com/qr-code-generator/link) : \
 	Turn any link into a QR Code
-- [Shots](https://shots.so/) : Create Mockups
-- [Pika](https://pika.style/) : Create Screenshot Mockups for social media
+- Create mockups/ beautiful screenshots :
+    + [Shots](https://shots.so/)
+    + [Pika](https://pika.style/)
+    + [Pretty Snap](https://prettysnap.app/)
+    + [Supershot](https://superblog.ai/supershots)
+    + [Vividshare](https://vividshare.io/) (for code too)
+    + [ray.so](https://ray.so/) (for code)
 - [Cobalt](https://cobalt.tools/) : Social media content downloader. (IG, YT, Twitter, Pinterest, Tiktok, etc)
 - [Youtube playlist-len](https://ytplaylist-len.sharats.dev/) : Find the length of any YouTube playlist.
 - [I love PDF](https://www.ilovepdf.com/): Pdf tools
@@ -24,8 +29,8 @@ date : 2021-08-11
 - [tldraw](https://makereal.tldraw.com/) - Drawing.
 - [shademap.app](https://shademap.app/) - ShadeMap is a global simulation of mountain, building and tree shadows for any date and time. ShadeMap calculates shadow positions in realtime and displays them on a map.
 It can display how many hours of sun or shadow a specific location gets over the course of a day and even over the course of an entire year.
-
-
+- [Cloudflare speed test](https://speed.cloudflare.com/) - Test your internet speed and quality
+- [Color Name Finder](https://colors.artyclick.com/color-name-finder)
 ### Video
 - [Mastershot](https://mastershot.app/) - Video Editor
 - [Unscreen](https://www.unscreen.com/) : Remove Video Background
@@ -49,7 +54,8 @@ It can display how many hours of sun or shadow a specific location gets over the
 - [VirusTotal](https://www.virustotal.com/gui/home/upload) - Upload a file and scan for viruses. Uses multiple antivirus engines. Supports android apps.
 - [Exodus](https://reports.exodus-privacy.eu.org/en/reports/) - Analyse android apps.
 - [Firefox Relay] - Create an alias (fake address) for your email that you can safely  use instead of your real email address.
-- [Sherlock (Python Library)](https://sherlockproject.xyz/) - Search for every trace of a person online (useful to help trace every embarassing accounts of yourself from the web so you can delete them)
+- [Sherlock (Python Library)](https://sherlockproject.xyz/) - Search for every trace of a person online (useful for finding and deleting every embarassing social and forum accounts of yourself from the web)
+- [WebCheck](https://web-check.xyz/) - Website analyser
 
 ## Dev Tools
 - Page speed :
@@ -58,7 +64,6 @@ It can display how many hours of sun or shadow a specific location gets over the
 	- [Yellow Lab tools/](https://yellowlab.tools/)
     - [DebugBear](https://www.debugbear.com/test/website-speed/)
 - [SVG to CSS Converter](https://www.svgbackgrounds.com/tools/svg-to-css/)
-- [ray.so](https://ray.so/) - Create beautiful screenshots of your code.
 - [CSS Generators](https://css-generators.com/) - A wide range of CSS Generators to build the future of the web. Add your setting, get your CSS code.
 - [SVG Wave](https://svgwave.in/) - Generate svg waves
 - [https://getwaves.io/](https://getwaves.io/) - Another SVG wave generator. Choose a curve, adjust complexity, randomize!
