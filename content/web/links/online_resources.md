@@ -11,7 +11,9 @@ extra:
 
 ### Images 
 - [Undraw](https://undraw.co/) : Free illustrations for website / app/presentation / social,etc
-<!-- - [Stockcake](https://stockcake.com/) : AI generated stock images. -->
+
+### Graphics
+- [Openmoji](https://openmoji.org/) - _Open source emojis for designers, developers and everyone else!_
 
 ### Icons
 - [Flaticon](https://www.flaticon.com/) - Free png icons.
@@ -20,6 +22,8 @@ extra:
 
 ### Backgrounds
 - [Hero Patterns](https://heropatterns.com/) - Generate pattern backgrounds
+- [Webgradients](https://webgradients.com/) - Collection of beautiful linear gradients
+- [BGJar](https://bgjar.com/) - Free svg background generator for your websites, blogs and app.
 
 ### Audio
 - [Blerp](https://blerp.com/discover/top-blerps) : Audio meme reactions, sound effects.

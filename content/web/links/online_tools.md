@@ -39,7 +39,7 @@ It can display how many hours of sun or shadow a specific location gets over the
 - Pixlr :
 	+ [Pixlr X](https://pixlr.com/editor/): Advanced Image editor.
 	+ [Pixlr E](https://pixlr.com/express/) : Simple Image Editor.
-- [Squoosh](https://squoosh.app/) : Quickly compress images.
+- [Squoosh](https://squoosh.app/) : No nonsense image compressor.
 - [Profile Pic Maker](https://pfpmaker.com/) : Create better looking profile pic backgrounds
 
 #### Fonts
@@ -51,10 +51,17 @@ It can display how many hours of sun or shadow a specific location gets over the
 - [Firefox Relay] - Create an alias (fake address) for your email that you can safely  use instead of your real email address.
 - [Sherlock (Python Library)](https://sherlockproject.xyz/) - Search for every trace of a person online (useful to help trace every embarassing accounts of yourself from the web so you can delete them)
 
-## Website Dev Tools
+## Dev Tools
 - Page speed :
 	- [Pingdom](https://tools.pingdom.com/) - Enter a URL to test the page load time, analyze it, and find bottlenecks.
 	- [Google Page Speed Insights](https://pagespeed.web.dev/)
 	- [Yellow Lab tools/](https://yellowlab.tools/)
     - [DebugBear](https://www.debugbear.com/test/website-speed/)
 - [SVG to CSS Converter](https://www.svgbackgrounds.com/tools/svg-to-css/)
+- [ray.so](https://ray.so/) - Create beautiful screenshots of your code.
+- [CSS Generators](https://css-generators.com/) - A wide range of CSS Generators to build the future of the web. Add your setting, get your CSS code.
+- [SVG Wave](https://svgwave.in/) - Generate svg waves
+- [https://getwaves.io/](https://getwaves.io/) - Another SVG wave generator. Choose a curve, adjust complexity, randomize!
+- [Glassmorphism](https://css.glass/) - Glassmorphism CSS Effect Generator
+- [Cool Text Graphics Generator](https://cooltext.com/) - Cool text generator
+- [Word Art generator](https://inkpx.com/word-art-generator) - 

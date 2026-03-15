@@ -31,5 +31,6 @@ extra:
 * [Marcus' Blog](https://mbuffett.com/posts/)
 * [Alicia Sykes](https://www.aliciasykes.com/blog)
 * [Coders Block](https://codersblock.com/) (great web dev writings)
+* [James Coffee Blog](https://jamesg.blog/)
 
 *Edited: Dec '24*
