@@ -35,10 +35,9 @@ It can display how many hours of sun or shadow a specific location gets over the
 
 ### Video
 - [Mastershot](https://mastershot.app/) - Video Editor
-- [Unscreen](https://www.unscreen.com/) : Remove Video Background
 
 ### Writing
-- [type](https://type.baby/) - Simple "Zen markdown-friendly editor" that supports publishing to web.
+- [type](https://type.baby/) - "Zen markdown-friendly editor" that supports publishing to web, offline mode.
 - [Craft.do](docs.craft.do) : Document editor.
 
 #### Image
