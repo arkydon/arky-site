@@ -1,8 +1,10 @@
 ---
 title : Cool websites
+extra:
+    show_toc: true
 ---
 
-#### Space : 
+#### Space
 - [spaceweather.com](https://spaceweather.com/ ) - Daily news and information about recent space and other astronomy events in the universe.
 {{ gallery(images=["sw.jpeg"], ratio = "wide") }}
 
@@ -12,8 +14,11 @@ title : Cool websites
 - [GOES X-Ray Flux](https://www.swpc.noaa.gov/products/goes-x-ray-flux) - Realtime plots of solar flares (updates every minute)
 {{ gallery(images=["goesx.jpeg"], ratio = "wide") }}
 
+- [satellitemap.space](https://satellitemap.space/) - Discover live positions of Starlink, SpaceX, Amazon LEO & GPS satellites. Interactive map.
+{{ gallery(images=["satmap.jpeg"], ratio = "wide") }}
 
-#### Blogs:
+
+#### Blogs
 - [Blogroll.org](https://blogroll.org/) - Discover different types of blogs around the web.
 {{ gallery(images=["blogroll.jpeg"], ratio = "wide") }}
 
@@ -21,14 +26,14 @@ title : Cool websites
 	+ [Mire](https://mire.meadowing.club/discover)
 	+ [Bearblog blogs](https://bearblog.dev/discover/)
 	
-#### Software:
+#### Software
 - [Giveawayoftheday](https://www.giveawayoftheday.com/) - Legally free software giveaways everyday.
 - [Majorgeeks](http://majorgeeks.com/) - Regularly shows updated windows software. Extensive list of softwares.
 
 #### Tech
 - https://zetcode.com/ : Learn programming languages and related topics quickly
 
-### Other:
+### Other
 - [Grammarbook](https://www.grammarbook.com/) - Grammar tips.
 - https://learn-anything.xyz/ - Learn anything
 - https://www.hollywoodsign.org/webcam - Hollywood sign live webcam .
