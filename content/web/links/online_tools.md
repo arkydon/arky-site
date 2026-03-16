@@ -8,10 +8,9 @@ extra:
 
 
 #### General 
-- [123apps](https://123apps.com/): \
-	Video/Audio/PDF Tools/Converters
-- [MEQR](https://me-qr.com/qr-code-generator/link) : \
-	Turn any link into a QR Code
+
+- [Youtube playlist-len](https://ytplaylist-len.sharats.dev/) : Find the length of any YouTube playlist.
+- [MEQR](https://me-qr.com/qr-code-generator/link) : Turn any link into a QR Code
 - Create mockups/ beautiful screenshots :
     + [Shots](https://shots.so/)
     + [Pika](https://pika.style/)
@@ -19,8 +18,8 @@ extra:
     + [Supershot](https://superblog.ai/supershots)
     + [Vividshare](https://vividshare.io/) (for code too)
     + [ray.so](https://ray.so/) (for code)
-- [Cobalt](https://cobalt.tools/) : Social media content downloader. (IG, YT, Twitter, Pinterest, Tiktok, etc)
-- [Youtube playlist-len](https://ytplaylist-len.sharats.dev/) : Find the length of any YouTube playlist.
+- [Cobalt](https://cobalt.tools/) : _helps you save anything from your favorite websites: video, audio, photos or gifs._
+- [123apps](https://123apps.com/): Video/Audio/PDF Tools/Converters
 - [I love PDF](https://www.ilovepdf.com/): Pdf tools
 - [Imgflip](https://imgflip.com/) : Create memes. Meme generator. 
 - [UIGradients](https://uigradients.com/) : Create, edit and download gradient backgrounds.
@@ -33,6 +32,7 @@ extra:
 It can display how many hours of sun or shadow a specific location gets over the course of a day and even over the course of an entire year.
 - [Cloudflare speed test](https://speed.cloudflare.com/) - Test your internet speed and quality
 - [Color Name Finder](https://colors.artyclick.com/color-name-finder)
+
 ### Video
 - [Mastershot](https://mastershot.app/) - Video Editor
 - [Unscreen](https://www.unscreen.com/) : Remove Video Background
