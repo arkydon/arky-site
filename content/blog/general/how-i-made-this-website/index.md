@@ -27,3 +27,9 @@ I started with bearblog but I was limited with how my I want the site to look an
 
 
 > I compiled a list of blog articles that might inspire you to make your own personal website or blog [here](/web/links/bloginspiration/)
+
+> Nature does not hurry, yet everything is accomplished. - Lao Tzu
+
+{% quote(type="green") %}
+Nature does not hurry, yet everything is accomplished. - Lao Tzu
+{% end %}

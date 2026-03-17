@@ -1,0 +1,42 @@
+{# Set a default type in case you forget to declare one #}
+{% set quote_type = type | default(value="blue") %}
+
+<div class="custom-quote quote-{{ quote_type }}">
+    {# The markdown filter allows you to use bold, italics, etc., inside the quote #}
+    {{ body | markdown | safe }}
+</div>
+
+<style>
+    /* Base styling for the quote box */
+    .custom-quote {
+        padding: 1rem;
+        font-size: 85%;
+        margin-inline: 0;
+        border-radius: 5px;
+    }
+
+    /* Remove default paragraph margins inside the quote so it looks clean */
+    .custom-quote p:first-child { margin-top: 0; }
+    .custom-quote p:last-child { margin-bottom: 0; }
+
+    /* The 4 Color Types */
+    .quote-red {
+        background-color: #fee2e2; /* Light Red */
+        color: #991b1b;            /* Dark Red */
+    }
+
+    .quote-green {
+        color: #338342;
+        background: rgba(88, 239, 115, .1294117647);
+    }
+
+    .quote-blue {
+        background-color: #ccecf3;
+        color: #1d7591;
+    }
+
+    .quote-orange {
+        background-color: #ffedd5; /* Light Orange */
+        color: #c2410c;            /* Dark Orange */
+    }    
+</style>
