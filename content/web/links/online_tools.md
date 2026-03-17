@@ -52,6 +52,7 @@ It can display how many hours of sun or shadow a specific location gets over the
 - [Wakamai Fondue](https://wakamaifondue.com/) - Find out what your font can do. Generate css for your font files
 
 ### Privacy and Security
+- [Have I Been Pwned](https://haveibeenpwned.com/) - Check if your online account (email/social/forum) has been compromised or "pwned" in a data breach.
 - [VirusTotal](https://www.virustotal.com/gui/home/upload) - Upload a file and scan for viruses. Uses multiple antivirus engines. Supports android apps.
 - [Exodus](https://reports.exodus-privacy.eu.org/en/reports/) - Analyse android apps.
 - [Firefox Relay] - Create an alias (fake address) for your email that you can safely  use instead of your real email address.
