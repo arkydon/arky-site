@@ -30,6 +30,22 @@ I started with bearblog but I was limited with how my I want the site to look an
 
 > Nature does not hurry, yet everything is accomplished. - Lao Tzu
 
-{% quote(type="green") %}
+{% box(type="green") %}
+Nature does not hurry, yet everything is accomplished. - Lao Tzu
+{% end %}
+
+{% box(type="blue") %}
+Nature does not hurry, yet everything is accomplished. - Lao Tzu
+{% end %}
+
+{% box(type="red") %}
+Nature does not hurry, yet everything is accomplished. - Lao Tzu
+{% end %}
+
+{% box(type="orange") %}
+Nature does not hurry, yet everything is accomplished. - Lao Tzu
+{% end %}
+
+{% box(type="green") %}
 Nature does not hurry, yet everything is accomplished. - Lao Tzu
 {% end %}

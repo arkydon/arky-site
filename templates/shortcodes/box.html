@@ -1,0 +1,7 @@
+{# Set a default type in case you forget to declare one #}
+{% set box_type = type | default(value="blue") %}
+
+<div class="custom-box box-{{ box_type }}">
+    {# The markdown filter allows you to use bold, italics, etc., inside the box #}
+    {{ body | markdown | safe }}
+</div>
