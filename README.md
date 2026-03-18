@@ -19,7 +19,7 @@ Sections and subsections and pages (denoted by []) :
    └─ links
 ```
 
-<--!
+<!--
 # Shortcodes
 
 ### Gallery
