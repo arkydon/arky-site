@@ -18,3 +18,12 @@ Sections and subsections and pages (denoted by []) :
    ├─ [blogroll]
    └─ links
 ```
+
+<--!
+# Shortcodes
+
+### Gallery
+### Box
+### Favourite
+### Changelog
+--->
