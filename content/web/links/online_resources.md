@@ -44,3 +44,4 @@ extra:
 ### Other
 - [Coding-fonts](https://coding-fonts.pages.dev/) - Find coding fonts.
 - [Visiwig](https://www.visiwig.com/) - Icons, patterns and textures
+- [Public APIs](https://publicapis.dev/) - A Collaborative List Of 1400+ Public APIs For Developers
