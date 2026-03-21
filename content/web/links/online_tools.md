@@ -32,6 +32,7 @@ extra:
 It can display how many hours of sun or shadow a specific location gets over the course of a day and even over the course of an entire year.
 - [Cloudflare speed test](https://speed.cloudflare.com/) - Test your internet speed and quality
 - [Color Name Finder](https://colors.artyclick.com/color-name-finder)
+- [Receptify](https://receiptify.herokuapp.com/) - Displays a user's 10 most-played tracks from the last month, last 6 months, and all time, top artists, etc  in a Receipt-like format.
 
 ### Video
 - [Mastershot](https://mastershot.app/) - Video Editor
