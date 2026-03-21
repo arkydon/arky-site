@@ -12,6 +12,7 @@ extra:
 * [Robb Knight](https://rknight.me/)
 * [Jottings from Ana Rodrigues](https://ohhelloana.blog/)
 * [Frills](https://frills.dev/)
+* [Simon Collison](https://colly.com/)
 
 ### Personal
 * [Frills](https://frills.dev/blog/)
