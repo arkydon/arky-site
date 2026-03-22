@@ -1,0 +1,12 @@
+<div class="favorites-container">
+  {% for title, items in config.extra.favourites %}
+    <details class="favourite">
+      <summary>{{ title }}</summary>
+      <ul>
+        {% for item in items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </details>
+  {% endfor %}
+</div>

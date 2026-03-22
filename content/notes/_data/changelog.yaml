@@ -57,3 +57,7 @@
 - date: "March 17, 2026"
   changes:
     - Added new "Box" shortcode and styling for it
+- date: "March 22, 2026"
+  changes:
+    - Changed the design of list of favourites in About page. 
+    - Added new "Favourites" shortcode and styling for it
