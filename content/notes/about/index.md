@@ -50,21 +50,21 @@ title : "About"
 
 ## Favourites
 <!-- Place a NEWLINE before and after each call to favourite shortcode to prevent an empty <p> at the top and bottom -->
-{{favourite(title="Artists", path="content/notes/_data/favourites/artists.yaml")}}
+{{favourite(title="🎨 Artists", path="content/notes/_data/favourites/artists.yaml")}}
 
-{{favourite(title="Books", path="content/notes/_data/favourites/books.yaml")}}
+{{favourite(title="📚 Books", path="content/notes/_data/favourites/books.yaml")}}
 
-{{favourite(title="Movies", path="content/notes/_data/favourites/tvmovies.yaml")}}
+{{favourite(title="🎞️ Movies", path="content/notes/_data/favourites/tvmovies.yaml")}}
 
-{{favourite(title="Shows", path="content/notes/_data/favourites/tvshows.yaml")}}
+{{favourite(title="📺 Shows", path="content/notes/_data/favourites/tvshows.yaml")}}
 
-{{favourite(title="Fonts", path="content/notes/_data/favourites/fonts.yaml")}}
+{{favourite(title="✍🏻 Fonts", path="content/notes/_data/favourites/fonts.yaml")}}
 
-{{favourite(title="Pokemon	", path="content/notes/_data/favourites/pokemon.yaml")}}
+{{favourite(title="⭐ Pokemon	", path="content/notes/_data/favourites/pokemon.yaml")}}
 
-{{favourite(title="Colours", path="content/notes/_data/favourites/colours.yaml")}}
+{{favourite(title="🎨 Colours", path="content/notes/_data/favourites/colours.yaml")}}
 
-{{favourite(title="Games", path="content/notes/_data/favourites/games.yaml")}}
+{{favourite(title="🎮 Games", path="content/notes/_data/favourites/games.yaml")}}
 
 <style scoped>
     /* ====== About styling ==== */

@@ -1,8 +1,8 @@
-<!-- Place a NEWLINE before and after each call to favourite shortcode to prevent an empty <p> at the top and bottom -->
+{# Place a NEWLINE before and after each call to favourite shortcode to prevent an empty <p> at the top and bottom #}
 
 {%- set items = load_data(path=path) -%}
 
-<details>
+<details class="favourite">
     <summary>{{ title }}</summary>
     <ul>
         {% for item in items %}
