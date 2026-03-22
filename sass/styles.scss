@@ -459,6 +459,9 @@ details.favourite {
     background: var(--panel-color-1);
     box-shadow: 1px 2px 2px 0 rgb(167 172 197 / 43%);
 }
+.dark-mode details.favourite {
+    box-shadow: 1px 2px 2px 0 rgb(241 241 241 / 32%);
+}
 details.favourite[open]>summary {
     list-style: none;
 }
@@ -479,6 +482,9 @@ details.favourite>summary {
     padding-inline: 1rem;
     color: #ffffff;
     font-size: small;
+}
+.dark-mode .favourite li {
+    background: #566477;
 }
 .favourite ul {
     padding-inline-start: 1.5rem;
