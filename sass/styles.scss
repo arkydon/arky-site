@@ -474,17 +474,18 @@ details.favourite>summary {
 }
 
 .favourite li {
-    background: #98a4b5; //#6897da;
-    padding: 0.4rem;
+background: #c5c4c459;
+    padding: .4rem;
     list-style: none;
-    margin-block-start: 0.1rem;
+    margin-block-start: .1rem;
     border-radius: 5px;
     padding-inline: 1rem;
-    color: #ffffff;
+    color: #656877;
     font-size: small;
 }
 .dark-mode .favourite li {
-    background: #566477;
+    background: #56647769;
+    color: #bdbdbd;
 }
 .favourite ul {
     padding-inline-start: 1.5rem;
