@@ -31,15 +31,18 @@ extra:
 - [Majorgeeks](http://majorgeeks.com/) - Regularly shows updated windows software. Extensive list of softwares.
 
 #### Tech
-- https://zetcode.com/ : Learn programming languages and related topics quickly
+- [Zetcode](https://zetcode.com/) : Learn programming languages and related topics quickly
 
 ### Other
-- [Grammarbook](https://www.grammarbook.com/) - Grammar tips.
-- https://learn-anything.xyz/ - Learn anything
-- https://www.hollywoodsign.org/webcam - Hollywood sign live webcam .
-- [NPR : National Public Radio](https://text.npr.org/) - Minimal text only news site. 
+- Lite version of news sites : 
+    + [NPR : National Public Radio](https://text.npr.org/)
+    + [CNN lite](https://lite.cnn.com/)
+    + [CBC Lite](https://www.cbc.ca/lite/)
+- [Hollywood sign live webcam](https://www.hollywoodsign.org/webcam)
 - [https://singleservingsites.cool/](https://singleservingsites.cool/) - _A single-serving site is a website composed of a single page with a dedicated domain name and which serves only one purpose. This site tries to list all the cool ones._
 {{ gallery(images=["sss.webp"], ratio = "wide") }}
 
 - [CityHop](https://www.cityhop.cafe/) - magical corner of the internet that allows you to instantly transport to any city in the world while relaxing to a variety of different music. It's a place to relax, unwind, and explore the world from the comfort of your own home.
 {{ gallery(images=["cityhop.webp"], ratio = "wide") }}
+
+- [Grammarbook](https://www.grammarbook.com/) - Grammar tips.
