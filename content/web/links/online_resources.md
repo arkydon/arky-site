@@ -39,7 +39,7 @@ extra:
 - [Wallpapersafari](https://wallpapersafari.com/)
 
 ### Video
-- [Coverr](https://coverr.co/) : Free stock video clips.
+- ~[Coverr](https://coverr.co/) : Free stock video clips.~
 
 ### Other
 - [Coding-fonts](https://coding-fonts.pages.dev/) - Find coding fonts.
