@@ -1,5 +1,5 @@
 ---
-title : Resources (images, videos, etc) from the web
+title : Online Resources
 date : 2021-08-11
 extra:
     show_toc: true
