@@ -42,31 +42,22 @@ Jun 23, 2025:
         color: var(--main-color);
     }
     dl.changelog dd {
-        /* font-family: var(--font-condensed);*/
         font-size: 80%;
-        /*font-variation-settings: "wdth" 35;   */
-        font-stretch: ultra-condensed;
-        //margin-block: 0.2rem;
         margin-inline-start: 2rem;    
     }    
     dl.changelog {
-        /* border-inline-start: 2px solid rgb(26 26 26); */
-        /* padding-inline-start: 15px; */
         margin-inline-start: 12px;
         margin-block: 0;
         padding-block: 0;
+        padding-block-end: 1rem;
     }
     ul.changelog li li, ol.changelog li {
         font-size: 90%;
-        font-stretch: ultra-condensed;
-        /*font-family: var(--font-condensed);*/
-        /*font-variation-settings: "wdth" 35;*/
     }
 
     /* Make a treee design*/
     dl.changelog {
         margin-inline-start: 10px;
-        /* padding-inline-start: 10px; */
         border-inline-start: 2px solid var(--main-color);
     }
 
