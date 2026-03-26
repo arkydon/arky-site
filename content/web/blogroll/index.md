@@ -13,6 +13,7 @@ extra:
 * [Jottings from Ana Rodrigues](https://ohhelloana.blog/)
 * [Frills](https://frills.dev/)
 * [Simon Collison](https://colly.com/)
+* [Jacob Leech](https://jacobleech.com/)
 
 ### Personal
 * [Frills](https://frills.dev/blog/)
@@ -26,6 +27,7 @@ extra:
 * [Flamed Fury](https://flamedfury.com/)
 * [sleeplessmind](https://sleeplessmind.info/writings/)
 * [Kev Quirk](https://kevquirk.com/)
+* [Catskull.net](https://catskull.net/)
 
 ### Tech
 > Mostly tech oriented web spaces
@@ -33,5 +35,10 @@ extra:
 * [Alicia Sykes](https://www.aliciasykes.com/blog)
 * [Coders Block](https://codersblock.com/) (great web dev writings)
 * [James Coffee Blog](https://jamesg.blog/)
+* [Luke's Wild Website](https://www.lkhrs.com/)
+* [Chris Weigman](https://chriswiegman.com/blog/)
+* [Diéssica Gurskas](https://diessi.ca/blog/)
 
-*Edited: Dec '24*
+## Educational
+* [Bartosz Ciechanowski](https://ciechanow.ski/archives/)
+*Edited: 2026*

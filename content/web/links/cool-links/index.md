@@ -25,6 +25,8 @@ extra:
 - Browse blog articles
 	+ [Mire](https://mire.meadowing.club/discover)
 	+ [Bearblog blogs](https://bearblog.dev/discover/)
+    + [Whimsical Web](https://whimsical.club/) - _Websites that spark joy. A curated list of sites with an extra bit of fun._
+    + [Personalsit.es](https://personalsit.es/) - Collection of personal websites
 	
 #### Software
 - [Giveawayoftheday](https://www.giveawayoftheday.com/) - Legally free software giveaways everyday.
@@ -46,3 +48,5 @@ extra:
 {{ gallery(images=["cityhop.webp"], ratio = "wide") }}
 
 - [Grammarbook](https://www.grammarbook.com/) - Grammar tips.
+
+- [Insanely useful websites](https://insanelyusefulwebsites.com/) - _curated collection of interesting, practical, and high-quality websites and digital tools_

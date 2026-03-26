@@ -72,4 +72,5 @@ It can display how many hours of sun or shadow a specific location gets over the
 - [https://getwaves.io/](https://getwaves.io/) - Another SVG wave generator. Choose a curve, adjust complexity, randomize!
 - [Glassmorphism](https://css.glass/) - Glassmorphism CSS Effect Generator
 - [Cool Text Graphics Generator](https://cooltext.com/) - Cool text generator
-- [Word Art generator](https://inkpx.com/word-art-generator) - 
+- [Word Art generator](https://inkpx.com/word-art-generator)
+- [dpilove](https://dpi.lv/) - Find the dpi/ppi of any screen
