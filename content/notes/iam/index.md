@@ -21,7 +21,7 @@ title: I am ...
 - understanding
 - swing the other way
 - smart and stupid
-- hopeless romantic (I'm way too invested in love)
+- hopeless romantic
 
 <style scoped>
     ul {
