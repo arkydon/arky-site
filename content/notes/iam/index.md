@@ -22,7 +22,9 @@ title: I am ...
 - swing the other way
 - smart and stupid
 - hopeless romantic
-
+- over-thinker
+- neurotic
+- nosy
 <style scoped>
     ul {
         border-radius: 10px;
