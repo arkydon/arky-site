@@ -48,7 +48,7 @@ title: I am ...
         top: 50%;
         transform: translateY(-50%); /* centers vertically */
 
-        width: 5px;
+        width: 3px;
         height: 1em;
         background: red;
         border-radius: 2px;
