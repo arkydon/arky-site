@@ -2,10 +2,25 @@
 
 {% block content %}
 
-<a href = "/notes/about">About</a> <p>A little about me and my interests</p>
+<a class="notes" href = "/notes/about">About</a> <p>A little about me and my interests</p>
 
-<a href = "/notes/now">Now</a> <p>How I'm wasting my time</p>
+<a class="notes" href = "/notes/i-am">I am</a> <p>A list of "I am .."</p>
 
-<a href = "/notes/changelog">Changelog</a> <p>Website changes</p>
+<a class="notes" href = "/notes/now">Now</a> <p>How I'm wasting my time</p>
+
+<a class="notes" href = "/notes/changelog">Changelog</a> <p>Website changes</p>
+
+
+<style scoped>  
+    a.notes{
+        text-underline-offset: 3px;
+    color: inherit;
+    text-decoration-color: #3c3c99;
+    text-decoration-thickness: 1.5px;
+    color: #3c3c99;
+    }
+</style>
+
+
 
 {% endblock content %}
