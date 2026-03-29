@@ -12,9 +12,13 @@ Header title : Alegreya Sans SC
 
 **Hosted** on Cloudflare
 
-**Source** is on [https://github.com/arkydon/arky-site](https://github.com/arkydon/arky-site)
+**Source** is hosted on [https://github.com/arkydon/arky-site](https://github.com/arkydon/arky-site)
 
-**Graphics**:  [Darius Dan](https://www.flaticon.com/authors/darius-dan)
+**Graphics**:  
+ - [Darius Dan](https://www.flaticon.com/authors/darius-dan)
+ - [Lucide](https://lucide.dev/icons/)
+
+**Header bg** : [BGJar](https://bgjar.com/)
 
 **Analytics**: Simple Analytics
 
