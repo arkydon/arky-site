@@ -2,9 +2,9 @@
 title: I am ...
 ---
 - mentally unsound
-- self aware
+- **self-aware**
 - anxious
-- paradoxical 
+- paradoxical
 - cat person
 - shut-in
 - christian
@@ -13,18 +13,21 @@ title: I am ...
 - introvert
 - emotionally inept
 - socially awkward
-- unable to see well without my glasses
-- over obsessive
+- unable to see well without glasses
+- overly obsessive
 - underweight
-- bad at conversations
+- bad at conversation
 - lazy
 - understanding
 - swing the other way
 - smart and stupid
 - hopeless romantic
-- over-thinker
+- overthinker
 - neurotic
 - nosy
+- delusional
+- cringe
+- not easy to manipulate emotionally
 <style scoped>
     ul {
         border-radius: 10px;
