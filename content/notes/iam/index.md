@@ -27,24 +27,25 @@ title: I am ...
     ul {
         border-radius: 10px;
         border: 1px solid #80808045;
-            background: #e7e7e75e;/*#d7e9fa5e;*/
+        background: #e7e7e75e;/*#d7e9fa5e;*/
         box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
         border-radius: 7px;
         padding: 40px;
+        font-family: serif;
+        font-size: smaller;
     }
     li {
-    /* display: flex; */
-    /* gap: 15px; */
-    list-style-type: none;
-    margin-bottom: 10px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 10fr;
+        /* display: flex; */
+        /* gap: 15px; */
+        list-style-type: none;
+        margin-bottom: 10px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
     }
     ul li::before {
         content: "";
         display: inline-block;
-        /* Set your desired size here */
         width: 16px; 
         height: 16px;
         margin-right: 5px;
@@ -59,7 +60,5 @@ title: I am ...
     }
     .dark-mode ul {
         background : #4d4d4d;
-    }
-
-    
+    }    
 </style>
