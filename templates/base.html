@@ -63,7 +63,7 @@
             } else {
                 themeToggleIconContainer.outerHTML = sunSvg;
                 themeToggleBtn.innerHTML = sunSvg; // Ensure the button contains the new SVG
-                themeColorMetaTag.setAttribute('content', '#676f87');
+                themeColorMetaTag.setAttribute('content', '#ffffff');
             }
 
             themeToggleBtn.addEventListener('click', () => {
@@ -77,7 +77,7 @@
                     document.body.classList.remove('dark-mode');
                     document.body.classList.add('light-mode');
                     themeToggleBtn.innerHTML = sunSvg;
-                    themeColorMetaTag.setAttribute('content', '#676f87');
+                    themeColorMetaTag.setAttribute('content', '#ffffff');
                     localStorage.setItem('theme', 'light-mode');
                 }
             });

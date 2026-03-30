@@ -5,7 +5,7 @@
 <div class="blog-list">
     <!-- Explicitly fetch the Photos section -->
     {% set photos = get_section(path="media/photos/_index.md") %}
-    <div class="photos-wrapper">
+    <div class="photos-wrapper card">
         <h3>{{ photos.title }}</h3>
         <ul>
             {% for page in photos.pages %}
@@ -16,7 +16,7 @@
 
     <!-- Explicitly fetch the Music section -->
     {% set music = get_section(path="media/music/_index.md") %}
-    <div class="music-wrapper">
+    <div class="music-wrapper card">
         <h3>{{ music.title }}</h3>
         <ul>
             {% for page in music.pages %}

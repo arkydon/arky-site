@@ -1,7 +1,7 @@
 ---
 title : "About"
 ---
-<div class="card">
+<div class="biocard">
    <div class="card-avatar">
     <img src="/favicon.ico" 
         style="width:70px;object-fit: cover; /* This is crucial for cropping the image */
@@ -79,7 +79,7 @@ title : "About"
         --primary:rgb(184, 184, 184);
         /*--secondary:rgb(204, 204, 204);*/
     }
-    .card { 
+    .biocard { 
         display: grid;
         grid-template-columns: 35% auto;
         border-radius: 9px;

@@ -10,8 +10,9 @@
 <div class="blog-list">
     <!--<h1>{{ section.title }}</h1>-->
     {% set general = get_section(path="blog/general/_index.md") %}
+    <div class="general-wrapper card">
     <h2>General</h2>
-    <div class="general-wrapper">
+    <hr/>
         <!--<h3>{{ general.title }}</h3>-->
         <ul>
             {% for page in general.pages %}
@@ -20,9 +21,10 @@
         </ul>
     </div>
 
-    <h2>Tech</h2>
     {% set tech = get_section(path="blog/tech/_index.md") %}
-    <div class="tech-wrapper">
+    <div class="tech-wrapper card">
+    <h2>Tech</h2>
+    <hr/>
         <!--<h3>{{ tech.title }}</h3>-->
         <ul>
             {% for page in tech.pages %}
