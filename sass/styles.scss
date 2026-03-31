@@ -416,16 +416,40 @@ details[open] > summary {
         //max-width: 60em;
         max-width: initial;
     }
-    
-    main {
-        //min-height: 80vh;
-            max-width: 40rem;
-            margin-inline: auto;
+    main{
+         //min-height: 80vh;
 
             display: grid;
             grid-template-columns: 1fr 1fr;
+            //grid-template-columns: minmax(300px, 1fr) 2fr;
             gap:2rem;
+        max-width: 50rem;
+        margin-inline: auto;
     }
+    
+    /* Make the main that has a post class be one col */
+    .post {
+        //display: block;
+        grid-column: 1 / -1;
+        max-width: 40rem;
+    }
+    .hello-panel.card {
+        align-self: start;
+    }
+    header{
+        width: 50rem;
+        align-self: center; 
+        
+        /* Temporary fix for awkward look in widescreen */
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+.card ul {
+    //display: grid;
+    //grid-template-columns: 1fr 1fr;
+    //column-gap: 3rem;
+}
     footer {
         display: flex;
         justify-content: center;
