@@ -1,6 +1,8 @@
 ---
 title: I am ...
 ---
+<div class="card">
+
 - mentally unsound
 - **self-aware**
 - anxious
@@ -28,17 +30,20 @@ title: I am ...
 - delusional
 - cringe
 - not easy to manipulate emotionally
+
+</div>
+
 <style scoped>
-    ul {
+    /*ul {
         border-radius: 10px;
         border: 1px solid #80808045;
-        background: #e7e7e75e;/*#d7e9fa5e;*/
+        background: #e7e7e75e;
         box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
         border-radius: 7px;
         padding: 40px;
         font-family: serif;
         font-size: smaller;
-    }
+    }*/
     li {
         /* display: flex; */
         /* gap: 15px; */

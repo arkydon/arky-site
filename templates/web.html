@@ -2,11 +2,14 @@
 
 {% block content %}
 
-<a href = "/web/blogroll">Blogroll</a> <p>A list of some cool blogs around the web</p>
-<hr/>
+<div class="card">
+    <p><a href = "/web/blogroll">Blogroll</a><p>
+    <p>A list of some cool blogs around the web</p>
+</div>
 
-<div class="blog-list">
+<div class="blog-list card">
     <h2>Links</h2>
+    <hr/>
     <ul>
     {% for subsection_path in section.subsections %}
         {% set subsection = get_section(path=subsection_path) %}

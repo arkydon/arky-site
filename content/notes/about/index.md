@@ -27,7 +27,9 @@ title : "About"
 
 ## Preferences
 
-#### Likes
+<div class="card">
+
+## Likes
    * Astronomy: Comets, meteors 🌠, solar activity ☀️
    * Exploring the web, searching for websites with cool designs or interesting content
    * *Sunsets* 🌄
@@ -38,8 +40,11 @@ title : "About"
    * Frutiger Aero 🫧
    * Cyberpunk
    * Pop and edm music 🎵
-   
-#### Dislikes
+</div>
+
+<div class="card">
+
+## Dislikes
    * Walking in the rain
    * Small talk
    * Sports
@@ -47,6 +52,8 @@ title : "About"
    * Narcissists
    * Stan wars
    * Authority
+
+</div>
 
 ## Favourites
 <!-- Place a NEWLINE before and after each call to favourite shortcode to prevent an empty <p> at the top and bottom -->
