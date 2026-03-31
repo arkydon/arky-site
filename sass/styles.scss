@@ -421,6 +421,10 @@ details[open] > summary {
         //min-height: 80vh;
             max-width: 40rem;
             margin-inline: auto;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:2rem;
     }
     footer {
         display: flex;
