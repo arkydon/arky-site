@@ -115,9 +115,14 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: white;//var(--panel-color-1);
+    background: var(--nav-bg-color);
 	//box-shadow: 3px 1px 0px #80808045;
-    border-block-end: 3px solid black;
+    //border-block-end: 3px solid black;
+
+        border: 2px solid #4b5864;
+    margin: 1.2rem;
+    border-radius: 5px;
+        box-shadow: var(--box-shadow-style);
 
     a {
         text-decoration: none; // remove underline on nav items
@@ -128,6 +133,10 @@ nav {
 		color: #8c8f93;
 		padding: 14px 0;
 		//font-family: "TikTok Sans";
+
+            text-transform: uppercase;
+    font-family: "Bebas Neue";
+    font-size: larger;
     }
     a.active {
         color: var(--header-color);
@@ -194,12 +203,12 @@ main {
 }
 
 .card {
-        border: 3px solid #4b5864;
+    border: var(--card-border-style);
     padding-inline: 1rem;
     padding-block: 0.5rem;
-    background: #ffffff;
+    background: var(--card-bg-color);//#ffffff;
     /* margin: 1rem; */
-    box-shadow: 4px 4px 0px 1px #4b5864;
+    box-shadow: var(--box-shadow-style);
     margin-block-end: 2rem;
     border-radius: 4px;
     /* border-radius: 0.5rem;*/
