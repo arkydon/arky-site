@@ -1,25 +1,22 @@
 :root {
     --main-font-size: 19px;
     --nav-link-size: 17px;
-    
     --body-bg-color: white;
-    --nav-bg-color: #d0eaff;
-    --card-bg-color: #d0eaff;
-    //--body-font-color: #524944;//#244e78;
-    --main-color:rgb(188 68 68);
-    --link-color: #4b5864;//#60c9db91;
+    --nav-bg-color: rgb(247 247 247);
+    --card-bg-color: rgb(247 247 247);
+    --main-color: rgb(188 68 68);
+    --link-color: #4b5864;
     --h-color: #676f87;
-    --font-main: "Tiktok Sans 18pt SemiCondensed", "TikTok Sans 18pt", "Inter","Google Sans", "Roboto Flex", "Arial", "Acumin Pro SemiCondensed";    //--font: condensed 20px "Roboto Flex Regular", "Arial", "Acumin Pro Condensed";
-
+    --font-main: "Tiktok Sans 18pt SemiCondensed", "TikTok Sans 18pt", "Inter", "Google Sans", "Roboto Flex", "Arial", "Acumin Pro SemiCondensed";
     --header-color: var(--body-font-color);
     --toc-font-size: 1rem;
-	--header-color-rgb: 255, 255, 255;
+    --header-color-rgb: 255, 255, 255;
+    --card-border-style: 1px solid rgb(119 119 119);
+    /* --box-shadow-style: 3px 3px rgb(85 85 85); */
+    --card-radius: 15px;
 	
-    --card-border-style: 2px solid #000;//#4b5864;
-    --box-shadow-style: 3px 3px 0 0px #3b3b3b;;//1px 1px 0 0px #4b5864; //4px 4px 0px 1px #4b5864;
-    --card-radius: 5px;
-	// Panel Colours
-    --panel-color-1: #eeeeee;//#c8daee;
+    // Panel Colours
+    //--panel-color-1: #eeeeee;//#c8daee;
     //--panel-color-2: #e4dabc;
     //--panel-color-3: #e4dabc;
 }
