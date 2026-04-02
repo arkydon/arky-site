@@ -49,7 +49,7 @@ body.dark-mode {
     --body-font-color: rgb(213 213 213);
     --main-color: rgb(164 119 119); //rgb(171 171 171);
     --link-color: #919191;
-    --header-color: var(--body-font-color);
+    --header-color: none;//var(--body-font-color);
     --h-color: #b9b4b4;
     --panel-color-1: #292828;
 }
@@ -65,7 +65,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: "Bebas Neue","Tiktok Sans","Google Sans",arch, "Roboto Flex Regular", Arial, sans-serif;
 	color: var(--h-color);
-        text-align: center;
+    //    text-align: center;
+}
+.card h1, .card h2, h1.title, h2.title{
+  text-align: center;
 }
 
 a {    
@@ -110,7 +113,7 @@ h1.title-header {
     font-family: "Road Rage", "Amatic SC";
     font-size: 3.5rem;
     margin: 0;
-    color: #d76868;
+    //color: #d76868;
 }
 
 nav {
@@ -145,13 +148,13 @@ nav {
         text-decoration: none;
     }
 	a.active::after {
-content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 15px;
-    height: 2px;
-    background: #121212;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        height: 2px;
+        //**** background: #121212;
 	}	
     // Put a half blue bar on active link
     /*
@@ -176,6 +179,7 @@ content: "";
 .title-header a {
     text-decoration: none;
     text-transform: uppercase;
+    color: var(--header-color);
 }
 // === Panel coloring
 

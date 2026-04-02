@@ -29,7 +29,7 @@ title: I am ...
 - nosy
 - delusional
 - cringe
-- not easy to manipulate emotionally
+- allergic to emotional manipulation
 
 </div>
 
