@@ -49,9 +49,15 @@ body.dark-mode {
     --body-font-color: rgb(213 213 213);
     --main-color: rgb(164 119 119); //rgb(171 171 171);
     --link-color: #919191;
-    --header-color: none;//var(--body-font-color);
+    --nav-link-color: none;
+    //--header-color: none;//var(--body-font-color);
     --h-color: #b9b4b4;
     --panel-color-1: #292828;
+    --card-bg-color: rgb(76 76 76);
+    --nav-bg-color: rgb(76 76 76);
+
+    background-color: #161616;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.12'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 
@@ -137,7 +143,7 @@ nav {
         text-align: center;
         position: relative;
 		
-		color: #6b6b6b;
+		color: var(--nav-link-color);
 		padding: 14px 0;
 		//font-family: "TikTok Sans";
 
@@ -418,9 +424,16 @@ details[open] > summary {
 
 
 @media screen and (min-width:700px){
+    html{
+        background-color: aliceblue;
+    }
     body {
-        //max-width: 60em;
-        max-width: initial;
+        /* max-width: initial; */
+        max-width: 65rem;
+        border-inline: 1px solid;
+        margin-inline: auto;
+        /* display: flex; */
+        /* align-self: center;*/
     }
     main{
          //min-height: 80vh;
@@ -443,6 +456,8 @@ details[open] > summary {
         align-self: start;
     }
     header{
+        border-block: none;
+        margin-block: 0;
         //width: 50rem;
         //align-self: center; 
         
@@ -498,7 +513,7 @@ details[open] > summary {
     margin-inline: 0;
     border-radius: 5px;
     padding-inline: 1rem;
-    margin-block: 0.5rem;
+    margin-block: 1rem;
     padding-block: 1rem;
     border: 1px solid;
         //border: 1px solid black;
