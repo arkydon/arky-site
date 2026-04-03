@@ -91,9 +91,10 @@ header {
     border-radius: 5px;
         box-shadow: var(--box-shadow-style);*/
 
-	background: #f7f7f757;//#f7f7f7;
+	background: var(--header-bg-color); // #f7f7f757;//#f7f7f7;
     border-block: 1px solid #000;
     margin-block: 1.2rem;
+    
  }
 .header-pic {
     text-align: center;
@@ -128,6 +129,7 @@ nav {
     background: var(--nav-bg-color);
     border-block-end: 3px solid #000;
     //box-shadow: var(--box-shadow-style);
+        border-block: 1px solid;
 
     a {
         text-decoration: none; // remove underline on nav items
@@ -144,7 +146,7 @@ nav {
     font-size: larger;
     }
     a.active {
-        color: var(--header-color);
+        color: var(--header-bg-color);//var(--header-color);
         text-decoration: none;
     }
 	a.active::after {
@@ -216,13 +218,16 @@ main {
     background: var(--card-bg-color);//#ffffff;
     /* margin: 1rem; */
     box-shadow: var(--box-shadow-style);
-    margin-block-end: 1.2rem;
+    margin-block-start: 1.2rem;
     border-radius: var(--card-radius);
     /* border-radius: 0.5rem;*/
 
         padding-inline: 2rem;
     padding-block: 1rem;
 }
+//header, nav, .card {
+//    box-shadow: 0px 3px #494949;
+//}
 
 //Style the various graphic images in the blog articles ====
 img.blog-graphic {
