@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     //    text-align: center;
 }
 .card h1, .card h2, h1.title, h2.title{
-  text-align: center;
+  //text-align: center;
 }
 
 a {    
@@ -211,14 +211,17 @@ main {
 
 .card {
     border: var(--card-border-style);
-    padding-inline: 1rem;
-    padding-block: 0.5rem;
+    padding-inline: 1.5rem;
+    //padding-block: 0.5rem;
     background: var(--card-bg-color);//#ffffff;
     /* margin: 1rem; */
     box-shadow: var(--box-shadow-style);
     margin-block-end: 1.2rem;
     border-radius: var(--card-radius);
     /* border-radius: 0.5rem;*/
+
+        padding-inline: 2rem;
+    padding-block: 1rem;
 }
 
 //Style the various graphic images in the blog articles ====
@@ -286,7 +289,7 @@ hr, hr.line {
 }
 
 ul {
-    padding-inline-start: 1rem;
+    padding-inline-start: 1.2rem;
     //margin-block: 0;
     //list-style: circle;
     li{}
@@ -314,17 +317,17 @@ ol {
 }
 
 .home-blog-list ul/*, .blog-list ul*/{
-    padding: 0;
-    padding-inline-start: 1rem;
-        padding-block-end: 1rem;
+    //padding: 0;
+    //padding-inline-start: 1rem;
+    //    padding-block-end: 1rem;
 }
 
 //.blog-list ul li, 
 .home-blog-list ul li{
-    list-style-type: none;
-   position: relative;
-    right: 1rem;
-        padding-block: 0.3rem;
+    //list-style-type: none;
+   //position: relative;
+    //right: 1rem;
+    //    padding-block: 0.3rem;
     //padding-block: .5rem;    
 }
 time.blog-list-date{

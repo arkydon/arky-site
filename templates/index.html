@@ -14,7 +14,6 @@
 
 <div class="home-blog-list card">
 	<h1>Latest Blog Posts</h1>
-    <hr/>
 	{% set blog = get_section(path="blog/general/_index.md") %}
 
 	<ul>
@@ -28,7 +27,7 @@
 		{% endfor %}
 	</ul>
 
-	<a href="/blog/" class="btn" style="/*text-decoration:none*/;">More →</a>
+	<p><a href="/blog/" class="btn">More →</a></p>
 </div>
 
 {% endblock content %}
