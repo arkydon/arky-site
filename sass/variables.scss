@@ -13,12 +13,10 @@
     --h-color: #516890;//#676f87;
     --font-main: "Inter Tight", "Tiktok Sans 18pt SemiCondensed", "Jost", "TikTok Sans 18pt", "Inter", "Google Sans", "Roboto Flex", "Arial", "Acumin Pro SemiCondensed";
     --font-secondary: "Inter Tight", "Tiktok Sans 18pt SemiCondensed", "Inter", "Jost", "TikTok Sans 18pt", "Inter", "Google Sans", "Roboto Flex", "Arial", "Acumin Pro SemiCondensed";
-    //--header-color: var(--body-font-color);
     --toc-font-size: 1rem;
     --header-color-rgb: 255, 255, 255;
     --card-border-style: 1px solid rgb(0, 0, 0);
-    /* --box-shadow-style: 3px 3px rgb(85 85 85); */
-    --card-radius: 2px;
+    --card-radius: 10px;
 	
     // Panel Colours
     --panel-color-1: #eeeeee;//#c8daee;
@@ -26,6 +24,7 @@
     //--panel-color-3: #e4dabc;
 }
 
+/*
 @media screen and (min-width:600px){
     :root {
         --section-padding-inline: 5rem;
@@ -39,3 +38,4 @@
 
     }
 }
+*/
