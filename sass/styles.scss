@@ -3,13 +3,13 @@
 @use "fontcss/bebasneue.scss";
 @use "fontcss/assc.scss";
 @use "fontcss/tiktoksans.scss";
-@use "fontcss/inter.scss";
+@use "fontcss/intertight.scss";
 
 //@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62.5,100..900;1,62.5,100..900&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Actor&family=Jost:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wdth,wght@12..36,95.1,300..900&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     display: flex; // Without this, there will be a space between Nav and main
