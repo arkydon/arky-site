@@ -1,7 +1,7 @@
 ---
 title: I am ...
 ---
-<div class="card">
+<!-- <div class="card"> -->
 
 - mentally unsound
 - **self-aware**
@@ -31,9 +31,12 @@ title: I am ...
 - cringe
 - allergic to emotional manipulation
 
-</div>
+<!-- </div> -->
 
 <style scoped>
+    .card {
+        background: #fff8a1;
+    }
     /*ul {
         border-radius: 10px;
         border: 1px solid #80808045;
