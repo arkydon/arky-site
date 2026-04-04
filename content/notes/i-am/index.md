@@ -3,7 +3,7 @@ title: I am ...
 ---
 <!-- <div class="card"> -->
 
-- mentally unsound
+- mentally unwell
 - **self-aware**
 - anxious
 - paradoxical
@@ -21,7 +21,6 @@ title: I am ...
 - bad at conversation
 - lazy
 - understanding
-- swing the other way
 - smart and stupid
 - hopeless romantic
 - overthinker
