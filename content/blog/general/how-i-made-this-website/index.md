@@ -18,7 +18,7 @@ Header title : Alegreya Sans SC
  - [Darius Dan](https://www.flaticon.com/authors/darius-dan)
  - [Lucide](https://lucide.dev/icons/)
 
-**Header bg** : [BGJar](https://bgjar.com/)
+~**Header bg** : [BGJar](https://bgjar.com/)~
 
 **Analytics**: Simple Analytics
 
