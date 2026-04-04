@@ -8,12 +8,12 @@ title : "What I'm doing"
 
 **⏳ Currently**
 - watching dota streams
-- endless scrolling on twitter
+- endless social media scrolling
 - pinterest
-- waiting for spring
+- waiting for summer ~spring~
 - exploring google streetview spots around the world
 - tweaking website
-- playing dota
+- playing dota arcade against bots
 - exploring blogs
 
 ---
@@ -37,4 +37,3 @@ title : "What I'm doing"
 
 - Watching horror movies
 - Playing Pokemon rom hacks
-- Javascript.
