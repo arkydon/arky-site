@@ -25,13 +25,16 @@ Jun 23, 2025:
 ### Todo
 
 1. ~~Style dark mode~~
-2. Add like button to blog pages
+2. Add like button to blog articles
 3. ~~Show an indicator for visited links~~
 4. Add a widget or dashboard to homepage
 5. ~~Replace Cloudflare Analytics with something else.~~
 6. ~~Switch to another SSG that is more popular because it will be much easier to find out how to implement something.~~
-7. Tweak header design
-{.changelog}
+7. ~Tweak header design~
+8. Get rid of changelog shortcode
+9. Tweak footer design
+10. Fix footnote design
+
 
 <style scoped>
 

@@ -3,7 +3,6 @@ title: I am ...
 ---
 <!-- <div class="card"> -->
 
-- mentally unwell
 - **self-aware**
 - anxious
 - paradoxical
@@ -16,7 +15,7 @@ title: I am ...
 - emotionally inept
 - socially awkward
 - unable to see well without glasses
-- overly obsessive
+- obsessive
 - underweight
 - bad at conversation
 - lazy
@@ -29,6 +28,7 @@ title: I am ...
 - delusional
 - cringe
 - allergic to emotional manipulation
+- dealing with mental health issues
 
 <!-- </div> -->
 
