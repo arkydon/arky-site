@@ -73,4 +73,8 @@ Jun 23, 2025:
         margin-right: 9px;
         color: var(--main-color);
     }
+    
+    ol{
+        font-size: smaller;
+    }
 </style>
