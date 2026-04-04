@@ -61,3 +61,8 @@
   changes:
     - Changed the design of list of favourites in About page. 
     - Added new "Favourites" shortcode and styling for it
+- date: "April 4, 2026"
+  changes:
+    - Redesigned the website again.
+    - Changed main font to Inter Tight.
+    - Added "I am .." page to Notes section.
