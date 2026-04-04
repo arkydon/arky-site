@@ -6,8 +6,8 @@ date : 2024-06-07
 I made this website using [Zola](https://www.getzola.org/) static site engine
 
 **Fonts** \
-Body : Tiktok Sans \
-Heading : Bebas Neuev \
+Body : Inter Tight ~Tiktok Sans~ \
+Heading : Bebas Neue \
 Header title : Alegreya Sans SC
 
 **Hosted** on Cloudflare
