@@ -34,6 +34,10 @@ Jun 23, 2025:
 8. Get rid of changelog shortcode
 9. Tweak footer design
 10. Fix footnote design
+11. Change how website looks on wide displays
+12. Put dark mode toggle somewhere else
+13. Add social links
+14. ~Simplify code and structure of website~
 
 
 <style scoped>
