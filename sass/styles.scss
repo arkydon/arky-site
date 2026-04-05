@@ -21,7 +21,7 @@ body {
     -webkit-font-smoothing: antialiased; /* For WebKit browsers (Chrome, Safari) */
     -moz-osx-font-smoothing: grayscale;  /* For Firefox on macOS */
 
-    background: rgb(255, 254, 251);
+    //background: rgb(255, 254, 251);
     /* word-spacing: 2px; */
     //letter-spacing: 0.1px;
 }
@@ -113,27 +113,19 @@ nav {
     //top: 0;
     //z-index: 1000;
     background: var(--nav-bg-color);
-    //border-block-end: 3px solid #000;
-    //box-shadow: var(--box-shadow-style);
-        //border-block: var(--card-border-style);
 
     a {
         text-decoration: none; // remove underline on nav items
         font-size: var(--nav-link-size);
         text-align: center;
         position: relative;
-		
 		color: var(--nav-link-color);
 		padding: 14px 0;
-		//font-family: "TikTok Sans";
-
         text-transform: uppercase;
         font-family: "Bebas Neue";
-        //font-size: larger;
     }
     a.active {
         color: var(--header-bg-color);//var(--header-color);
-        text-decoration: none;
     }
 	a.active::after {
         content: "";
@@ -221,9 +213,7 @@ img.image{
     display: block;
     margin: auto;
     margin-block: 40px;
-    //box-shadow: 0px 0px 4px 0px #979797;
-
-        box-shadow: var(--box-shadow-style);
+    box-shadow: 0 0px 5px 0px #a5a5a5;    
     border: var(--card-border-style);
 }
 
@@ -368,12 +358,12 @@ details[open] summary {
 }
   
 details > summary {
-    list-style-type: ' + ';
+    //list-style-type: ' + ';
     //list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="10" width="8.75" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>');
 }
 
 details[open] > summary {
-    list-style-type: ' - ';
+    //list-style-type: ' - ';
     //list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="10" width="8.75" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
 }
 
@@ -558,7 +548,7 @@ details[open] > summary {
 
 /* == Favourites Shortcode == */
 details.favourite {
-    font-size: 1.2rem;
+    //font-size: 1.2rem;
     border: none;
     border-radius: 3px;
     padding-inline: 12px;
@@ -575,7 +565,7 @@ details.favourite {
     //box-shadow: 1px 2px 2px 0 rgb(241 241 241 / 32%);
 }
 details.favourite[open]>summary {
-    list-style: none;
+    //list-style: none;
 }
 details.favourite[open] summary {
     border-bottom: none;
