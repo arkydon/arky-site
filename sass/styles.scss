@@ -450,15 +450,15 @@ details[open] > summary {
         align-self: start;
     }
     header{
-        //border-block: none;
-        //margin-block: 0;
-        //width: 50rem;
-        //align-self: center; 
-        
-        /* Temporary fix for awkward look in widescreen */
-        //background: none;
-        //border: none;
-        //box-shadow: none;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    nav{
+        align-items: center;
+    }
+    h1.title-header {
+        font-size: 2.5rem;
     }
     .card ul {
         //display: grid;
@@ -466,10 +466,10 @@ details[open] > summary {
         //column-gap: 3rem;
     }
     footer {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        padding-block: 0rem;
+        //display: flex;
+        //justify-content: center;
+        //gap: 1rem;
+        //padding-block: 0rem;
     }
 }
 
