@@ -41,7 +41,7 @@ It can display how many hours of sun or shadow a specific location gets over the
 - [type](https://type.baby/) - "Zen markdown-friendly editor" that supports publishing to web, offline mode.
 - [Craft.do](docs.craft.do) : Document editor.
 
-#### Image
+### Image
 - [Photopea](https://www.photopea.com/) : Photoshop alternative.
 - Pixlr :
 	+ [Pixlr X](https://pixlr.com/editor/): Advanced Image editor.
@@ -49,7 +49,7 @@ It can display how many hours of sun or shadow a specific location gets over the
 - [Squoosh](https://squoosh.app/) : No nonsense image compressor.
 - [Profile Pic Maker](https://pfpmaker.com/) : Create better looking profile pic backgrounds
 
-#### Fonts
+### Fonts
 - [Wakamai Fondue](https://wakamaifondue.com/) - Find out what your font can do. Generate css for your font files
 
 ### Privacy and Security
@@ -60,7 +60,7 @@ It can display how many hours of sun or shadow a specific location gets over the
 - [Sherlock (Python Library)](https://sherlockproject.xyz/) - Search for every trace of a person online (useful for finding and deleting every embarassing social and forum accounts of yourself from the web)
 - [WebCheck](https://web-check.xyz/) - Website analyser
 
-## Dev Tools
+### Dev Tools
 - Page speed :
 	- [Pingdom](https://tools.pingdom.com/) - Enter a URL to test the page load time, analyze it, and find bottlenecks.
 	- [Google Page Speed Insights](https://pagespeed.web.dev/)
