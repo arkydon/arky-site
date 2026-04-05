@@ -67,9 +67,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-block: 1rem;
     //    text-align: center;
 }
-.card h1, .card h2, h1.title, h2.title{
-  //text-align: center;
-}
 
 a {    
     text-underline-offset: 3px;
@@ -182,7 +179,7 @@ nav {
 }
 
 .post {
-    margin-inline: 1rem;
+    margin-inline: 0.5rem;
     p {
         line-height: 1.7;
         word-spacing: 2px;
