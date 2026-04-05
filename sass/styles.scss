@@ -5,11 +5,6 @@
 //@use "fontcss/tiktoksans.scss";
 @use "fontcss/intertight.scss";
 
-//@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62.5,100..900;1,62.5,100..900&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Actor&family=Jost:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wdth,wght@12..36,95.1,300..900&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     display: flex; // Without this, there will be a space between Nav and main
@@ -60,12 +55,10 @@ body.dark-mode blockquote {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    //margin-block: 1rem;
     font-weight: 400;
     font-family: "Bebas Neue","TikTok Sans","Google Sans",arch, "Roboto Flex Regular", Arial, sans-serif;
 	color: var(--h-color);
     margin-block: 1rem;
-    //    text-align: center;
 }
 
 a {    
@@ -76,7 +69,6 @@ a {
 }
 
 p {
-    margin-block: 0.5rem;
     margin-block: 1rem;
 }
 
@@ -188,38 +180,29 @@ nav {
 
 .table-of-contents {
     color: #575757;
-}
-.table-of-contents ol li {
-    padding-block: .19rem;
-    font-size: var(--toc-font-size);
+    
+    ol li {
+        padding-block: .19rem;
+        font-size: var(--toc-font-size);
+    }
 }
 
 main {
     display: flex;
     flex-direction: column;
     min-height: 60vh;
-    //padding: 1.2rem;
     padding: 0 var(--space-1) 0 var(--space-1);
-    //background: #c98787;//#8787c9;
 }
 
 .card {
     border-block-end: var(--card-border-style);
-    padding-inline: 1.5rem;
-    //padding-block: 0.5rem;
     background: var(--card-bg-color);//#ffffff;
-    /* margin: 1rem; */
     box-shadow: var(--box-shadow-style);
     margin-block-start: var(--space-1);
     border-radius: var(--card-radius);
-    /* border-radius: 0.5rem;*/
-
-        padding-inline: 2rem;
+    padding-inline: 2rem;
     padding-block: 1rem;
 }
-//header, nav, .card {
-//    box-shadow: 0px 3px #494949;
-//}
 
 //Style the various graphic images in the blog articles ====
 img.blog-graphic {
@@ -278,16 +261,15 @@ hr.rainbow {
 */
 
 hr, hr.line {
-    //border: 0;
-    //height: 0;
-    //border-top: 2px solid rgb(0 0 0);
-    //border-bottom: 1px solid rgb(83 83 83);
-    //width: 100%;
+    /* border: 0;
+    height: 0;
+    border-top: 2px solid rgb(0 0 0);
+    border-bottom: 1px solid rgb(83 83 83);
+    width: 100%; */
 }
 
 ul {
     padding-inline-start: 1rem;
-    //margin-block: 0;
     //list-style: circle;
     li{
         padding-inline-start: 0.1rem;
@@ -313,24 +295,7 @@ ol {
     }    
 }
 //===============
-.blog-list {
-    //margin-block: 0.5rem;
-}
 
-.home-blog-list ul/*, .blog-list ul*/{
-    //padding: 0;
-    //padding-inline-start: 1rem;
-    //    padding-block-end: 1rem;
-}
-
-//.blog-list ul li, 
-.home-blog-list ul li{
-    //list-style-type: none;
-   //position: relative;
-    //right: 1rem;
-    //    padding-block: 0.3rem;
-    //padding-block: .5rem;    
-}
 time.blog-list-date{
     font-size: 70%;
     color: grey;
@@ -376,8 +341,6 @@ footer {
     text-align: center;
     font-size: 15px;
     padding-block: 1rem;
-    //border-block-start: 3px solid black;
-	//background: var(--panel-color-1);
     font-family: var(--font-secondary);
     svg { /*stroke: var(--main-color); */}
 }
@@ -385,7 +348,6 @@ footer {
 // ==== Details design ======
 details {
     font-size: 0.8em;
-
     border: 1px dashed #aaaaaa78;
     border-radius: 3px;
     padding-inline: 12px;
@@ -458,11 +420,6 @@ details[open] > summary {
     h1.title-header {
         font-size: 2.5rem;
     }
-    .card ul {
-        //display: grid;
-        //grid-template-columns: 1fr 1fr;
-        //column-gap: 3rem;
-    }
     footer {
         //display: flex;
         //justify-content: center;
@@ -472,19 +429,6 @@ details[open] > summary {
 }
 
 /* === TOC styling === */
-.toc ul li{ list-style-type: none; }
-.toc ul li::before {
-    content: "";
-    display: inline-block;
-    /* Set your desired size here */
-    width: 16px; 
-    height: 16px;
-    margin-right: 5px;
-    vertical-align: middle;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 .toc{
     background: rgb(241 241 241 / 34%);
     padding-inline: 1rem;
@@ -496,9 +440,26 @@ details[open] > summary {
         gap: 0.5rem;
     }
 
+    ul li {
+        list-style-type: none;        
+    }
+
     ul li a {
         font-size: medium;
     }
+}
+
+.toc ul li::before {
+    content: "";
+    display: inline-block;
+    /* Set your desired size here */
+    width: 16px; 
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .dark-mode .toc ul li::before {
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>');
