@@ -39,6 +39,7 @@ extra:
 * [Chris Weigman](https://chriswiegman.com/blog/)
 * [Diéssica Gurskas](https://diessi.ca/blog/)
 
-## Educational
+### Educational
 * [Bartosz Ciechanowski](https://ciechanow.ski/archives/)
+
 *Edited: 2026*
