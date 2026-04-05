@@ -471,7 +471,9 @@ details[open] > summary {
     box-shadow: 0px 1px rgba(241, 241, 241, .32);
 }
 
-/* *** ===== Box Shortcode ===== *** */
+/*  =========================================
+           BOX SHORTCODE CSS
+    ========================================= */
 .custom-box {
     /* padding: 1rem; */
     font-size: 85%;
@@ -488,9 +490,28 @@ details[open] > summary {
 /* .custom-box p:first-child { margin-top: 0; }
 .custom-box p:last-child { margin-bottom: 0; } */
 
-/* =========================================
-    LIGHT MODE (Default Colors)
-    ========================================= */
+$box-themes: (
+  "red": (#fee2e2, #991b1b, rgba(239, 68, 68, 0.15), #fca5a5),
+  "green": (#dbfbe1, #338342, #445b48, #8eb996),
+  "blue": (#dbf4f9, #1d7591, #476065, #89bbc1),
+  "orange": (#ffedd5, #c2410c, #796050, #e3ac7c)
+);
+
+// SASS writes the CSS for each color automatically
+@each $name, $colors in $box-themes {
+  .box-#{$name} {
+    background-color: nth($colors, 1);
+    color: nth($colors, 2);
+
+    body.dark-mode & {
+      background-color: nth($colors, 3);
+      color: nth($colors, 4);
+    }
+  }
+}
+
+
+    /*
 .box-red {
     background-color: #fee2e2;
     color: #991b1b;
@@ -511,10 +532,6 @@ details[open] > summary {
     color: #c2410c;
 }    
 
-/* =========================================
-            DARK MODE
-    ========================================= */
-/* This targets the colors ONLY when your site is in dark mode */
 .dark-mode {
     .box-red {
         background-color: rgba(239, 68, 68, 0.15); 
@@ -536,9 +553,11 @@ details[open] > summary {
         color: #e3ac7c;
     }
 }
-/* ===== End of box Shortcode Css =====*/
+*/
 
-/* *** ===== Favourites Shortcode =====  *** */
+/*  =========================================
+           FAVOURITE SHORTCODE CSS
+    ========================================= */
 details.favourite {
     //font-size: 1.2rem;
     border: none;
