@@ -5,7 +5,7 @@
     --body-font-color: rgb(29, 29, 29);
     --nav-bg-color:  #f1f1f1; //#f7f7f7; //#e6e3e3;
     --card-bg-color: #f1f1f1; //rgb(247 247 247);
-    --main-color: rgb(188 68 68);
+    --main-color: var(--header-bg-color);
     --link-color: #b5b5b5;//#4b5864;
     --nav-link-color: #6b6b6b;
     --header-color: #ffffff; //#d76868;
