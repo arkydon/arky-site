@@ -209,7 +209,7 @@ main {
 }
 
 .card {
-    border: var(--card-border-style);
+    border-block-end: var(--card-border-style);
     padding-inline: 1.5rem;
     //padding-block: 0.5rem;
     background: var(--card-bg-color);//#ffffff;
