@@ -181,11 +181,12 @@ nav {
     color: var(--header-color);
 }
 
-.post p {
-    //font-size: 20px;
-    line-height: 1.7;
-    word-spacing: 2px;
-    //font-family: "Jost";
+.post {
+    margin-inline: 1rem;
+    p {
+        line-height: 1.7;
+        word-spacing: 2px;
+    }
 }
 
 .table-of-contents {
