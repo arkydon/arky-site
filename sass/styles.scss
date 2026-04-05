@@ -490,26 +490,17 @@ details[open] > summary {
 /* .custom-box p:first-child { margin-top: 0; }
 .custom-box p:last-child { margin-bottom: 0; } */
 
-$box-themes: (
-  "red": (#fee2e2, #991b1b, rgba(239, 68, 68, 0.15), #fca5a5),
-  "green": (#dbfbe1, #338342, #445b48, #8eb996),
-  "blue": (#dbf4f9, #1d7591, #476065, #89bbc1),
-  "orange": (#ffedd5, #c2410c, #796050, #e3ac7c)
-);
-
-// SASS writes the CSS for each color automatically
-@each $name, $colors in $box-themes {
+@each $name, $base-color in ("red": #991b1b, "green": #338342, "blue": #1d7591) {
   .box-#{$name} {
-    background-color: nth($colors, 1);
-    color: nth($colors, 2);
+    background-color: color-mix(in srgb, $base-color, white 80%);
+    color: $base-color;
 
-    body.dark-mode & {
-      background-color: nth($colors, 3);
-      color: nth($colors, 4);
+    .dark-mode & {
+      background-color: color-mix(in srgb, $base-color, transparent 85%);
+      color: color-mix(in srgb, $base-color, white 60%);
     }
   }
 }
-
 
     /*
 .box-red {
