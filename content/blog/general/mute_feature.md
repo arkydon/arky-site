@@ -7,24 +7,24 @@ desc : "How to make the mute feature better"
 Some social media platforms have a feature to filter out posts that contain certain keywords. Here are some of the ways I think they can improve it:
 
 ### Mute related words
-An option to mute not just a specific keyword but a couple of words directly related to it.
+Option to mute not just a specific keyword but posts with words directly related to it.
    
   > "Sports" will mute posts containing "Football", "Tennis", etc.
 
   > Enabling this option will show a few words that are related to this keyword and we can select what we want to include in the muted list of words.
 	
 ### Mute profiles with words
-An option to filter out posts from profiles with certain keywords in their names and bios. 
+Option to filter out posts from profiles with certain keywords in their names and bios. 
 > "crypto" will mute posts from people with "crypto" in their names and bios.
 
 ### Exclude accounts from a filter
-An option to exclude accounts from a keyword(s) filter mute.
- > Mute "Taylor Swift" and add the official account of Taylor Swift as an exceptions so that this account's posts with the muted keywords won't be filtered.
+Option to exclude accounts from a keyword(s) filter.
+ > Mute "bulbasaur" and add the official Pokemon account as an exception will filter out all posts with this keyword except the ones from the Pokemon account.
 
 ### Filters for only specific accounts
-An option to select only specific accounts that will be affected by a keyword(s) mute
+Option to select only specific accounts that will be affected by a keyword(s) filter.
 
-> Mute "football" for CNN, BBC
+> Mute "football" from CNN, BBC
 
 > Will filter out posts from those accounts containing "football"
 
@@ -36,17 +36,15 @@ An option to whitelist instead of blacklist posts with certain words. The whitel
 An option to not only filter posts but also prevent the trending page from showing words and hashtags with the muted keywords.  
 
 ### Mute images
-An option to mute images too
-> "bulbasaur" will filter out not just posts but images of this *battle salad*
+An option to filter out images related to a keyword
+> "bulbasaur" will filter out not just posts but images of bulbasaur
  
 ### Wildcards or regex
 > "backr\*ms" will mute "backrooms", "backr00ms", "backr\_o\_o\_ms", etc
 
-> "\*j\*l\*o" will mute \
-> "░J░L░O ░I░N░ ░B░I░O░"
 
 ### Filter list backup.
-An option to export and import a list of muted keywords so we don't have to setup the same filters on another account.
+Feature to export and import a list of muted keywords so we don't have to setup the same filters on another account.
 
 <!--
 ### AI powered mute

@@ -18,7 +18,7 @@ Inspired by [this](https://www.jemjabella.co.uk/30-things-before-im-thirty/) I w
 
 6. Write at least a 100 blog posts. 
 
-7. See a cool meteor shower like the one I saw in [2012](https://spaceweather.com/archive.php?view:1&day:13&month:08&year:2012).
+7. See a major meteor shower like the one I saw in [2012](https://spaceweather.com/archive.php?view:1&day:13&month:08&year:2012).
 
 9. Have a reunion with all my friends from college.
 
