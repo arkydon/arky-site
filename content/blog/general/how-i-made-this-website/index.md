@@ -24,8 +24,7 @@ Header title : Alegreya Sans SC
 
 ---
 
-{{ img(src="repair.png", alt="A cool photo", class="blog-graphic") }} I made this because I wanted a personal space on the internet.
-I started with bearblog but I was limited with how my I want the site to look and I had to pay to upload images so I decided to move to Zola and generated my website using a theme but the code was too messy and it had alot of things I didnt need so I remade my website from scratch using [🔗lume.land](https://lume.land) but I went back to Zola and remade it again.
+{{ img(src="repair.png", alt="A cool photo", class="blog-graphic") }} I made this because I wanted a personal space on the internet. I started with bearblog but image uploading was paid only and I couldn't make the exact site I wanted because of limitations so I decided to make my own website from scratch using a static site generator called Zola.
 
 {% box(type="green") %}
 Getting the exact design I wanted was hard at first because the way the colors looked on my laptop was very different from my mobile but I figured out how to make zola "serve" to the network so i can directly view the website demo on mobile
