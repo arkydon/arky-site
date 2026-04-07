@@ -70,3 +70,6 @@
   changes:
     - Changed the design of the header and nav again.
     - Changed darkmode colors
+- date: "April 7, 2026"
+  changes:
+    - Line-height changed to 1.7
