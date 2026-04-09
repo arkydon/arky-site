@@ -73,3 +73,7 @@
 - date: "April 7, 2026"
   changes:
     - Line-height changed to 1.7
+- date: "April 9, 2026"
+  changes:
+    - Added new post under "Tech"
+    - Changed blockquote styling on dark mode
