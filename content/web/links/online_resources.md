@@ -18,9 +18,10 @@ extra:
 - [ASCII Art Archive](https://www.asciiart.eu/) - omprehensive online resources for ASCII art and animations.
 
 ### Icons
-- [Flaticon](https://www.flaticon.com/) - Free png icons.
-- [Hero Icons](https://heroicons.com/) - Free svg icons.
-- [Lucide](https://lucide.dev) - Lightweight, scalable, customizable svg icons
+- [Flaticon](https://www.flaticon.com/)
+- [Hero Icons](https://heroicons.com/)
+- [Lucide](https://lucide.dev)
+- [Blendicons](https://blendicons.com/)
 
 ### Backgrounds
 - [Hero Patterns](https://heropatterns.com/) - Generate pattern backgrounds
