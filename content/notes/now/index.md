@@ -11,10 +11,9 @@ title : "What I'm doing"
 - endless social media scrolling
 - pinterest
 - waiting for summer ~spring~
-- exploring google streetview spots around the world
-- tweaking website
-- playing dota arcade against bots
-- exploring blogs
+- exploring google streetview
+- tweaking my website
+- playing dota arcade
 
 ---
 
