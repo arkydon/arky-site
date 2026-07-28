@@ -9,7 +9,7 @@ title : "What I'm doing"
 **⏳ Currently**
 - watching Dota twitch streams
 - a lot of Pinterest
-- impatiently waiting for ~summer~ ~spring~
+- impatiently waiting for Autumn ~summer~ ~spring~
 - exploring google streetview
 - dancing
 - playing Dota arcade
@@ -20,7 +20,7 @@ title : "What I'm doing"
 **📌 Planning**
 - make another Pokemon rom hack.
 - win an iPhone giveaway
-- reduce how much time I play games
+- stop playing Dota
 ---
 
 **✔️ Done**
@@ -32,6 +32,6 @@ title : "What I'm doing"
 ---
 
 **⏸️ Paused**
-_ Watching too much of reels and other short form video content
+- Watching too much of reels and other short form video content
 - Watching horror movies
 - Playing Pokemon rom hacks
