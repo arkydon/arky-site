@@ -4,7 +4,7 @@ title: Website Changes
 
 <!-- ### Changelog -->
 
-{%- set changelog_data = load_data(path="content/notes/_data/changelog.yaml") -%}
+{%- set changelog_data = load_data(path="content/notes/changelog/changelog.yaml") -%}
 {%- for log in changelog_data %}
 <dl class="changelog">
     <dt>{{ log.date }}</dt>
