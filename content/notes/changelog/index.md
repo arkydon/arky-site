@@ -4,7 +4,15 @@ title: Website Changes
 
 <!-- ### Changelog -->
 
-{{<changelog/>}}
+{%- set changelog_data = load_data(path="content/notes/_data/changelog.yaml") -%}
+{%- for log in changelog_data %}
+<dl class="changelog">
+    <dt>{{ log.date }}</dt>
+    {%- for change in log.changes %}
+    <dd>{{ change }}</dd>
+    {%- endfor %}
+</dl>
+{%- endfor -%}
 
 
 
@@ -31,7 +39,7 @@ Jun 23, 2025:
 5. ~~Replace Cloudflare Analytics with something else.~~
 6. ~~Switch to another SSG that is more popular because it will be much easier to find out how to implement something.~~
 7. ~Tweak header design~
-8. Get rid of changelog shortcode
+8. ~~Get rid of changelog shortcode~~
 9. Tweak footer design
 10. Fix footnote design
 11. Change how website looks on wide displays

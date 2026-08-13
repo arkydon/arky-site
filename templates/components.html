@@ -113,16 +113,3 @@ if (!window.zolaLightboxLoaded) {
     {%- endfor %}
 </div>
 {%- endcomponent favourites %}
-
-{# ── changelog ───────────────────────────────────────────────── #}
-{% component changelog() -%}
-{%- set changelog_data = load_data(path="content/notes/_data/changelog.yaml") -%}
-{%- for log in changelog_data %}
-<dl class="changelog">
-    <dt>{{ log.date }}</dt>
-    {%- for change in log.changes %}
-    <dd>{{ change }}</dd>
-    {%- endfor %}
-</dl>
-{%- endfor -%}
-{%- endcomponent changelog %}
