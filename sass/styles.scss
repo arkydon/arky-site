@@ -458,6 +458,37 @@ details[open] > summary {
 
 /* =======================*/
 
+/* === Changelog styling === */
+.post dl.changelog dt {
+    font-weight: normal;
+    font-size: 90%;
+    color: var(--main-color);
+}
+
+.post dl.changelog dd {
+    font-size: 80%;
+    margin-inline-start: 2rem;
+}
+
+.post dl.changelog {
+    margin-inline-start: 10px;
+    margin-block: 0;
+    padding-block: 0 1rem;
+    border-inline-start: 2px solid var(--main-color);
+}
+
+.post dl.changelog dt::before {
+    content: "➠";
+    margin-right: 9px;
+    color: var(--main-color);
+}
+
+.post > ol {
+    font-size: smaller;
+}
+
+/* =======================*/
+
 .btn-p{
     text-align: end;
 }
