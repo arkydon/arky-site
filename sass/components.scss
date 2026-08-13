@@ -1,0 +1,82 @@
+/* Gallery component */
+.zola-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 1.5rem 0;
+
+    @media (min-width: 1024px) { grid-template-columns: repeat(4, 1fr); }
+    @media (min-width: 1440px) { grid-template-columns: repeat(6, 1fr); }
+}
+
+.zola-gallery-thumb {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s, opacity 0.2s;
+    box-shadow: 0 3px 3px 1px #757575;
+
+    &:hover { opacity: 0.85; transform: scale(1.02); }
+}
+
+#zola-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+
+    img {
+        max-width: 90vw;
+        max-height: 90vh;
+        border-radius: 6px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+        object-fit: contain;
+    }
+}
+
+/* Image component and image shortcode styles */
+img.blog-graphic {
+    width: 15%;
+    float: left;
+    padding-right: 10px;
+    margin: 0;
+}
+
+img.image {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-block: 40px;
+    box-shadow: 0 0 5px 0 #a5a5a5;
+    border: var(--card-border-style);
+}
+
+/* Box component / legacy shortcode styles */
+.custom-box {
+    font-size: 85%;
+    margin-inline: 0;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    margin-block: 1rem;
+    padding-block: 1rem;
+    font-family: var(--font-secondary);
+}
+
+@each $name, $base-color in ("red": #991b1b, "green": #338342, "blue": #1d7591) {
+    .box-#{$name} {
+        background-color: color-mix(in srgb, $base-color, white 80%);
+        color: $base-color;
+
+        .dark-mode & {
+            background-color: color-mix(in srgb, $base-color, transparent 85%);
+            color: color-mix(in srgb, $base-color, white 60%);
+        }
+    }
+}

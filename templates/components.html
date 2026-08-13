@@ -45,33 +45,5 @@
     />
     {%- endfor %}
 </div>
-<script>
-if (!window.zolaLightboxLoaded) {
-    window.zolaLightboxLoaded = true;
-    const style = document.createElement('style');
-    style.innerHTML = `
-        .zola-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 1.5rem 0; }
-        @media (min-width: 1024px) { .zola-gallery { grid-template-columns: repeat(4, 1fr); } }
-        @media (min-width: 1440px) { .zola-gallery { grid-template-columns: repeat(6, 1fr); } }
-        .zola-gallery-thumb { width: 100%; object-fit: cover; cursor: pointer; border-radius: 8px; transition: transform 0.2s, opacity 0.2s; box-shadow: 0 3px 3px 1px #757575;}
-        .zola-gallery-thumb:hover { opacity: 0.85; transform: scale(1.02); }
-        #zola-lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
-        #zola-lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 6px; box-shadow: 0 5px 25px rgba(0,0,0,0.5); object-fit: contain; }
-    `;
-    document.head.appendChild(style);
-    const lightbox = document.createElement('div');
-    lightbox.id = 'zola-lightbox';
-    lightbox.innerHTML = `<img id="zola-lightbox-img" src="" alt="Enlarged image" />`;
-    document.body.appendChild(lightbox);
-    lightbox.addEventListener('click', () => { lightbox.style.display = 'none'; });
-    document.addEventListener('click', (e) => {
-        if (e.target.classList.contains('zola-gallery-thumb')) {
-            document.getElementById('zola-lightbox-img').src = e.target.getAttribute('data-full');
-            lightbox.style.display = 'flex';
-        }
-    });
-}
-</script>
 {%- endcomponent gallery %}
-
 

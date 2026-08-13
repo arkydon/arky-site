@@ -1,4 +1,5 @@
 @use "variables.scss";
+@use "components.scss";
 @use "fontcss/roadrage.scss";
 @use "fontcss/bebasneue.scss";
 @use "fontcss/assc.scss";
@@ -200,23 +201,6 @@ main {
     padding-block: 1rem;
 }
 
-//Style the various graphic images in the blog articles ====
-img.blog-graphic {
-	width:15%; 
-	float:left;
-	padding-right: 10px;
-	margin: 0;
-}
-
-img.image{
-    width: 80%;
-    display: block;
-    margin: auto;
-    margin-block: 40px;
-    box-shadow: 0 0px 5px 0px #a5a5a5;    
-    border: var(--card-border-style);
-}
-
 blockquote {
     padding: 1rem;
     font-size: 85%;
@@ -413,51 +397,6 @@ details[open] > summary {
     }
 }
 
-/* === TOC styling === */
-.toc{
-    background: #b3d1ff62;
-    padding-inline: 1.5rem;
-    padding-block: .5rem;
-    border-radius: 4px;
-    color: gray;
-    /* border: 1px solid #d9d9d9; */
-    border-radius: 18px;
-    margin-block: 1rem;
-
-    ul {
-        gap: 0.5rem;
-    }
-
-    ul li {
-        list-style-type: none;        
-    }
-
-    ul li a {
-        font-size: medium;
-    }
-}
-
-.toc ul li::before {
-    content: "";
-    display: inline-block;
-    /* Set your desired size here */
-    width: 16px; 
-    height: 16px;
-    margin-right: 5px;
-    vertical-align: middle;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.dark-mode .toc {
-    color: var(--body-font-color);
-    ul li::before {
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>');
-    }
-}
-
-/* =======================*/
-
 /* === About page styling === */
 .post {
     --background: white;
@@ -557,39 +496,6 @@ details[open] > summary {
     }
 }
 
-/* =======================*/
-
-/* === Changelog styling === */
-.post dl.changelog dt {
-    font-weight: normal;
-    font-size: 90%;
-    color: var(--main-color);
-}
-
-.post dl.changelog dd {
-    font-size: 80%;
-    margin-inline-start: 2rem;
-}
-
-.post dl.changelog {
-    margin-inline-start: 10px;
-    margin-block: 0;
-    padding-block: 0 1rem;
-    border-inline-start: 2px solid var(--main-color);
-}
-
-.post dl.changelog dt::before {
-    content: "➠";
-    margin-right: 9px;
-    color: var(--main-color);
-}
-
-.post > ol {
-    font-size: smaller;
-}
-
-/* =======================*/
-
 .btn-p{
     text-align: end;
 }
@@ -608,126 +514,75 @@ details[open] > summary {
     box-shadow: 0px 1px rgba(241, 241, 241, .32);
 }
 
-/*  =========================================
-           BOX SHORTCODE CSS
-    ========================================= */
-.custom-box {
-    /* padding: 1rem; */
-    font-size: 85%;
-    margin-inline: 0;
-    border-radius: 5px;
-    padding-inline: 1rem;
+/* === TOC styling === */
+.toc {
+    background: #b3d1ff62;
+    padding-inline: 1.5rem;
+    padding-block: 0.5rem;
+    border-radius: 18px;
+    color: gray;
     margin-block: 1rem;
-    padding-block: 1rem;
-    font-family: var(--font-secondary);
-    //border: 1px solid;
-        //border: 1px solid black;
+
+    ul { gap: 0.5rem; }
+    ul li { list-style-type: none; }
+    ul li a { font-size: medium; }
 }
 
-/* .custom-box p:first-child { margin-top: 0; }
-.custom-box p:last-child { margin-bottom: 0; } */
-
-@each $name, $base-color in ("red": #991b1b, "green": #338342, "blue": #1d7591) {
-  .box-#{$name} {
-    background-color: color-mix(in srgb, $base-color, white 80%);
-    color: $base-color;
-
-    .dark-mode & {
-      background-color: color-mix(in srgb, $base-color, transparent 85%);
-      color: color-mix(in srgb, $base-color, white 60%);
-    }
-  }
+.toc ul li::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-    /*
-.box-red {
-    background-color: #fee2e2;
-    color: #991b1b;
-}
-
-.box-green {
-    background-color: #dbfbe1;
-    color: #338342;
-}
-
-.box-blue {
-    background-color: #dbf4f9;
-    color: #1d7591;
-}
-
-.box-orange {
-    background-color: #ffedd5;
-    color: #c2410c;
-}    
-
-.dark-mode {
-    .box-red {
-        background-color: rgba(239, 68, 68, 0.15); 
-        color: #fca5a5; 
-    }
-
-    .box-green {
-        background-color: rgb(68 91 72);
-        color: #8eb996;
-    }
-
-    .box-blue {
-        background-color: rgb(71 96 101);
-        color: #89bbc1; 
-    }
-
-    .box-orange {
-    background-color: rgb(121 96 80);
-        color: #e3ac7c;
+.dark-mode .toc {
+    color: var(--body-font-color);
+    ul li::before {
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>');
     }
 }
-*/
 
-/*  =========================================
-           FAVOURITE SHORTCODE CSS
-    ========================================= */
+/* === Changelog styling === */
+.post dl.changelog dt { font-weight: normal; font-size: 90%; color: var(--main-color); }
+.post dl.changelog dd { font-size: 80%; margin-inline-start: 2rem; }
+.post dl.changelog {
+    margin-inline-start: 10px;
+    margin-block: 0;
+    padding-block: 0 1rem;
+    border-inline-start: 2px solid var(--main-color);
+}
+.post dl.changelog dt::before { content: "➠"; margin-right: 9px; color: var(--main-color); }
+.post > ol { font-size: smaller; }
+
+/* === Favourites styling === */
 details.favourite {
-    //font-size: 1.2rem;
     border: none;
-    border-radius: 3px;
+    border-radius: var(--card-radius);
     padding-inline: 12px;
     padding-block: 8px;
     margin-block: 10px;
     margin-inline: 7px;
     background: var(--card-bg-color);
-    /*box-shadow: 1px 2px 2px 0 rgba(167, 172, 197, .43); */
-
     border-block-end: var(--card-border-style);
-    border-radius: var(--card-radius);
 }
-.dark-mode details.favourite {
-    //box-shadow: 1px 2px 2px 0 rgb(241 241 241 / 32%);
-}
-details.favourite[open]>summary {
-    //list-style: none;
-}
-details.favourite[open] summary {
-    border-bottom: none;
-    //padding-block-end: 1rem;
-}
-details.favourite>summary {
-    list-style: none;
-}
-
+details.favourite[open] summary { border-bottom: none; }
+details.favourite > summary { list-style: none; }
 .favourite li {
     background: #c5c4c459;
-    padding: .4rem;
+    padding: 0.4rem;
     list-style: none;
-    margin-block-start: .1rem;
+    margin-block-start: 0.1rem;
     border-radius: 5px;
     padding-inline: 1rem;
     color: #656877;
     font-size: small;
 }
-.dark-mode .favourite li {
-    background: #56647769;
-    color: #bdbdbd;
-}
+.dark-mode .favourite li { background: #56647769; color: #bdbdbd; }
 .favourite ul {
     padding-inline-start: 1.5rem;
     padding-block: 0.5rem;
@@ -735,6 +590,5 @@ details.favourite>summary {
     display: flex;
     flex-direction: row;
     gap: 0.2rem;
-    /* background: antiquewhite; */
     flex-wrap: wrap;
 }
