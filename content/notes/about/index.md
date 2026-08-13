@@ -56,8 +56,16 @@ title : "About"
 </div>
 
 ## Favourites
-<!-- Place a NEWLINE before and after each call to favourite shortcode to prevent an empty <p> at the top and bottom -->
-{{<favourites config={config}/>}}
+{%- for title, items in config.extra.favourites %}
+<details class="favourite">
+    <summary>{{ title }}</summary>
+    <ul>
+        {%- for item in items %}
+        <li>{{ item }}</li>
+        {%- endfor %}
+    </ul>
+</details>
+{%- endfor -%}
 
 <style scoped>
     /* ====== About styling ==== */
