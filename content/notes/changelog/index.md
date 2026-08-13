@@ -10,7 +10,7 @@ title: Website Changes
     <dd>{{ change }}</dd>
     {%- endfor %}
 </dl>
-{%- endfor -%}
+{%- endfor %}
 
 ### Todo
 
