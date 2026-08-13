@@ -458,6 +458,107 @@ details[open] > summary {
 
 /* =======================*/
 
+/* === About page styling === */
+.post {
+    --background: white;
+    --primary: rgb(184 184 184);
+
+    table.table-about {
+        padding: 1rem;
+
+        td {
+            padding-inline-end: 1em;
+        }
+
+        tr td:first-child {
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+
+    .biocard {
+        display: grid;
+        grid-template-columns: 35% auto;
+        border-radius: 9px;
+        border: 1px solid rgb(185 148 82 / 37%);
+        background: rgb(185 148 82 / 8%);
+        margin-block: 1rem;
+        box-shadow: 1px 1px 0px 0px #754f2e66;
+        font-family: "Alegreya Sans SC", "Bebas Neue";
+        width: 300px;
+        align-self: center;
+    }
+
+    .card-avatar {
+        align-content: center;
+        text-align: center;
+        border-right: 1px solid rgb(185 148 82 / 26%);
+    }
+
+    .card-details {
+        padding: 1rem;
+    }
+
+    .name {
+        font-size: 1.25rem;
+        color: rgb(185 148 82);
+    }
+
+    .name-label {
+        font-weight: 500;
+        color: var(--primary);
+    }
+
+    .card-about {
+        margin-top: 1rem;
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+
+        .value {
+            font-size: 1rem;
+            color: rgb(185 148 82);
+        }
+
+        .label {
+            margin-top: 0.15rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--primary);
+        }
+    }
+
+    svg {
+        fill: white;
+        width: 65%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.75rem;
+
+        .label {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--primary);
+        }
+
+        .value {
+            margin-top: 0.15rem;
+            font-size: 0.75rem;
+            line-height: 1.25rem;
+        }
+    }
+}
+
+/* =======================*/
+
 /* === Changelog styling === */
 .post dl.changelog dt {
     font-weight: normal;
