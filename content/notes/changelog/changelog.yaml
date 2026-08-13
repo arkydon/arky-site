@@ -1,3 +1,34 @@
+- date: "August 13, 2026"
+  changes:
+    - Made several major changes to my code because Zola recently had major breaking changes to how it works
+- date: "April 9, 2026"
+  changes:
+    - Added new post under "Tech"
+- date: "April 7, 2026"
+  changes:
+    - Line-height changed to 1.7
+- date: "April 5, 2026"
+  changes:
+    - Changed the design of the header and nav again.
+    - Changed darkmode colors
+- date: "April 4, 2026"
+  changes:
+    - Redesigned the website again.
+    - Changed main font to Inter Tight.
+    - Added "I am .." page to Notes section.
+- date: "March 22, 2026"
+  changes:
+    - Changed the design of list of favourites in About page. 
+    - Added new "Favourites" shortcode and styling for it
+- date: "March 17, 2026"
+  changes:
+    - Added new "Box" shortcode and styling for it
+- date: "March 11, 2026"
+  changes:
+    - Added new post "Default apps (2026 update)"
+- date: "March 10, 2026"
+  changes:
+    - Moved back to Zola engine and redesigned entire website
 - date: "Jun 28, 2025"
   changes:
     - Moved footer code to a partial
@@ -20,62 +51,31 @@
 - date: "Jun 22, 2025"
   changes:
     - Changed website design
-- date: "Jan 8, 2025"
-  changes:
-    - First build
-- date: "Jan 9, 2025"
-  changes:
-    - Added styling for widescreens
-    - Added an indication on the navigation links to show the current active page
-- date: "Jan 11, 2025"
-  changes:
-    - Switched font from Acumin Pro to [Roboto Flex](https://fonts.google.com/specimen/Roboto+Flex) (a variable font)
-    - Switched from Cloudflare analytics to Simple Analytics
-    - Changed color of body font to '#212427'
-- date: "Jan 13, 2025"
-  changes:
-    - Switched analytics to Cabin
-    - Added dark mode and dark mode toggle icons
-- date: "Jan 19, 2025"
-  changes:
-    - Added graphics to the Notes page
-- date: "Jan 20, 2025"
-  changes:
-    - '(Internal) Added code to manage blog with lume CMS'
-    - Tweak colour of hr
 - date: "Feb 6, 2025"
   changes:
     - Tweaked link style
     - Changed design of Notes section
     - Tweaked colours of multicolour hr line
-- date: "March 10, 2026"
+- date: "Jan 20, 2025"
   changes:
-    - Moved back to Zola engine and redesigned entire website
-- date: "March 11, 2026"
+    - '(Internal) Added code to manage blog with lume CMS'
+    - Tweak colour of hr
+- date: "Jan 19, 2025"
   changes:
-    - Added new post "Default apps (2026 update)"
-- date: "March 17, 2026"
+    - Added graphics to the Notes page
+- date: "Jan 13, 2025"
   changes:
-    - Added new "Box" shortcode and styling for it
-- date: "March 22, 2026"
+    - Switched analytics to Cabin
+    - Added dark mode and dark mode toggle icons
+- date: "Jan 11, 2025"
   changes:
-    - Changed the design of list of favourites in About page. 
-    - Added new "Favourites" shortcode and styling for it
-- date: "April 4, 2026"
+    - Switched font from Acumin Pro to [Roboto Flex](https://fonts.google.com/specimen/Roboto+Flex) (a variable font)
+    - Switched from Cloudflare analytics to Simple Analytics
+    - Changed color of body font to '#212427'
+- date: "Jan 9, 2025"
   changes:
-    - Redesigned the website again.
-    - Changed main font to Inter Tight.
-    - Added "I am .." page to Notes section.
-- date: "April 5, 2026"
+    - Added styling for widescreens
+    - Added an indication on the navigation links to show the current active page
+- date: "Jan 8, 2025"
   changes:
-    - Changed the design of the header and nav again.
-    - Changed darkmode colors
-- date: "April 7, 2026"
-  changes:
-    - Line-height changed to 1.7
-- date: "April 9, 2026"
-  changes:
-    - Added new post under "Tech"
-- date: "August 13, 2026"
-  changes:
-    - Made several major changes to my code because Zola recently had major breaking changes to how it works
+    - First build
