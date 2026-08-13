@@ -2,8 +2,6 @@
 title: Website Changes
 ---
 
-<!-- ### Changelog -->
-
 {%- set changelog_data = load_data(path="content/notes/changelog/changelog.yaml") -%}
 {%- for log in changelog_data %}
 <dl class="changelog">
@@ -13,22 +11,6 @@ title: Website Changes
     {%- endfor %}
 </dl>
 {%- endfor -%}
-
-
-
-<!-- Alt way using markdown only
-### Changelog
-Jun 24, 2025:
-: Redesign About page
-
-Jun 23, 2025:
-: Changed header title font to **Amatic SC**
-: Changed heading font to **Archivo**
-: Tweaked variable font settings of body font (Counter width and grade of Roboto Flex)
-: Changed body font word spacing
-: Tweaked nav design
--->
----
 
 ### Todo
 
