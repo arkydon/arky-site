@@ -4,7 +4,7 @@ title: Website Changes
 
 <!-- ### Changelog -->
 
-{{changelog()}}
+{{<changelog/>}}
 
 
 

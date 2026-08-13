@@ -17,7 +17,7 @@
 	{% set blog = get_section(path="blog/general/_index.md") %}
 
 	<ul>
-		{% for page in blog.pages | slice(end=4) %}
+		{% for page in blog.pages[:4] %}
 		<li>
 			<a href="{{ page.permalink }}">{{ page.title }}</a>
 			<time class="blog-list-date">

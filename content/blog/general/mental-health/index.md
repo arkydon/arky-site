@@ -7,7 +7,7 @@ desc : "My mental health"
 
 <!-- more -->
 
-{{ img(src="dislike.png", alt="A cool photo", class="blog-graphic") }} Wish I could say I miss being a kid, but like many people who didn't grow up with a normal childhood, I don't. It sucked because I was struggling with problems with my mental health that were made worse by religion and school.
+{{<img src="dislike.png" alt="A cool photo" class="blog-graphic"/>}} Wish I could say I miss being a kid, but like many people who didn't grow up with a normal childhood, I don't. It sucked because I was struggling with problems with my mental health that were made worse by religion and school.
 
 **School**
 

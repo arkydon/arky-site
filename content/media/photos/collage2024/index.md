@@ -7,7 +7,7 @@ date : 2024-12-30
 <!-- more -->
 
 
-{{ img(src="collage2024.jpg", alt="Collage of 2024 vibe") }}
+{{<img src="collage2024.jpg" alt="Collage of 2024 vibe"/>}}
 
 
 <style scoped>

@@ -57,7 +57,7 @@ title : "About"
 
 ## Favourites
 <!-- Place a NEWLINE before and after each call to favourite shortcode to prevent an empty <p> at the top and bottom -->
-{{favourites()}}
+{{<favourites config={config}/>}}
 
 <style scoped>
     /* ====== About styling ==== */

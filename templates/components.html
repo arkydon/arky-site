@@ -1,0 +1,128 @@
+{# Tera v2 Components — migrated from templates/shortcodes/ #}
+{# NOTE: We use {%- / -%} whitespace control on all Tera tags to prevent    #}
+{# blank lines in the output. Blank lines would break HTML block context    #}
+{# in the markdown processor, causing indented HTML to become code blocks.  #}
+
+{# ── img ─────────────────────────────────────────────────────── #}
+{% component img(src: string, alt: string = "Image", class: string = "image") -%}
+<img src="{{ src }}" alt="{{ alt }}" class="{{ class }}"/>
+{%- endcomponent img %}
+
+{# ── box ─────────────────────────────────────────────────────── #}
+{% component box(type: string = "blue") -%}
+<div class="custom-box box-{{ type }}">
+    {{ body | markdown | safe }}
+</div>
+{%- endcomponent box %}
+
+{# ── gallery ─────────────────────────────────────────────────── #}
+{% component gallery(images: array, ratio: string = "square", page: map) -%}
+{%- if ratio == "wide" -%}
+    {%- set thumb_w = 600 -%}
+    {%- set thumb_h = 338 -%}
+    {%- set css_ratio = "16 / 9" -%}
+{%- else -%}
+    {%- set thumb_w = 400 -%}
+    {%- set thumb_h = 400 -%}
+    {%- set css_ratio = "1 / 1" -%}
+{%- endif -%}
+{%- set base_path = page.components | join(sep="/") -%}
+<div class="zola-gallery">
+    {%- for image in images -%}
+        {%- if base_path -%}
+            {%- set image_path = base_path ~ "/" ~ image -%}
+        {%- else -%}
+            {%- set image_path = image -%}
+        {%- endif -%}
+        {%- set thumb = resize_image(path=image_path, width=thumb_w, height=thumb_h, op="fill") %}
+    <img
+        src="{{ thumb.url }}"
+        data-full="{{ image }}"
+        class="zola-gallery-thumb"
+        style="aspect-ratio: {{ css_ratio }};"
+        alt="Gallery image"
+        loading="lazy"
+    />
+    {%- endfor %}
+</div>
+<script>
+if (!window.zolaLightboxLoaded) {
+    window.zolaLightboxLoaded = true;
+    const style = document.createElement('style');
+    style.innerHTML = `
+        .zola-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 1.5rem 0; }
+        @media (min-width: 1024px) { .zola-gallery { grid-template-columns: repeat(4, 1fr); } }
+        @media (min-width: 1440px) { .zola-gallery { grid-template-columns: repeat(6, 1fr); } }
+        .zola-gallery-thumb { width: 100%; object-fit: cover; cursor: pointer; border-radius: 8px; transition: transform 0.2s, opacity 0.2s; box-shadow: 0 3px 3px 1px #757575;}
+        .zola-gallery-thumb:hover { opacity: 0.85; transform: scale(1.02); }
+        #zola-lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+        #zola-lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 6px; box-shadow: 0 5px 25px rgba(0,0,0,0.5); object-fit: contain; }
+    `;
+    document.head.appendChild(style);
+    const lightbox = document.createElement('div');
+    lightbox.id = 'zola-lightbox';
+    lightbox.innerHTML = `<img id="zola-lightbox-img" src="" alt="Enlarged image" />`;
+    document.body.appendChild(lightbox);
+    lightbox.addEventListener('click', () => { lightbox.style.display = 'none'; });
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('zola-gallery-thumb')) {
+            document.getElementById('zola-lightbox-img').src = e.target.getAttribute('data-full');
+            lightbox.style.display = 'flex';
+        }
+    });
+}
+</script>
+{%- endcomponent gallery %}
+
+{# ── toc ─────────────────────────────────────────────────────── #}
+{% component toc(page: map) -%}
+{%- if page.toc %}
+<div class="toc">
+    <h3>Table of Contents</h3>
+    <ul>
+        {%- for h1 in page.toc %}
+        <li>
+            <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+            {%- if h1.children %}
+            <ul>
+                {%- for h2 in h1.children %}
+                <li><a href="{{ h2.permalink | safe }}">{{ h2.title }}</a></li>
+                {%- endfor %}
+            </ul>
+            {%- endif %}
+        </li>
+        {%- endfor %}
+    </ul>
+    <hr/>
+</div>
+{%- endif -%}
+{%- endcomponent toc %}
+
+{# ── favourites ──────────────────────────────────────────────── #}
+{% component favourites(config: map) -%}
+<div class="favorites-container">
+    {%- for title, items in config.extra.favourites %}
+    <details class="favourite">
+        <summary>{{ title }}</summary>
+        <ul>
+            {%- for item in items %}
+            <li>{{ item }}</li>
+            {%- endfor %}
+        </ul>
+    </details>
+    {%- endfor %}
+</div>
+{%- endcomponent favourites %}
+
+{# ── changelog ───────────────────────────────────────────────── #}
+{% component changelog() -%}
+{%- set changelog_data = load_data(path="content/notes/_data/changelog.yaml") -%}
+{%- for log in changelog_data %}
+<dl class="changelog">
+    <dt>{{ log.date }}</dt>
+    {%- for change in log.changes %}
+    <dd>{{ change }}</dd>
+    {%- endfor %}
+</dl>
+{%- endfor -%}
+{%- endcomponent changelog %}

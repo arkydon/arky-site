@@ -6,21 +6,21 @@ extra:
 
 #### Space
 - [spaceweather.com](https://spaceweather.com/ ) - Daily news and information about recent space and other astronomy events in the universe.
-{{ gallery(images=["sw.webp"], ratio = "wide") }}
+{{<gallery images={["sw.webp"]} ratio="wide" page={page}/>}}
 
 - [Soho images](https://soho.nascom.nasa.gov/data/realtime-images.html) - Realtime images of the sun.
-{{ gallery(images=["soho.webp"], ratio = "wide") }}
+{{<gallery images={["soho.webp"]} ratio="wide" page={page}/>}}
 
 - [GOES X-Ray Flux](https://www.swpc.noaa.gov/products/goes-x-ray-flux) - Realtime plots of solar flares (updates every minute)
-{{ gallery(images=["goesx.webp"], ratio = "wide") }}
+{{<gallery images={["goesx.webp"]} ratio="wide" page={page}/>}}
 
 - [satellitemap.space](https://satellitemap.space/) - Discover live positions of Starlink, SpaceX, Amazon LEO & GPS satellites. Interactive map.
-{{ gallery(images=["satmap.webp"], ratio = "wide") }}
+{{<gallery images={["satmap.webp"]} ratio="wide" page={page}/>}}
 
 
 #### Blogs
 - [Blogroll.org](https://blogroll.org/) - Discover different types of blogs around the web.
-{{ gallery(images=["blogroll.webp"], ratio = "wide") }}
+{{<gallery images={["blogroll.webp"]} ratio="wide" page={page}/>}}
 
 - Browse blog articles
 	+ [Mire](https://mire.meadowing.club/discover)
@@ -42,10 +42,10 @@ extra:
     + [CBC Lite](https://www.cbc.ca/lite/)
 - [Hollywood sign live webcam](https://www.hollywoodsign.org/webcam)
 - [https://singleservingsites.cool/](https://singleservingsites.cool/) - _A single-serving site is a website composed of a single page with a dedicated domain name and which serves only one purpose. This site tries to list all the cool ones._
-{{ gallery(images=["sss.webp"], ratio = "wide") }}
+{{<gallery images={["sss.webp"]} ratio="wide" page={page}/>}}
 
 - [CityHop](https://www.cityhop.cafe/) - magical corner of the internet that allows you to instantly transport to any city in the world while relaxing to a variety of different music. It's a place to relax, unwind, and explore the world from the comfort of your own home.
-{{ gallery(images=["cityhop.webp"], ratio = "wide") }}
+{{<gallery images={["cityhop.webp"]} ratio="wide" page={page}/>}}
 
 - [Grammarbook](https://www.grammarbook.com/) - Grammar tips.
 

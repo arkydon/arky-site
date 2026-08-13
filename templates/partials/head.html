@@ -7,20 +7,20 @@
     <meta name="author" content="Arky">
 
     <title>
-        {% if page.title %}
+        {% if page?.title %}
             {{ page.title }}
-        {% elif section.title %}
+        {% elif section?.title %}
             {{ section.title }}
         {% else %}
             {{ config.title }}
         {% endif %}
     </title>
 
-    {% if page.description %}
+    {% if page?.description %}
         <meta name="description" content="{{ page.description }}">
         <meta property="og:description" content="{{ page.description }}">
         <meta property="twitter:description" content="{{ page.description }}">
-    {% elif section.description %}
+    {% elif section?.description %}
         <meta name="description" content="{{ section.description }}">
         <meta property="og:description" content="{{ section.description }}">
         <meta property="twitter:description" content="{{ section.description }}">
@@ -31,9 +31,9 @@
     {% endif %}
 
     <!-- 1. Determine the best title to use -->
-    {% if page.title %}
+    {% if page?.title %}
         {% set og_title = page.title %}
-    {% elif section.title %}
+    {% elif section?.title %}
         {% set og_title = section.title %}
     {% else %}
         {% set og_title = config.title %}
@@ -44,7 +44,7 @@
     <meta property="og:site_name" content="{{ config.title }}">
 
     <!-- Make og:type dynamic (Articles vs standard pages) -->
-    {% if page %}
+    {% if page is defined %}
         <meta property="og:type" content="article">
     {% else %}
         <meta property="og:type" content="website">
