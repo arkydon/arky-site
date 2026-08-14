@@ -1,4 +1,4 @@
-My personal website generated using Zola static site generator
+My personal website built using Zola static site generator
 
 Sections and subsections and pages (denoted by []) :
 
