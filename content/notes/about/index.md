@@ -18,8 +18,8 @@ title : "About"
             <span class="label">Home</span>
          </div>
          <div class="item">
-            <span class="value">Nov 22, '90</span>
-            <span class="label">DOB</span>
+            <span class="value">35</span>
+            <span class="label">Age</span>
          </div>
       </div>
    </div>
