@@ -2,42 +2,38 @@
 
 {% block content %}
 
-<div class="card">
-    <h2>Personal</h2>
-    <p><a class="notes" href = "/notes/about">About</a> <span style="font-size: 0.8em; color: #888; font-style: italic;">(a lil about me and my fav things)</span></p>
+<section class="card notes-section">
+    <h2 class="notes-section-title">Personal</h2> <hr>
 
-    <div class="notes-list">
-        <span style=";">Lists of .. </span>
-        <ul style="list-style-type: circle;">
-        <li><a class="notes" href = "/notes/i-am">what I am</a></li>
-        <li><a class="notes" href = "/notes/i-am">what I like</a></li>
-        <li><a class="notes" href = "/notes/i-am">what I dislike</a></li>
-        <li><a class="notes" href = "/notes/i-am">what makes me happy</a></li>
-        </ul>
+    <div class="notes-card">
+        <div class="notes-list-title">A little about me and my favs</div>
+        <a class="notes-list-item" href="/notes/about">About</a>
     </div>
+    
+    <div class="notes-list-box">
+        <div class="notes-list-title">Lists of ..</div>
+        <a class="notes-list-item" href="/notes/i-am">what I am</a>
+        <a class="notes-list-item" href="/notes/i-am">what I like</a>
+        <a class="notes-list-item" href="/notes/i-am">what I dislike</a>
+        <a class="notes-list-item" href="/notes/i-am">what makes me happy</a>
     </div>
-</div>
+</section>
 
-<div class="card">
-    <h2>Other</h2>
-    <p>
-        <a class="notes" href = "/notes/now">Now</a> 
-        <span style="font-size: 0.8em; color: #888; font-style: italic;">(how I waste my time)</span>
-    </p> 
+<section class="card notes-section">
+    <h2 class="notes-section-title">Other</h2> <hr>
+    <div>
+        <div class="notes-list-title">How I'm wasting my time</div>
+        <a class="notes-list-item" href = "/notes/now">Now</a> 
+    </div> 
 
 
-    <p><a class="notes" href = "/notes/changelog">Changelog</a> </p>
-</div>
+    <div>
+        <div class="notes-list-title">Changes to my website</div>        
+        <a class="notes-list-item" href = "/notes/changelog">Changelog</a> 
+    </div>
+</section>
 
 <style scoped>  
-    a.notes{
-        /* text-underline-offset: 3px;
-        color: inherit;
-        text-decoration-color: #3c6099;
-        text-decoration-thickness: 1.5px;
-        color: #3c6099; */
-    }
-
     .dark-mode a.notes{
         color: #b3cdd7;
         text-decoration-color: #b3cdd7;

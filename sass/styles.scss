@@ -5,6 +5,7 @@
 @use "fontcss/assc.scss";
 //@use "fontcss/tiktoksans.scss";
 @use "fontcss/intertight.scss";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
 
 
 body {
@@ -594,6 +595,34 @@ details.favourite > summary { list-style: none; }
 }
 
 /* =============== Notes Section ============== */
-.notes-list ul li{
-    //font-size: medium;
+.notes-section {
+    .notes-section-title {}
+
+    .notes-card {
+        .notes {
+
+        }
+    }
+
+    .notes-list-box {}
+
+    .notes-list-title {
+        padding: 10px 14px 20px;        
+        //font-size: 0.85rem;
+        //color: #555;
+    }
+
+    .notes-list-item {
+        text-decoration: none;
+        padding: 8px 20px 8px 20px;
+        margin-block-end: 1rem;
+        margin-inline: 1rem;
+        background: #ffffff;
+        border-radius: 10rem;
+        text-transform: capitalize;
+        display: inline-block;
+        font-size: .8rem;
+        color: #252525;
+        box-shadow: 1px 1px grey;
+    }
 }
