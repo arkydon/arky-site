@@ -1,3 +1,7 @@
+- date: "August 16, 2026"
+  changes:
+    - Redesigned the website again.
+    - Update content in Notes section.
 - date: "August 13, 2026"
   changes:
     - Made several major changes to my code because Zola recently had major breaking changes to how it works

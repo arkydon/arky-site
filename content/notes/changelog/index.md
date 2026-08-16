@@ -28,3 +28,4 @@ title: Website Changes
 12. Put dark mode toggle somewhere else
 13. Add social links
 14. ~Simplify code and structure of website~
+15. Fix widescreen design
