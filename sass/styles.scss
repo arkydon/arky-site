@@ -71,7 +71,7 @@ a {
 }
 
 p {
-    margin-block: 1rem;
+    //margin-block: 1rem;
 }
 
 // ====== Header css ====
@@ -175,8 +175,8 @@ nav {
 .post {
     margin-inline: 0.5rem;
     p {
-        line-height: 1.7;
-        word-spacing: 2px;
+        //line-height: 1.7;
+        //word-spacing: 2px;
     }
 }
 
@@ -259,7 +259,7 @@ ul {
     li{
         padding-inline-start: 0.1rem;
         font-family: var(--font-secondary);
-        font-size: 19px;
+        //font-size: 19px;
     }
 
     /* ## Increase the gap between li items without affecting the gap between the list and surrounding elements */
