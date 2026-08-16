@@ -25,6 +25,8 @@ title : "About"
    </div>
 </div>
 
+<!--
+
 ## Preferences
 
 <div class="card">
@@ -54,6 +56,8 @@ title : "About"
    * Authority
 
 </div>
+
+-->
 
 ## Favourites
 {%- for title, items in config.extra.favourites %}
