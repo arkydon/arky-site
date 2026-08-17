@@ -1,23 +1,32 @@
+/* ==========================================================================
+   Component Styles (Gallery, Boxes, Images)
+   ========================================================================== */
+
 /* Gallery component */
 .zola-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 1.5rem 0;
+    gap: 14px;
+    margin: 2rem 0;
 
+    @media (min-width: 768px) { grid-template-columns: repeat(3, 1fr); }
     @media (min-width: 1024px) { grid-template-columns: repeat(4, 1fr); }
-    @media (min-width: 1440px) { grid-template-columns: repeat(6, 1fr); }
 }
 
 .zola-gallery-thumb {
     width: 100%;
     object-fit: cover;
     cursor: pointer;
-    border-radius: 8px;
-    transition: transform 0.2s, opacity 0.2s;
-    box-shadow: 0 3px 3px 1px #757575;
+    border-radius: 10px;
+    border: 1px solid var(--card-border-color);
+    background: var(--card-bg-color);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
 
-    &:hover { opacity: 0.85; transform: scale(1.02); }
+    &:hover {
+        opacity: 0.92;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
 }
 
 #zola-lightbox {
@@ -27,7 +36,8 @@
     inset: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(18, 19, 22, 0.92);
+    backdrop-filter: blur(8px);
     align-items: center;
     justify-content: center;
     cursor: zoom-out;
@@ -35,8 +45,8 @@
     img {
         max-width: 90vw;
         max-height: 90vh;
-        border-radius: 6px;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
         object-fit: contain;
     }
 }
@@ -45,38 +55,58 @@
 img.blog-graphic {
     width: 15%;
     float: left;
-    padding-right: 10px;
+    padding-right: 12px;
     margin: 0;
 }
 
 img.image {
-    width: 80%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin: auto;
-    margin-block: 40px;
-    box-shadow: 0 0 5px 0 #a5a5a5;
-    border: var(--card-border-style);
+    margin: 2rem auto;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
 }
 
-/* Box component / legacy shortcode styles */
+/* Box component / callout styles */
 .custom-box {
-    font-size: 85%;
-    margin-inline: 0;
-    border-radius: 5px;
-    padding-inline: 1rem;
-    margin-block: 1rem;
-    padding-block: 1rem;
-    font-family: var(--font-secondary);
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin: 1.75rem 0;
+    padding: 1.1rem 1.4rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-family: var(--font-body);
+
+    p {
+        margin: 0.5rem 0;
+        &:first-child { margin-top: 0; }
+        &:last-child { margin-bottom: 0; }
+    }
 }
 
-@each $name, $base-color in ("red": #991b1b, "green": #338342, "blue": #1d7591) {
-    .box-#{$name} {
-        background-color: color-mix(in srgb, $base-color, white 80%);
-        color: $base-color;
+.box-blue {
+    background-color: var(--ink-blue-bg);
+    border-color: var(--ink-blue-border);
+    color: var(--ink-blue);
+}
 
-        .dark-mode & {
-            background-color: color-mix(in srgb, $base-color, transparent 85%);
-            color: color-mix(in srgb, $base-color, white 60%);
-        }
-    }
+.box-green {
+    background-color: var(--ink-green-bg);
+    border-color: var(--ink-green-border);
+    color: var(--ink-green);
+}
+
+.box-red, .box-orange {
+    background-color: var(--ink-orange-bg);
+    border-color: var(--ink-orange-border);
+    color: var(--ink-orange);
+}
+
+.box-purple {
+    background-color: var(--ink-purple-bg);
+    border-color: var(--ink-purple-border);
+    color: var(--ink-purple);
 }
