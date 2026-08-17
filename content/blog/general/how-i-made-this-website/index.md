@@ -2,6 +2,7 @@
 title : Making this website
 date : 2024-06-07
 ---
+> Currently outdated Colophon
  
 I made this website using [Zola](https://www.getzola.org/) static site engine
 
