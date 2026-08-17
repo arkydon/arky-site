@@ -52,7 +52,8 @@
             `;
 
             // Check if the user has a saved theme preference
-            const currentTheme = localStorage.getItem('theme') || 'light-mode';
+            //const currentTheme = localStorage.getItem('theme') || 'light-mode';
+            currentTheme = 'light-mode';
             document.body.classList.add(currentTheme);
 
             // Update the icon based on the current theme
