@@ -47,10 +47,10 @@ title: I am ...
     }
 
     ul li {
-        background-color: #fcfc99;
-        color: #000000;
+        background-color: #e2e6e9;
+        color: #3b4b6f;
         font-family: Arial, sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         border-radius: 1rem;
         
         box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.2);
