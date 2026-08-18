@@ -54,18 +54,25 @@
 {# Auto-discovers images from an images/ subfolder in the page   #}
 {# directory. Renders a CSS-columns masonry grid with optional   #}
 {# lightbox. quality controls thumbnail JPEG/WebP quality 1-100. #}
-{% component masonry(page: map, quality: integer = 75, lightbox: bool = true) -%}
+{% component masonry(page: map, size: string = "medium", quality: integer = 75, lightbox: bool = true) -%}
+{%- if size == "small" -%}
+    {%- set thumb_w = 400 -%}
+{%- elif size == "large" -%}
+    {%- set thumb_w = 900 -%}
+{%- else -%}
+    {%- set thumb_w = 600 -%}
+{%- endif -%}
 {%- set base_path = page.components | join(sep="/") -%}
 {%- set img_prefix = base_path ~ "/images/" -%}
 {%- set slash_img_prefix = "/" ~ img_prefix -%}
-<div class="masonry-gallery">
+<div class="masonry-gallery masonry-size-{{ size }}">
     {%- for asset in page.assets | sort -%}
         {%- set norm = asset | replace(from="\\", to="/") -%}
         {%- if norm is starting_with(pat=img_prefix) or norm is starting_with(pat=slash_img_prefix) -%}
             {%- set fname = norm | split(pat="/") | last -%}
             {%- set fname_lower = fname | lower -%}
             {%- if fname_lower is ending_with(pat=".jpg") or fname_lower is ending_with(pat=".jpeg") or fname_lower is ending_with(pat=".png") or fname_lower is ending_with(pat=".webp") or fname_lower is ending_with(pat=".gif") or fname_lower is ending_with(pat=".avif") -%}
-                {%- set thumb = resize_image(path=norm, width=600, height=600, op="fit_width", quality=quality) %}
+                {%- set thumb = resize_image(path=norm, width=thumb_w, height=thumb_w, op="fit_width", quality=quality) %}
     <div class="masonry-item">
         <img
             src="{{ thumb.url }}"

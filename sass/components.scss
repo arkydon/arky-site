@@ -53,12 +53,31 @@
 
 /* Masonry gallery component */
 .masonry-gallery {
-    columns: 2;
     column-gap: 14px;
     margin: 2rem 0;
 
+    /* Default / Medium size */
+    columns: 2;
     @media (min-width: 768px)  { columns: 3; }
     @media (min-width: 1024px) { columns: 4; }
+
+    &.masonry-size-small {
+        columns: 3;
+        @media (min-width: 768px)  { columns: 4; }
+        @media (min-width: 1024px) { columns: 5; }
+    }
+
+    &.masonry-size-medium {
+        columns: 2;
+        @media (min-width: 768px)  { columns: 3; }
+        @media (min-width: 1024px) { columns: 4; }
+    }
+
+    &.masonry-size-large {
+        columns: 1;
+        @media (min-width: 600px)  { columns: 2; }
+        @media (min-width: 1024px) { columns: 3; }
+    }
 }
 
 .masonry-item {
