@@ -1,4 +1,4 @@
-if (!window.zolaLightboxLoaded) {
+if (!window.zolaLightboxLoaded && document.querySelector('.zola-gallery-thumb')) {
     window.zolaLightboxLoaded = true;
 
     const lightbox = document.createElement('div');
