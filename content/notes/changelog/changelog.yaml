@@ -1,6 +1,7 @@
 - date: "August 18, 2026"
   changes:
-    - Added new component to create Masonry grids of images and also "Flowers" page 
+    - Added new component to create Masonry grids of images and also "Flowers" page
+    - Tweak lightbox gallery design 
 - date: "August 17, 2026"
   changes:
     - Big complete redesign of the entire website
