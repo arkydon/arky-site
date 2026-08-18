@@ -1,10 +1,10 @@
 # Arky's Corner
 
-My personal website built with the [Zola](https://www.getzola.org/) static site generator and modern Tera v2 components.
+My personal website/blog/journal/digital garden(?) built with the [Zola](https://www.getzola.org/) static site generator v0.23+ and Tera v2.
 
 I had manually done a hundred designs that were ugly or not perfect. I decided to use Gemini to help make the design I wanted (almost the same like using a custom theme that is tweaked but its just CSS).
 
-** The content of this website was not made with AI. All that shit is me **
+**The content of this website was NOT MADE WITH AI. All that shit is me.**
 
 ---
 
@@ -35,7 +35,7 @@ content/
 The site uses Tera v2 component syntax (`{{<component_name ... />}}` and `{{<component_name>}}...{{</component_name>}}`) defined in `templates/components.html`and styled in `sass/components.scss`
 
 ### 1. `img`
-Renders an optimized image with custom CSS classes and alt text.
+Renders an optimized image with custom CSS classes and alt text. Maybe this component isn't needed idk.
 
 - **Parameters**:
   - `src` (*string*, reqd): Path to image file (relative or absolute URL).
@@ -55,7 +55,7 @@ Renders an optimized image with custom CSS classes and alt text.
 ---
 
 ### 2. `box`
-Renders pretty callouts
+Renders pretty callouts.
 
 - **Parameters**:
   - `type` (*string*, optional, default: `"blue"`): Color scheme variant. `"blue"`,`"green"`, `"orange"`,`"red"`, `"purple"`
@@ -69,7 +69,7 @@ Renders pretty callouts
 ---
 
 ### 3. `gallery`
-Creates a responsive image grid with automatic thumbnail generation (`resize_image`), lazy loading, and an optional full-screen popup lightbox (bland design).
+Creates a responsive image grid with automatic thumbnail generation (`resize_image`), lazy loading, and an optional full-screen popup lightbox (bland design). This component is also maybe not necessary I think but I'm afraid things might break if I use the other component below for everything.
 
 - **Parameters**:
   - `images` (*array of strings*): List of image filenames located in the page's directory or asset path.
@@ -87,7 +87,7 @@ Creates a responsive image grid with automatic thumbnail generation (`resize_ima
 ---
 
 ### 4. `masonry`
-Auto-discovers all images within an `images/` subfolder in the current page asset bundle and makes a pretty masonry grid of those pics.
+Finds all images within an `images/` subfolder in the current page asset bundle and makes a pretty masonry grid of those pics.
 
 - **Parameters**:
   - `page` (*map*): Pass `{page}` to inspect `page.assets`.
@@ -164,6 +164,8 @@ Imported via `@import` in `sass/styles.scss`:
 - **JetBrains Mono** (`--font-mono` / `--font-secondary`): Monospace typeface for code blocks and inline code.
 
 ### Local Unused Fonts
+> Because I want to use them some day
+
 Stored under `static/fonts/` with `@font-face` definitions in `sass/fontcss/`:
 - **Inter Tight** (`static/fonts/intertight/`)
 - **TikTok Sans** (`static/fonts/tiktoksans/` - Regular, Condensed, SemiCondensed)
@@ -175,10 +177,9 @@ Stored under `static/fonts/` with `@font-face` definitions in `sass/fontcss/`:
 
 ## Analytics
 
-Uses **[Lite Analytics](https://liteanalytics.com/)**, a lightweight, cookie-less analytics (blocked by adblockers).
+Uses **[Lite Analytics](https://liteanalytics.com/)**, a lightweight, cookie-less analytics (blocked by adblockers). I can see how many people and bots visit my website but I can't see who it is don't worry.
 
 Loaded in `templates/partials/head.html`:
   ```html
   <script defer async data-host="arky.pages.dev" src="https://liteanalytics.com/lite.js"></script>
   ```
-- **Privacy**: Does not collect personal tracking data or use invasive cookies.
