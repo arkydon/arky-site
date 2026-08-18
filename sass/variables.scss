@@ -10,12 +10,12 @@
     --nav-link-size: 0.82rem;
     --toc-font-size: 0.9rem;
 
-    /* Light Theme (Warm Paper & Ink Palette) */
+    /* Light Theme (Warm Paper & Neutral Canvas) */
     --body-bg-color: #faf8f5;
     --body-bg-gradient: linear-gradient(180deg, #fdfcf9 0%, #faf8f5 100%);
     --body-font-color: #262320;
     --text-muted: #78716c;
-    --text-subtle: #a8a29e;
+    --text-subtle: #be8f6f; // #a8a29e; maybe
 
     /* Card & Panel */
     --card-bg-color: #ffffff;
@@ -27,15 +27,40 @@
     --divider-color: #f1ece4;
     --border-color: #e7e2d8;
 
-    /* Multi-Color Ink Palette (inspired by reference) */
+    /* --------------------------------------------------------------------------
+       Ink & Accent Palette (Harmonious Multi-Color System)
+       -------------------------------------------------------------------------- */
+    /* 1. Blues & Teals */
     --ink-blue: #2563eb;
     --ink-blue-bg: rgba(37, 99, 235, 0.08);
     --ink-blue-border: rgba(37, 99, 235, 0.24);
 
+    --ink-sky: #0284c7;
+    --ink-sky-bg: rgba(2, 132, 199, 0.08);
+    --ink-sky-border: rgba(2, 132, 199, 0.24);
+
+    --ink-teal: #0d9488;
+    --ink-teal-bg: rgba(13, 148, 136, 0.08);
+    --ink-teal-border: rgba(13, 148, 136, 0.24);
+
+    --ink-indigo: #4338ca;
+    --ink-indigo-bg: rgba(67, 56, 202, 0.08);
+    --ink-indigo-border: rgba(67, 56, 202, 0.24);
+
+    /* 2. Greens & Earth Flora */
     --ink-green: #16a34a;
     --ink-green-bg: rgba(22, 163, 74, 0.08);
     --ink-green-border: rgba(22, 163, 74, 0.24);
 
+    --ink-emerald: #059669;
+    --ink-emerald-bg: rgba(5, 150, 105, 0.08);
+    --ink-emerald-border: rgba(5, 150, 105, 0.24);
+
+    --ink-sage: #4d7c0f;
+    --ink-sage-bg: rgba(77, 124, 15, 0.08);
+    --ink-sage-border: rgba(77, 124, 15, 0.24);
+
+    /* 3. Warm Oranges, Ocher & Amber */
     --ink-orange: #ea580c;
     --ink-orange-bg: rgba(234, 88, 12, 0.08);
     --ink-orange-border: rgba(234, 88, 12, 0.24);
@@ -44,13 +69,34 @@
     --ink-amber-bg: rgba(217, 119, 6, 0.08);
     --ink-amber-border: rgba(217, 119, 6, 0.24);
 
+    --ink-persimmon: #f97316;
+    --ink-persimmon-bg: rgba(249, 115, 22, 0.08);
+    --ink-persimmon-border: rgba(249, 115, 22, 0.24);
+
+    --ink-crimson: #dc2626;
+    --ink-crimson-bg: rgba(220, 38, 38, 0.08);
+    --ink-crimson-border: rgba(220, 38, 38, 0.24);
+
+    /* 4. Purples, Berries & Pinks */
     --ink-purple: #7c3aed;
     --ink-purple-bg: rgba(124, 58, 237, 0.08);
     --ink-purple-border: rgba(124, 58, 237, 0.24);
 
+    --ink-plum: #9333ea;
+    --ink-plum-bg: rgba(147, 51, 234, 0.08);
+    --ink-plum-border: rgba(147, 51, 234, 0.24);
+
+    --ink-fuchsia: #c026d3;
+    --ink-fuchsia-bg: rgba(192, 38, 211, 0.08);
+    --ink-fuchsia-border: rgba(192, 38, 211, 0.24);
+
     --ink-pink: #db2777;
     --ink-pink-bg: rgba(219, 39, 119, 0.08);
     --ink-pink-border: rgba(219, 39, 119, 0.24);
+
+    --ink-rose: #e11d48;
+    --ink-rose-bg: rgba(225, 29, 72, 0.08);
+    --ink-rose-border: rgba(225, 29, 72, 0.24);
 
     /* Functional Roles */
     --main-color: var(--ink-purple);
@@ -65,7 +111,9 @@
     --space-3: 3rem;
 }
 
-/* Dark Mode Tokens */
+/* --------------------------------------------------------------------------
+   Dark Mode Tokens (Vibrant & Luminous on Deep Obsidian Canvas)
+   -------------------------------------------------------------------------- */
 body.dark-mode {
     --body-bg-color: #121316;
     --body-bg-gradient: linear-gradient(180deg, #16181d 0%, #121316 100%);
@@ -81,14 +129,37 @@ body.dark-mode {
     --divider-color: #242730;
     --border-color: #2b2e38;
 
+    /* Blues & Teals */
     --ink-blue: #60a5fa;
     --ink-blue-bg: rgba(96, 165, 250, 0.12);
     --ink-blue-border: rgba(96, 165, 250, 0.35);
 
+    --ink-sky: #38bdf8;
+    --ink-sky-bg: rgba(56, 189, 248, 0.12);
+    --ink-sky-border: rgba(56, 189, 248, 0.35);
+
+    --ink-teal: #2dd4bf;
+    --ink-teal-bg: rgba(45, 212, 191, 0.12);
+    --ink-teal-border: rgba(45, 212, 191, 0.35);
+
+    --ink-indigo: #818cf8;
+    --ink-indigo-bg: rgba(129, 140, 248, 0.12);
+    --ink-indigo-border: rgba(129, 140, 248, 0.35);
+
+    /* Greens & Earth Flora */
     --ink-green: #34d399;
     --ink-green-bg: rgba(52, 211, 153, 0.12);
     --ink-green-border: rgba(52, 211, 153, 0.35);
 
+    --ink-emerald: #6ee7b7;
+    --ink-emerald-bg: rgba(110, 231, 183, 0.12);
+    --ink-emerald-border: rgba(110, 231, 183, 0.35);
+
+    --ink-sage: #a3e635;
+    --ink-sage-bg: rgba(163, 230, 53, 0.12);
+    --ink-sage-border: rgba(163, 230, 53, 0.35);
+
+    /* Warm Oranges, Ochre & Amber */
     --ink-orange: #fb923c;
     --ink-orange-bg: rgba(251, 146, 60, 0.12);
     --ink-orange-border: rgba(251, 146, 60, 0.35);
@@ -97,13 +168,34 @@ body.dark-mode {
     --ink-amber-bg: rgba(251, 191, 36, 0.12);
     --ink-amber-border: rgba(251, 191, 36, 0.35);
 
+    --ink-persimmon: #fdba74;
+    --ink-persimmon-bg: rgba(253, 186, 116, 0.12);
+    --ink-persimmon-border: rgba(253, 186, 116, 0.35);
+
+    --ink-crimson: #f87171;
+    --ink-crimson-bg: rgba(248, 113, 113, 0.12);
+    --ink-crimson-border: rgba(248, 113, 113, 0.35);
+
+    /* Purples, Berries & Pinks */
     --ink-purple: #a78bfa;
     --ink-purple-bg: rgba(167, 139, 250, 0.14);
     --ink-purple-border: rgba(167, 139, 250, 0.35);
 
+    --ink-plum: #d8b4fe;
+    --ink-plum-bg: rgba(216, 180, 254, 0.14);
+    --ink-plum-border: rgba(216, 180, 254, 0.35);
+
+    --ink-fuchsia: #e879f9;
+    --ink-fuchsia-bg: rgba(232, 121, 249, 0.14);
+    --ink-fuchsia-border: rgba(232, 121, 249, 0.35);
+
     --ink-pink: #f472b6;
     --ink-pink-bg: rgba(244, 114, 182, 0.14);
     --ink-pink-border: rgba(244, 114, 182, 0.35);
+
+    --ink-rose: #fb7185;
+    --ink-rose-bg: rgba(251, 113, 133, 0.14);
+    --ink-rose-border: rgba(251, 113, 133, 0.35);
 
     --h-color: #f5f5f4;
     --link-color: var(--ink-blue);
