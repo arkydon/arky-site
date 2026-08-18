@@ -3,10 +3,15 @@ if (!window.zolaLightboxLoaded && document.querySelector('img[data-full]')) {
 
     const lightbox = document.createElement('div');
     lightbox.id = 'zola-lightbox';
-    lightbox.innerHTML = `<img id="zola-lightbox-img" src="" alt="Enlarged image" />`;
+    lightbox.innerHTML = `
+        <button id="zola-lightbox-close" type="button" aria-label="Close image">&times;</button>
+        <img id="zola-lightbox-img" src="" alt="Enlarged image" />
+    `;
     document.body.appendChild(lightbox);
 
-    lightbox.addEventListener('click', () => { lightbox.style.display = 'none'; });
+    lightbox.addEventListener('click', (e) => {
+        lightbox.style.display = 'none';
+    });
 
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') lightbox.style.display = 'none';
