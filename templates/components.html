@@ -16,7 +16,7 @@
 {%- endcomponent box %}
 
 {# ── gallery ─────────────────────────────────────────────────── #}
-{% component gallery(images: array, ratio: string = "square", page: map) -%}
+{% component gallery(images: array, ratio: string = "square", page: map, lightbox: bool = true) -%}
 {%- if ratio == "wide" -%}
     {%- set thumb_w = 600 -%}
     {%- set thumb_h = 338 -%}
@@ -37,7 +37,7 @@
         {%- set thumb = resize_image(path=image_path, width=thumb_w, height=thumb_h, op="fill") %}
     <img
         src="{{ thumb.url }}"
-        data-full="{{ image }}"
+        {%- if lightbox %} data-full="{{ image }}"{% endif %}
         class="zola-gallery-thumb"
         style="aspect-ratio: {{ css_ratio }};"
         alt="Gallery image"
@@ -45,5 +45,41 @@
     />
     {%- endfor %}
 </div>
+{%- if lightbox %}
+<script defer src="{{ get_url(path='js/gallery.js') }}"></script>
+{%- endif %}
 {%- endcomponent gallery %}
 
+{# ── masonry ─────────────────────────────────────────────────── #}
+{# Auto-discovers images from an images/ subfolder in the page   #}
+{# directory. Renders a CSS-columns masonry grid with optional   #}
+{# lightbox. quality controls thumbnail JPEG/WebP quality 1-100. #}
+{% component masonry(page: map, quality: integer = 75, lightbox: bool = true) -%}
+{%- set base_path = page.components | join(sep="/") -%}
+{%- set img_prefix = base_path ~ "/images/" -%}
+{%- set slash_img_prefix = "/" ~ img_prefix -%}
+<div class="masonry-gallery">
+    {%- for asset in page.assets | sort -%}
+        {%- set norm = asset | replace(from="\\", to="/") -%}
+        {%- if norm is starting_with(pat=img_prefix) or norm is starting_with(pat=slash_img_prefix) -%}
+            {%- set fname = norm | split(pat="/") | last -%}
+            {%- set fname_lower = fname | lower -%}
+            {%- if fname_lower is ending_with(pat=".jpg") or fname_lower is ending_with(pat=".jpeg") or fname_lower is ending_with(pat=".png") or fname_lower is ending_with(pat=".webp") or fname_lower is ending_with(pat=".gif") or fname_lower is ending_with(pat=".avif") -%}
+                {%- set thumb = resize_image(path=norm, width=600, height=600, op="fit_width", quality=quality) %}
+    <div class="masonry-item">
+        <img
+            src="{{ thumb.url }}"
+            {%- if lightbox %} data-full="images/{{ fname }}"{% endif %}
+            class="masonry-thumb"
+            alt="{{ fname }}"
+            loading="lazy"
+        />
+    </div>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor %}
+</div>
+{%- if lightbox %}
+<script defer src="{{ get_url(path='js/gallery.js') }}"></script>
+{%- endif %}
+{%- endcomponent masonry %}

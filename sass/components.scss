@@ -51,6 +51,40 @@
     }
 }
 
+/* Masonry gallery component */
+.masonry-gallery {
+    columns: 2;
+    column-gap: 14px;
+    margin: 2rem 0;
+
+    @media (min-width: 768px)  { columns: 3; }
+    @media (min-width: 1024px) { columns: 4; }
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 14px;
+}
+
+.masonry-thumb {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid var(--card-border-color);
+    background: var(--card-bg-color);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+
+    &[data-full] {
+        cursor: pointer;
+    }
+
+    &:hover {
+        opacity: 0.92;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+}
+
 /* Image component and image shortcode styles */
 img.blog-graphic {
     width: 15%;
