@@ -163,10 +163,10 @@ Imported via `@import` in `sass/styles.scss`:
 - **Plus Jakarta Sans** (`--font-body` / `--font-main`): Clean, modern geometric sans-serif for body copy and general interface elements.
 - **JetBrains Mono** (`--font-mono` / `--font-secondary`): Monospace typeface for code blocks and inline code.
 
-### Local Unused Fonts
-> Because I want to use them some day
+### Old removed fonts
+> Leaving them here in case I want to use them again some day
 
-Stored under `static/fonts/` with `@font-face` definitions in `sass/fontcss/`:
+Was stored under `static/fonts/` with `@font-face` definitions in `sass/fontcss/`:
 - **Inter Tight** (`static/fonts/intertight/`)
 - **TikTok Sans** (`static/fonts/tiktoksans/` - Regular, Condensed, SemiCondensed)
 - **Bebas Neue** (`static/fonts/bebasneue/`)
