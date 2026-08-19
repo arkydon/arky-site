@@ -1,6 +1,8 @@
 /* ==========================================================================
-   ARKYS CORNER — I had done a hundred manual redesigns but this one was done using Gemini.
-   I only used AI for the (CSS) design and also shortcode to components but never the content of this website.
+   ARKYS CORNER — I have already done a hundred css redesigns from scratch and didn't like them or I got bored
+    but this one was done with the help of Gemini.
+   I only used AI for the (CSS) design and also shortcode to components but 
+   NEVER the content of this website.
 
    MINIMAL MULTI-COLOR EDITORIAL THEME
    Inspired by clean, warm paper aesthetic with colorful ink accents.
@@ -180,7 +182,7 @@ nav {
 
         /* Specific Pill Colors */ 
         /* Highlight clicked pill and mark active */
-        
+
         &[href="/"] {
             color: var(--ink-blue);
             &:active {
