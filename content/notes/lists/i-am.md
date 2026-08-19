@@ -20,7 +20,6 @@ title: I am ...
 - bad at conversation
 - lazy
 - understanding
-- smart and stupid
 - hopeless romantic
 - overthinker
 - neurotic

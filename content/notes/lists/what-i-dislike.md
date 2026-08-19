@@ -4,16 +4,18 @@ title: What I dislike
 
 - Small talk
 - Sports
-- I hate when people think they know me but they don't
-- I hate when someone tries to force me to do literally anything
-- When someone acts like they don't hate me but they do
+- People 
+    - who think they know me but they don't
+    - who try to force me to do or be literally anything
+    - who act like they don't hate me but they do
 - Bugs in my house. Outside bugs are kinda cool, inside bugs are my enemies.
+- Getting wet because of the rain
 - Small talk, dry texts
 - Stan wars
 - Songs that remind me of my childhood
 - Sickness
-- Useless traditions that are forced on people
-- Dust
+- Useless traditions that are forced on people or that people feel like they have an obligation to do
+- Dust on me or my clothes or my room
 - Having to sleep through hot summer nights
-- The obsession with minimalism
-- Unpredictable weather on days when I need the weather to be predictable
+- The unhealthy obsession with minimalism
+- Unpredictable weather on days when I need the weather to be stabl
