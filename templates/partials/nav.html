@@ -1,9 +1,7 @@
 <nav>
-    <a href="/">Home</a>
-        <!-- <span class="nav-link-divider"> / </span> -->
-    <a href="/blog">Blog</a>
-    <a href="/notes">Notes</a>
-    <a href="/media">Media</a>
-    <a href="/web">Web</a>
-    <!-- <a href="/software">Soft</a> -->
+    <a href="/" {% if current_path is defined and current_path == "/" %}class="active"{% endif %}>Home</a>
+    <a href="/blog/" {% if current_path is defined and current_path is starting_with(pat="/blog") %}class="active"{% endif %}>Blog</a>
+    <a href="/notes/" {% if current_path is defined and current_path is starting_with(pat="/notes") %}class="active"{% endif %}>Notes</a>
+    <a href="/media/" {% if current_path is defined and current_path is starting_with(pat="/media") %}class="active"{% endif %}>Media</a>
+    <a href="/web/" {% if current_path is defined and current_path is starting_with(pat="/web") %}class="active"{% endif %}>Web</a>
 </nav>
