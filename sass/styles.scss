@@ -16,6 +16,11 @@
    -------------------------------------------------------------------------- */
 *, *::before, *::after {
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
 }
 
 ::selection {
@@ -160,35 +165,60 @@ nav {
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
         }
 
-        /* Specific Pill Colors */
+        &:focus {
+            outline: none;
+        }
+
+        &:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 2px;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+
+        /* Specific Pill Colors */ 
+        /* Highlight clicked pill and mark active */
+        
         &[href="/"] {
             color: var(--ink-blue);
-            //background: var(--ink-blue-bg);
-            //border-color: var(--ink-blue-border);
+            &:active {
+                background-color: var(--ink-blue);
+                color: #ffffff;
+            }
         }
 
         &[href*="blog"] {
             color: var(--ink-green);
-           // background: var(--ink-green-bg);
-            //border-color: var(--ink-green-border);
+            &:active {
+                background-color: var(--ink-green);
+                color: #ffffff;
+            }
         }
 
         &[href*="notes"] {
             color: var(--ink-purple);
-            //background: var(--ink-purple-bg);
-            //border-color: var(--ink-purple-border);
+            &:active {
+                background-color: var(--ink-purple);
+                color: #ffffff;
+            }
         }
 
         &[href*="media"] {
             color: var(--ink-pink);
-           // background: var(--ink-pink-bg);
-            //border-color: var(--ink-pink-border);
+            &:active {
+                background-color: var(--ink-pink);
+                color: #ffffff;
+            }
         }
 
         &[href*="web"] {
             color: var(--ink-amber);
-            //background: var(--ink-amber-bg);
-            //border-color: var(--ink-amber-border);
+            &:active {
+                background-color: var(--ink-amber);
+                color: #ffffff;
+            }
         }
 
         /* Active Navigation Pill */
