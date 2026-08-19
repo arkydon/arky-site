@@ -1,15 +1,14 @@
 ---
 title : Making this website
 date : 2024-06-07
----
-> Currently outdated Colophon
- 
+--- 
 I made this website using [Zola](https://www.getzola.org/) static site engine
 
 **Fonts** \
-Body : Inter Tight ~Tiktok Sans~ \
-Heading : Bebas Neue \
-Header title : Alegreya Sans SC
+Body : Plus Jakarta Sans, Inter Tight ~Tiktok Sans~ \
+Heading : Fraunces, Newsreader ~Bebas Neue~ \
+Code & UI : JetBrains Mono \
+Header title : Fraunces ~Alegreya Sans SC~
 
 **Hosted** on Cloudflare
 
