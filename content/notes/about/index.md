@@ -3,11 +3,7 @@ title : "About"
 ---
 <div class="biocard">
    <div class="card-avatar">
-    <img src="/favicon.ico" 
-        style="width:70px;object-fit: cover; /* This is crucial for cropping the image */
-        border-radius: 50%; /* This makes the image circular */
-        border: 2px solid rgb(185 148 82 / 37%);">
-        <img>
+    <img src="/favicon.ico" >
    </div>
    <div class="card-details">
       <div class="name">Arky</div>
