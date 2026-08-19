@@ -163,8 +163,9 @@ img.image {
     margin: 1.75rem 0;
     padding: 1.1rem 1.4rem;
     border-radius: 10px;
-    border: 1px solid transparent;
-    font-family: var(--font-body);
+    //border: 1px solid transparent;
+    //font-family: var(--font-body);
+    font-family: var(--font-mono);
 
     p {
         margin: 0.5rem 0;
