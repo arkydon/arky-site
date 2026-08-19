@@ -688,12 +688,12 @@ time.blog-list-date {
     }
 
     blockquote {
-        background: var(--ink-green-bg);
-        border-left: 3.5px solid var(--ink-green);
-        border-radius: 0 8px 8px 0;
+        background: rgb(133 133 133 / 8%);
+        /* border-left: 3.5px solid #878787; */
+        border-radius: 8px;
         padding: 1rem 1.35rem;
         margin: 1.75rem 0;
-        color: var(--body-font-color);
+        color: #3f3e3e;
         font-style: italic;
 
         p:last-child {
