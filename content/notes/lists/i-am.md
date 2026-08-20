@@ -43,13 +43,14 @@ title: I am ...
     }
 
     .tag-cloud ul li {
-        background-color: #e2e6e9;
-        color: #3b4b6f;
-        font-family: Arial, sans-serif;
+        background-color: var(--ink-green-bg);
+        /* border: 1px solid var(--ink-green-border); */
+        color: var(--ink-green);
+        font-family: 'Newsreader';
         font-size: 14px;
-        border-radius: 1rem;
-        box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.15);
-        transform: rotate(-3deg);
+        border-radius: 20px;
+        /* box-shadow: 3px 4px 0px 0px rgb(205 205 205 / 17%); */
+        /* transform: rotate(-3deg); */
         display: flex;
         align-items: center;
         justify-content: center;
