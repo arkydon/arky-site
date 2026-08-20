@@ -10,11 +10,7 @@ date : 2024-12-30
 {{<img src="collage2024.jpg" alt="Collage of 2024 vibe"/>}}
 
 
-<style scoped>
-/*img {
-	width: 80%;
-	align-self: center;
-}*/
+<style>
 @media screen and (min-width:600px){
     img.image {
         width: 50%;

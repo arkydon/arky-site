@@ -1,7 +1,7 @@
 ---
 title: I am ...
 ---
-<!-- <div class="card"> -->
+<div class="tag-cloud">
 
 - **self-aware**
 - anxious
@@ -29,37 +29,37 @@ title: I am ...
 - allergic to emotional manipulation
 - dealing with mental health issues
 
-<!-- </div> -->
+</div>
 
-<style scoped>
-    .card {
-        background: #fff8a1;
-    }
-    ul {
+<style>
+    .tag-cloud ul {
         display: flex;
         flex-wrap: wrap;
         list-style-type: none;
-        /* padding: 0; */
-        /* margin: 0; */
+        padding: 0;
+        margin: 1.5rem 0;
         gap: 10px;
         flex-direction: row;
     }
 
-    ul li {
+    .tag-cloud ul li {
         background-color: #e2e6e9;
         color: #3b4b6f;
         font-family: Arial, sans-serif;
         font-size: 14px;
         border-radius: 1rem;
-        
-        box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.2);
+        box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.15);
         transform: rotate(-3deg);
-        
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         padding: 10px;
         box-sizing: border-box;
+        transition: transform 0.15s ease;
+    }
+
+    .tag-cloud ul li:hover {
+        transform: rotate(0deg) scale(1.04);
     }
 </style>
