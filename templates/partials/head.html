@@ -50,10 +50,9 @@
 
     <link rel="icon" href="{{ get_url(path='favicon.ico') }}">
     
-    <!-- Google Fonts (Preconnected for faster render) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..800&family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..800&display=swap">
+    <!-- Preload Primary Local Fonts for Instant Render -->
+    <link rel="preload" href="{{ get_url(path='fonts/plusjakartasans/plus-jakarta-sans-latin.woff2') }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ get_url(path='fonts/fraunces/fraunces-latin.woff2') }}" as="font" type="font/woff2" crossorigin>
     
     <link rel="stylesheet" href="{{ get_url(path='styles.css') }}">
 
