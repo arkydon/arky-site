@@ -2,6 +2,8 @@
 title: What I like
 ---
 
+<div class = what-i-like>
+
 - neobrutalism design
 - sweaters and t-shirts
 - rice dishes, lassi
@@ -18,3 +20,15 @@ title: What I like
 - mysteries
 - fantasy rts, survival base building games 
 - attention
+
+</div>
+
+<style>
+.what-i-like li::marker {
+    content: "✓";
+}
+.what-i-like li {
+    padding-inline-start: 0.5rem;
+    padding-block-end: 0.5rem;
+}    
+</style>

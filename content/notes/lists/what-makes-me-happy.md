@@ -1,6 +1,7 @@
 ---
 title: What makes me happy
 ---
+<div class="wmmh">
 
 - autumn
 - music that has a +ve effect on my psyche
@@ -41,3 +42,16 @@ title: What makes me happy
 - web surfing
 - arranging things
 - making lists
+
+</div>
+
+<style>
+.wmmh li::marker {
+    content: "♡";
+    color: red;
+}
+.wmmh li {
+    padding-inline-start: 0.5rem;
+    padding-block-end: 0.25rem;
+}    
+</style>
