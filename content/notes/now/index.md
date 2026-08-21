@@ -4,23 +4,21 @@ title : "What I'm doing"
 
 *Last updated: July 2026*
 
-> This is my [now page](https://nownownow.com/about) - inspired by Derek Sivers
+> This is my now page inspired by [Derek Sivers](https://nownownow.com/about)
 
 **⏳ Currently**
 - watching Dota twitch streams
-- a lot of Pinterest
+- music + a lot of Pinterest
 - impatiently waiting for Autumn ~summer~ ~spring~
 - exploring google streetview
 - dancing
-- playing Dota arcade
 - listening to Miley Cyrus
-- trying to update my Website more frequently
+- tweaking Website
 ---
 
 **📌 Planning**
 - make another Pokemon rom hack.
-- win an iPhone giveaway
-- stop playing Dota
+- win an iPhone giveaway (delusion)
 ---
 
 **✔️ Done**
@@ -32,6 +30,7 @@ title : "What I'm doing"
 ---
 
 **⏸️ Paused**
-- Watching too much of reels and other short form video content
+- Reels and other short form video content
 - Watching horror movies
 - Playing Pokemon rom hacks
+- Playing Dota arcade
