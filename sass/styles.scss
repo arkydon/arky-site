@@ -516,27 +516,6 @@ time.blog-list-date {
 }
 */
 
-.general-wrapper time.blog-list-date::after {
-    content: "GENERAL";
-    font-size: 0.65rem;
-    font-weight: 600;
-    padding: 0.08rem 0.45rem;
-    border-radius: 9999px;
-    background: var(--ink-green-bg);
-    color: var(--ink-green);
-    border: 1px solid var(--ink-green-border);
-}
-
-.tech-wrapper time.blog-list-date::after {
-    content: "TECH";
-    font-size: 0.65rem;
-    font-weight: 600;
-    padding: 0.08rem 0.45rem;
-    border-radius: 9999px;
-    background: var(--ink-blue-bg);
-    color: var(--ink-blue);
-    border: 1px solid var(--ink-blue-border);
-}
 
 /* Button Styling (.btn) */
 .btn-p {

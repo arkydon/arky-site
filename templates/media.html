@@ -2,10 +2,9 @@
 
 {% block content %}
 
-<div class="blog-list">
     <!-- Explicitly fetch the Photos section -->
     {% set photos = get_section(path="media/photos/_index.md") %}
-    <div class="photos-wrapper card">
+    <div class="blog-list card">
         <h2>{{ photos.title }}</h2>
         <ul>
             {% for page in photos.pages %}
@@ -13,12 +12,10 @@
             {% endfor %}
         </ul>
     </div>
-</div>
 
-<div class="blog-list">
     <!-- Explicitly fetch the Music section -->
     {% set music = get_section(path="media/music/_index.md") %}
-    <div class="music-wrapper card">
+    <div class="blog-list card">
         <h2>{{ music.title }}</h2>
         <ul>
             {% for page in music.pages %}
@@ -26,5 +23,4 @@
             {% endfor %}
         </ul>
     </div>
-</div>
 {% endblock content %}
