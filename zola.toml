@@ -2,6 +2,7 @@
 # base_url = "192.168.29.180:1111"
 base_url = "https://arky.pages.dev"
 title = "Arky's Corner"
+description = "Arky's personal corner of the internet — thoughts, ideas, and digital garden."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

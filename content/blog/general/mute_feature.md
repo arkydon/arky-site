@@ -1,7 +1,6 @@
 ---
 title : How to make the mute feature better
 date : 2024-03-23
-desc : "How to make the mute feature better"
 ---
 
 Some social media platforms have a feature to filter out posts that contain certain keywords. Here are some of the ways I think they can improve it:

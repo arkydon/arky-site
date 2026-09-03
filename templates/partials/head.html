@@ -7,9 +7,9 @@
     <meta name="author" content="Arky">
 
     {# ── Title, Description & URL Resolution ── #}
-    {%- set page_title = page?.title | default(value=section?.title | default(value=config.title)) -%}
-    {%- set page_desc = page?.description | default(value=section?.description | default(value=config.description)) -%}
-    {%- set meta_url = current_url | default(value=config.base_url) -%}
+    {%- set page_title = page?.title or section?.title or config.title -%}
+    {%- set page_desc = page?.description or section?.description or config.description -%}
+    {%- set meta_url = current_url or config.base_url -%}
 
     {# ── Image Resolution (supports page.extra.image or fallback to ogp.jpg) ── #}
     {%- if page?.extra?.image -%}

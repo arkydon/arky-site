@@ -1,6 +1,5 @@
 ---
 title : Don't feel sorry for yourself
-desc : Don't feel sorry for yourself
 date : 2024-03-26
 ---
 

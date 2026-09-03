@@ -1,7 +1,6 @@
 ---
 title: Don't try to simplify everything
 date: '2025-01-26T12:31:49.789Z'
-desc: Stop trying to simplify everything.
 ---
 Maybe that one thing that's bothering you and disrupting your peace and which you can’t accept or understand, is something that is **complex** that you mistakenly keep trying to simplify in your head. You keep trying but failing to simplify it and that makes you frustrated.
 
