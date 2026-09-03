@@ -45,9 +45,6 @@
     />
     {%- endfor %}
 </div>
-{%- if lightbox %}
-<script defer src="{{ get_url(path='js/gallery.js') }}"></script>
-{%- endif %}
 {%- endcomponent gallery %}
 
 {# ── masonry ─────────────────────────────────────────────────── #}
@@ -86,7 +83,4 @@
         {%- endif -%}
     {%- endfor %}
 </div>
-{%- if lightbox %}
-<script defer src="{{ get_url(path='js/gallery.js') }}"></script>
-{%- endif %}
 {%- endcomponent masonry %}
