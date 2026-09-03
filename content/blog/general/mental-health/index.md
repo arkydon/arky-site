@@ -1,6 +1,7 @@
 ---
 title : My mental health
 date : 2024-01-01
+description: "A little bit of a personal reflection of my mental health growing up."
 ---
 *This is a more refined blog article about my mental health that I wrote and shared last year.*
 
