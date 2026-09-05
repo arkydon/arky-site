@@ -9,10 +9,10 @@ title : "What I'm doing"
 **⏳ Currently**
 - watching Dota twitch streams
 - music + a lot of Pinterest
-- impatiently waiting for Autumn ~summer~ ~spring~
+- impatiently waiting for Autumn to start
 - exploring google streetview
+- exploring whimsical websites
 - dancing
-- listening to Miley Cyrus
 - tweaking Website
 ---
 
