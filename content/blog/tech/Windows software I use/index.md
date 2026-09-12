@@ -11,7 +11,7 @@ date : 2026-09-12
 - Dupeguru - Find and delete duplicate files
 - ~Smart Defrag - Smarter defragmenting tool for HDD~
 - Movavi Screen Recorder
-- Remove Empty Directories
+- ~Remove Empty Directories~
 - ~SUMo - Software Update checker~
 - QuickShare - File transfer over wifi/bluetooth to another PC or android.
 - KDE Connect
