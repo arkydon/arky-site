@@ -1,20 +1,23 @@
 ---
 title : "Windows Software I use"
-date : 2024-03-23
+date : 2026-09-12
 ---
 
 # Utilities
-- Fastcopy - Fast file transfer (from one disk location to another).
+- Fastcopy - Fast file transfer
+- Caesium Image Compressor
 - 7Zip
-- Easeus Partition Master - Drive partition tool
+- Easeus Partition Master (Paid) - Drive partition tool
 - Dupeguru - Find and delete duplicate files
-- Smart Defrag - Smarter defragmenting tool for HDD
+- ~Smart Defrag - Smarter defragmenting tool for HDD~
 - Movavi Screen Recorder
 - Remove Empty Directories
 - ~SUMo - Software Update checker~
-- QuickShare - File transfer over wifi or bluetooth to another PC or android.
+- QuickShare - File transfer over wifi/bluetooth to another PC or android.
 - KDE Connect
 - Youtube Music Desktop App
+- Rufus - Turn pendrive bootable for linux. Remove Windows 11 hardware requirement restriction.
+- Krokiet (Formerly Czkawka ) - Remove duplicate files
 
 # Internet
 - Microsoft Edge Browser
@@ -26,10 +29,7 @@ date : 2024-03-23
 - 4K Video Downloader+ - Social media downloader
 
 # Gaming tools
-- Emulators
-	- Citra
-	- Yuzu
-	- mGBA
+- Azahar (Citra), mGBA emulators for Pokemon
 - CheatEngine
 
 # Media
