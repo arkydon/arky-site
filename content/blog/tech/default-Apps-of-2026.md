@@ -27,13 +27,14 @@ date : 2026-3-11
 
 - Instaprime: Instagram mod that removes ads and enables downloads. 
 
+- Smart Launcher - Now allows directly pasting images into the homescreen (useful with transparent png)
+
 #### Others
 
-- Boost for reddit
+- ~Boost for reddit~
 - Remember the Milk (For lists and todos)
 - Today Weather, Windy
 - Bitwarden (Password manager)
-- Smart Launcher
 - Proton VPN
 - Proton Mail
 - Onedrive, Google Drive
