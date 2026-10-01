@@ -4,22 +4,20 @@ title: What I like
 
 <div class = what-i-like>
 
-- neobrutalism design
-- sweaters and t-shirts
-- rice dishes, lassi
-- retrofuturism, surreallism, dreamcore, space fantasy, cosmic surrealism
-- golden hour
-- pop music, edm, pop rock, ...
-- things that I can relate to like words, memes, experiences, stories
-- himym
-- pretty rocks
+- neobrutalist design
+- knitted sweaters, hoodies, tees, flannel shirts
+- rice dishes, milk drinks
+- retrofuturism, surrealism, dreamcore, space fantasy, cosmic surrealism art
+- pop music, EDM, pop rock
+- text posts, memes, captioned images I can relate to
+- HIMYM
+- interesting looking rocks
 - frutiger aero design and aesthetic
 - cats
 - horror movies
-- pre apocalyptic stories (movies and novels)
-- mysteries
-- fantasy rts, survival base building games 
-- attention
+- pre-apocalyptic movies and novels
+- real life mysteries
+- exploration, base building, chill no-stress no-goal games
 
 </div>
 

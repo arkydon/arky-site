@@ -3,45 +3,45 @@ title: What makes me happy
 ---
 <div class="wmmh">
 
-- autumn
-- music that has a +ve effect on my psyche
-- sunsets
-- summer wind
-- late night rainstorms
-- close friendships
-- nostalgia
+- Autumn
+- Music
+- Sunsets
+- Summer wind
+- Late night rain thunderstorms
+- Close friendships
+- Nostalgia
 - Jesus
-- dance
-- nature
-- nice clothes
-- showers
-- pinterest
-- journalling
-- being healthy
-- christmas
-- the starry night sky
-- winter sun
-- birthdays (mine)
-- collecting pictures
-- gifts
-- hugs (only with ____)
-- dreams
-- early mornings
-- adventures
-- my phone
-- hope
-- delusions
-- gardens
-- flowers
-- money
-- honesty
-- overthinking
-- attention
-- taking pictures
-- intimate conversations over text
-- web surfing
-- arranging things
-- making lists
+- Dance
+- Nature
+- Wearing nice clothes
+- Showers
+- Pinterest
+- Journalling
+- Being healthy
+- Christmas
+- Cloudless starry night sky
+- Winter sun
+- Birthdays (mine)
+- Collecting pictures
+- Gifts
+- Hugs (only with ____)
+- Dreams
+- Early mornings
+- Silly little adventures
+- My phone
+- Hope
+- Delusions
+- Gardens
+- Flowers
+- Money
+- Honesty
+- Overthinking
+- Attention
+- Taking pictures
+- Intimate conversations over text with ....
+- Exploring whimsical websites
+- Arranging things 
+- Making all types of lists
 
 </div>
 

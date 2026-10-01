@@ -2,20 +2,20 @@
 title: What I dislike
 ---
 
-- Small talk
-- Sports
-- People 
-    - who think they know me but they don't
-    - who try to force me to do or be literally anything
-    - who act like they don't hate me but they do
-- Bugs in my house. Outside bugs are kinda cool, inside bugs are my enemies.
-- Getting wet because of the rain
-- Small talk, dry texts
-- Stan wars
-- Songs that remind me of my childhood
-- Sickness
-- Useless traditions that are forced on people or that people feel like they have an obligation to do
-- Dust on me or my clothes or my room
-- Having to sleep through hot summer nights
-- The unhealthy obsession with minimalism
-- Unpredictable weather on days when I need the weather to be stabl
+- small talk
+- dry texts
+- sports
+- People
+   - who think they know me but don't actually do
+   - who try to force me to do/be anything
+   - who are fake nice
+- bugs in my room. Some bugs outside are kinda cool but bugs inside are my enemies.
+- getting wet from the rain
+- stan/fanboy wars on social media
+- songs that remind me of my childhood
+- getting sick
+- useless traditions that are forced on people or that people feel like they have to follow
+- dust on me or my clothes or my room or my presence
+- having to sleep through hot summer nights
+- aggressive minimalism
+- unpredictable weather on the rare days that I leave the house
