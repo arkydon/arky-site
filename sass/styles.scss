@@ -104,7 +104,7 @@ header {
 
     /* Ink & Color Bar Under Header */
     &::after {
-        content: "———— last update: August 2026";
+        content: "———— last update: Oct 2026";
         letter-spacing: 0.15em;
         font-family: var(--font-mono);
         font-size: 0.72rem;
@@ -242,7 +242,7 @@ nav {
 
     /* Tagline / Subtitle */
     &::after {
-        content: " this website made as a kind of blog, journal and somewhat a digital garden";
+        content: " blog, journal, piclog and somewhat a digital garden";
         display: block;
         font-family: var(--font-mono);
         font-size: 0.85rem;
