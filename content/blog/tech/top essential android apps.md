@@ -84,4 +84,4 @@ draft: true
 - DataDex - Pokedex app
 - Dagger - Dota tournament stats
 
-*<small>Edited: Dec '24</small>*
+*<small>Edited: Oct 2026</small>*
