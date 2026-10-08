@@ -316,14 +316,14 @@ main {
 }
 
 /* --------------------------------------------------------------------------
-   Hero / Intro Panel (.hello-panel)
+   (Teh .hello-panel)
    -------------------------------------------------------------------------- */
 .hello-panel.card {
     position: relative;
     padding-left: 2rem;
-    border-left: 4px solid var(--ink-blue);
-    border-image: linear-gradient(180deg, var(--ink-blue) 0%, var(--ink-green) 33%, var(--ink-amber) 66%, var(--ink-purple) 100%) 1;
-    border-radius: 0 var(--card-radius) var(--card-radius) 0;
+    //border-left: 4px solid var(--ink-blue);
+    //border-image: linear-gradient(180deg, var(--ink-blue) 0%, var(--ink-green) 33%, var(--ink-amber) 66%, var(--ink-purple) 100%) 1;
+    //border-radius: 0 var(--card-radius) var(--card-radius) 0;
 
     /* Hello — Heading */
     &::before {
