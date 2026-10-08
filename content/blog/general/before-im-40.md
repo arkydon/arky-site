@@ -4,7 +4,7 @@ date : 2024-03-27
 ---
 Inspired by [blog article](https://www.jemjabella.co.uk/30-things-before-im-thirty/) I wrote a list of things I want to do and see before I'm 40 or 50
 
-1. See the aurora. I would love to see them from my house in Shillong (but if we see it from here then it probably won't be a good [sign])(https://www.space.com/the-carrington-event).
+1. See the aurora. I would love to see them from my house in Shillong (but if we see it from here then it probably won't be a good [sign](https://www.space.com/the-carrington-event).
 
 2. Find another fossil.
 
