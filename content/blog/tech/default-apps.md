@@ -86,3 +86,5 @@ date : 2026-3-11
 - Diaro: A diary app.
 - DayOne - Ajournal app to keep track of all the important life moments. I use this because it stores images in high quality compared to alternatives.
 -->
+
+*<small>Edited: Oct 2026</small>*
