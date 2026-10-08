@@ -43,19 +43,19 @@ title: I am ...
     }
 
     .tag-cloud ul li {
-        background-color: var(--ink-green-bg);
-        /* border: 1px solid var(--ink-green-border); */
-        color: var(--ink-green);
+        background-color: rgb(154 205 255 / 8%);
+        border-left: 1px solid var(--ink-blue-border);
+        color: #517a8a;
         font-family: 'Newsreader';
-        font-size: 14px;
-        border-radius: 20px;
+        //font-size: 14px;
+        border-radius: 15px;
         /* box-shadow: 3px 4px 0px 0px rgb(205 205 205 / 17%); */
         /* transform: rotate(-3deg); */
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 10px;
+        padding: 5px 10px 5px 10px;
         box-sizing: border-box;
         transition: transform 0.15s ease;
     }
